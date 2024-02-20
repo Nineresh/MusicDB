@@ -1,0 +1,53 @@
+import os
+import logging
+import sqlite3
+LOG_FORMAT = "%(Levelname)s, %(lineno)d,  %(asctime)s,%(message)s"
+logging.basicConfig(filename="main_mdb_python.log",
+                    level=logging.DEBUG,
+                    format=LOG_FORMAT,
+                    filemode="w")
+logger = logging.getLogger()
+
+def lista_mappar(target_folder):
+    submappar = []
+# Använder 'import os'-bibloteket för att läsa av alla submappar i argumentet
+# sökvägen som läses in.
+    for k in os.listdir(target_folder):
+        
+        submappar.append(k)
+#returnerar en lista som innehåller alla submappar
+    logger.debug("submappar")
+    return submappar
+
+#Funktion som tar in sökväg till mapp + en lista med submappar i mappen
+#Funktionen ska genom forloopar gå igenom alla submappar och lyfta ut .mp3 filer
+# Samt INSERT INTO dessa tacks till databasen.
+#
+def lista_submappar_tracks(path_to_file, subfile_list):
+    
+    add = "/"
+    for i in range(len(subfile_list)):
+        submappar = []
+        for k in os.listdir(path_to_file+add+subfile_list[i]):
+            submappar.append(k)
+            for j in range(len(submappar)):
+                conn = sqlite3.connect('exempel.db')
+                c = conn.cursor()
+                c.execute("INSERT INTO tracks ")
+
+
+
+def main():
+                                  #Variabel lista som innehåller alla [Artist - Album]
+    target_folder = '/Users/andreaslindblad/Documents/Musik'
+    subfolder1 = lista_mappar(target_folder)
+    #lista_submappar_tracks(target_folder, subfolder1)
+
+                                # Kör funktionen som tar in listan och ska splitta den till en lista 
+                                # inneållande endast [Artist] som kan sättas in i <Artist> table i
+                                # <music_database.db>
+    
+
+
+if __name__ == '__main__':
+    main()

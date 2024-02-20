@@ -1,0 +1,16 @@
+import sqlite3
+
+# Anslut till databasen
+conn = sqlite3.connect("music_database.db")
+c = conn.cursor()
+
+# Hämta all data från tabellen "Artists"
+c.execute("SELECT * FROM Artists")
+rows = c.fetchall()
+
+# Skriv ut varje rad
+for row in rows:
+    print(row)
+
+# Stäng anslutningen
+conn.close()
