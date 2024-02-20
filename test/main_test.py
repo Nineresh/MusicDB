@@ -1,5 +1,5 @@
 import database
-print("Init")
+print("Initialize")
 connection = database.connect()
 
 

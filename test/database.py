@@ -4,7 +4,7 @@ import sqlite3
 
 #conntar till en databas. Den tar in ett argument (string)
 def connect():
-    return sqlite3.connect("test_musicdatabase")
+    return sqlite3.connect("test_musicdatabase.db")
     
 
 def createTable(connection):
