@@ -11,9 +11,13 @@ logging.basicConfig(filename="resources/test_main.log",
                     filemode="w",
                     format=LOG_FORMAT)
 logger = logging.getLogger()
-
+count_track = 0
+count_album = 0
+list_album = []
+count_artist = 0
+list_artist = []
 #Database section
-conn = sqlite3.connect("test_musicdatabase.db")
+conn = sqlite3.connect("database/test_musicdatabase.db")
 c = conn.cursor()
 
 logger.debug("Starting program")
@@ -22,7 +26,6 @@ subfolder = []
 for k in os.listdir("/Users/andreaslindblad/documents/musik"): 
     subfolder.append(k)
 
-
 for folder in range (0,len(subfolder)):
     mp3_path= glob.glob(os.path.join("/Users/andreaslindblad/documents/musik/"+subfolder[folder], "*.mp3"))
     for mp3 in mp3_path:
@@ -30,10 +33,25 @@ for folder in range (0,len(subfolder)):
         c.execute("""INSERT INTO tracks(title, album, artist) VALUES (?,?,?)""",(audiofile.tag.title, audiofile.tag.album, audiofile.tag.artist))
         print("Added:")
         print("Track: "+ audiofile.tag.title)
+        count_track +=1
         print("Album: "+ audiofile.tag.album)
+        if audiofile.tag.album not in list_album:
+            list_album.append(audiofile.tag.album)
+            count_album +=1
+        else:
+            pass
         print("Artist: "+ audiofile.tag.artist)
+        
+        if audiofile.tag.artist not in list_artist:
+            list_artist.append(audiofile.tag.artist)
+            count_artist +=1
+        else:
+            pass
         #print("Year: "+ audiofile.tag.best_release_date)
         conn.commit()
+
 conn.close()
-print("Ending")
-logger.debug("Ending")
+print("You added:")
+print(count_track, " tracks")
+print(count_album, " albums")
+print(count_artist, " artists")
