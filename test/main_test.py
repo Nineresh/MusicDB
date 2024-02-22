@@ -30,7 +30,15 @@ for folder in range (0,len(subfolder)):
     mp3_path= glob.glob(os.path.join("/Users/andreaslindblad/documents/musik/"+subfolder[folder], "*.mp3"))
     for mp3 in mp3_path:
         audiofile = eyed3.load(mp3)
-        c.execute("""INSERT INTO tracks(title, album, artist) VALUES (?,?,?)""",(audiofile.tag.title, audiofile.tag.album, audiofile.tag.artist))
+        #Get tags
+        tag = audiofile.tag
+
+        #Use the GetBestDate method. ISSUE
+        year_tag = tag.getBestDate()
+        string_year = str(year_tag)
+        print(string_year)
+        
+        c.execute("""INSERT INTO tracks(title, album, artist, year) VALUES (?,?,?,?)""",(audiofile.tag.title, audiofile.tag.album, audiofile.tag.artist, string_year))
         print("Added:")
         print("Track: "+ audiofile.tag.title)
         count_track +=1
@@ -47,7 +55,8 @@ for folder in range (0,len(subfolder)):
             count_artist +=1
         else:
             pass
-        #print("Year: "+ audiofile.tag.best_release_date)
+
+        print("Year: "+ string_year)
         conn.commit()
 
 conn.close()
