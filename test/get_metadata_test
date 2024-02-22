@@ -1,0 +1,15 @@
+import eyed3
+
+# Skapa ett exempel på ett audiofilerobjekt med EyeD3
+audiofile = eyed3.load("/Users/andreaslindblad/documents/musik/Thelema - Yaldabaoth/Thelema - Yaldabaoth - 03 Samael (Demiurge I).mp3")
+
+# Använd dir() för att lista alla tillgängliga metoder för .tag-objektet
+tag_methods = dir(audiofile.tag)
+
+# Skriv ut resultaten
+print("Tillgängliga metoder för .tag-objektet:")
+for method in tag_methods:
+    print(method)
+print("TEST")
+print(audiofile.tag.best_release_date)
+print("TEST")

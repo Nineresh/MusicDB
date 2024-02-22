@@ -1,6 +1,9 @@
 import sqlite3
 
+"""CREATE TABLE IF NOT EXIST artist(
+            
 
+)"""
 
 #conntar till en databas. Den tar in ett argument (string)
 def connect():

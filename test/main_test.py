@@ -24,39 +24,55 @@ def lista_mappar(target_folder):
     return submappar
 
 # This function takes path to the mp3 file and read its meta data.
-# Should this function also INSERT?
-def read_mp3_metadata(file_path):
-    audiofile = eyed3.load(file_path)
-    
-    
-    if audiofile.tag:
-        print("File:", file_path)
-        print("Title:", audiofile.tag.title)
-        print("Artist:", audiofile.tag.artist)
-        print("Album:", audiofile.tag.album)
-        print("Year:", audiofile.tag.getBestDate())
+# It then inserts
+def insert_mp3_metadata(out_submappar,pathwayToMusic,addTheSlash):
+    conn = sqlite3.connect("test_musicdatabase.db")
+    c = conn.cursor()
+
+    for k in range (0,len(out_submappar)):
+        file_path= lista_mp3(pathwayToMusic+addTheSlash+out_submappar[k])
         
-    else:
-        print("No metadata found for file:", file_path)
+        audiofile = eyed3.load(file_path)
+        logger.debug(audiofile.tag.title, audiofile.tag.album, audiofile.tag.artist, audiofile.tag.getBestDate)
+        if audiofile.tag:
+            c.execute("""INSERT INTO tracks (title, album, artist,year)VALUES(?,?,?,?)""",(audiofile.tag.title,audiofile.tag.album,audiofile.tag.artist,audiofile.tag.getBestDate))
+            conn.commit()
+        else:
+            logger.debug("Error on INSERT")
+    conn.close()
 # Connecting to database, refrence in database.py
 connection = database.connect()
 
 def lista_mp3(pathway):
     mp3_files = []
     for k in glob.glob(os.path.join(pathway, "*.mp3")):
-        mp3_names = os.path.basename(k)
         logger.debug(os.path.basename(k))
-        mp3_files.append(mp3_names)
+        mp3_files.append(k)
     return mp3_files
-    
+
+def create_database_and_table():
+    conn = sqlite3.connect("test_musicdatabase.db")
+    c = conn.cursor()
+    c.execute("""CREATE TABLE IF NOT EXISTS tracks(
+                id INTERGER PRIMARY KEY,
+              title TEXT,
+              album TEXT,
+              artist TEXT,
+              year INTERGER) 
+    """)
+    conn.commit()
+    conn.close()
 if __name__ == "__main__":
+
+    
+    print("Welcome")
+    logger.debug("Welcome")
+    create_database_and_table()
     #Constant varibels with static pathways
     pathwayToMusic = "/Users/andreaslindblad/documents/musik"
     addTheSlash = "/"
     #List containing subfolders in /musik/
     out_submappar = lista_mappar(pathwayToMusic)
+    insert_mp3_metadata(out_submappar,pathwayToMusic,addTheSlash)
     
-    #read_mp3_metadata(pathwayToMusic + addTheSlash + "Batushka - Litourgiya/Batushka - Yekteniya I.mp3")
-    for k in range (len(out_submappar)):
-
-        lista_mp3(pathwayToMusic+addTheSlash+out_submappar[k])
+    print("Good bye")
