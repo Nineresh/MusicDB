@@ -22,5 +22,6 @@ def selectOne(connection, argument):
     with connection:
         connection.execute()
 
-def commit_close():
-    pass
+def commit_close(connection):
+    with connection:
+        connection.execute()
