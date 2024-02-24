@@ -13,4 +13,4 @@ def create_database_and_table():
     conn.close()
 print("Staring")
 create_database_and_table()
-print("Ending")
+print("Table created")
