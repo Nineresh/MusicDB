@@ -9,7 +9,7 @@ print("Starting")
 # Logging section
 LOG_FORMAT = ("%(asctime)s, %(lineno)d, %(levelname)s, %(message)s")
 logging.basicConfig(filename="resources/main.log",
-                    level=logging.DEBUG,
+                    level=logging.INFO,
                     filemode="w",
                     format=LOG_FORMAT)
 logger = logging.getLogger()
@@ -28,15 +28,20 @@ logger.debug("Starting program")
 
 # Subfolder is a list of subfolders in musik
 subfolder = []
-for k in os.listdir("/Users/andreaslindblad/documents/musik"): 
+for k in os.listdir(r"C:\Users\andre\Documents\Obsidian Vault Local\ALVL\Music"): 
     subfolder.append(k)
+logger.debug(subfolder)
 
 for folder in range (0,len(subfolder)):
-    mp3_path= glob.glob(os.path.join("/Users/andreaslindblad/documents/musik/"+subfolder[folder], "*.mp3"))
+    
+    mp3_path = glob.glob(os.path.join(r"C:\Users\andre\Documents\Obsidian Vault Local\ALVL\Music", subfolder[folder], "*.mp3"))
+
+    logger.debug(mp3_path)
     for mp3 in mp3_path:
         audiofile = eyed3.load(mp3)
         # Get tags in a varibel
         tag = audiofile.tag
+        logger.info(mp3)
 
         # Use the GetBestDate method. ISSUE TO BE FIXED
         year_tag = tag.getBestDate()
