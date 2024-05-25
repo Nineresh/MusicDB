@@ -1,0 +1,21 @@
+from bs4 import BeautifulSoup
+
+# Läs in HTML-filen
+with open('webpage.html', 'r', encoding='utf-8') as file:
+    html_content = file.read()
+
+# Skapa ett BeautifulSoup-objekt
+soup = BeautifulSoup(html_content, 'html.parser')
+
+# Hitta alla element med klassen "collection-item-title"
+elements = soup.find_all(class_='collection-item-title')
+
+# Extrahera texten från varje element och spara den i en lista
+titles = [element.get_text(strip=True) for element in elements]
+
+# Skriv ut listan med titlar
+countAlbum = 0
+for k in titles:
+    print(k)
+    countAlbum +=1
+print(countAlbum)

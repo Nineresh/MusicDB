@@ -2,12 +2,18 @@
 ## Why
 I'm making this to learn and improve knowledge about Python programming, how to use Git, resources surrounding Git, database management, data structuring and project management.
 ## Project
-MusicDB is a personal project to manage a music mp3 library. 
+MusicDB is a personal project to manage a music mp3 library in local and cloud
+
+
 ### Resources
-+ [[SQLite]] datebase
-+ eyed3 library
-+ OS library
++ **SQLite** 
++ **eyed3** 
++ **OS** 
++ **selenium** 
 ## Working on next..
+### Selenium browser
+Add component that uses headless browser (*Selenium*) to extract HTML code from my Bandcamp. With the end goal
+of compare my Bandcamp collection to local to make sure they are synced.
 
 ### Set up menu for functions
 like; create table, run populate program, 
@@ -26,12 +32,3 @@ Table [tracks]:
 + artist
 + year
 
-## SQLite statement
-CREATE TABLE "tracks" (
-	"id"	INTEGER,
-	"title"	TEXT,
-	"album"	TEXT,
-	"artist"	TEXT,
-	"year"	INTERGER,
-	PRIMARY KEY("id" AUTOINCREMENT)
-);
