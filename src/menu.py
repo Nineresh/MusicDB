@@ -1,7 +1,7 @@
 import tkinter as tk
-import localscan
-import removeData
-import read
+import musicdb_search_local
+import musicdb_remove_database
+import msuicdb_read_database
 
 
 
@@ -36,7 +36,7 @@ class MyMenu:
 
 
     def runLocalScan(self):
-        localscan.main()
+        musicdb_search_local.main()
         text_to_display = f"""You added:)
     (count_track, " tracks")
     (count_album, " albums")
@@ -48,8 +48,8 @@ class MyMenu:
         text_to_display = "Data is removed"
         self.textboxUpdate.insert(tk.END, text_to_display + "\n")
         
-        removeData.main()
+        musicdb_remove_database.main()
     def read(self):
-        read.main()
+        msuicdb_read_database.main()
 MyMenu()
 
