@@ -5,15 +5,12 @@ I'm making this to learn and improve knowledge about Python programming, how to 
 MusicDB is a personal project to manage a music mp3 library in local and cloud
 
 
-### Resources
-+ **SQLite** 
-+ **eyed3** 
-+ **OS**
-
-+ **selenium**
+### Libraries to install
++ eyed3
++ selenium
 
 ## Working on next..
-s
+
 ### Selenium browser
 Add component that uses webscraping (*Selenium*) to extract HTML code from my Bandcamp collection. With the end goal of compare my Bandcamp collection to local to make sure they are synced/ not missing any albums.
 The Bandcamp database need only contain albums
