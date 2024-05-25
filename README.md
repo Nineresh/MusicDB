@@ -9,7 +9,7 @@ MusicDB is a personal project to manage a music mp3 library in local and cloud
 + eyed3
 + selenium
 
-## Working on next..
+## Working on next
 
 ### Selenium browser
 Add component that uses webscraping (*Selenium*) to extract HTML code from my Bandcamp collection. With the end goal of compare my Bandcamp collection to local to make sure they are synced/ not missing any albums.

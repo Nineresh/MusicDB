@@ -1,7 +1,7 @@
 import tkinter as tk
 import musicdb_search_local
 import musicdb_remove_database
-import msuicdb_read_database
+import musicdb_read_database
 
 
 
@@ -50,6 +50,6 @@ class MyMenu:
         
         musicdb_remove_database.main()
     def read(self):
-        msuicdb_read_database.main()
+        musicdb_read_database.main()
 MyMenu()
 
