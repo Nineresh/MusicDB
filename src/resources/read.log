@@ -1,0 +1,2441 @@
+2024-05-26 12:47:05,290, 24, DEBUG, 0
+2024-05-26 12:47:08,311, 29, DEBUG, Starting program
+2024-05-26 12:47:08,311, 35, DEBUG, ['Dungeontroll - A Gentle Whisper from the Evergarden', 'RUNA & Fen Lume - Ringwraiths (split)']
+2024-05-26 12:47:08,312, 41, DEBUG, ['testpack\\Dungeontroll - A Gentle Whisper from the Evergarden\\Dungeontroll - A Gentle Whisper from the Evergarden - 01 A Somber Song for the Forest.mp3', 'testpack\\Dungeontroll - A Gentle Whisper from the Evergarden\\Dungeontroll - A Gentle Whisper from the Evergarden - 02 In Eternal Reverence to the Wanderer.mp3', 'testpack\\Dungeontroll - A Gentle Whisper from the Evergarden\\Dungeontroll - A Gentle Whisper from the Evergarden - 03 The Palace of the Great Elf.mp3', 'testpack\\Dungeontroll - A Gentle Whisper from the Evergarden\\Dungeontroll - A Gentle Whisper from the Evergarden - 04 Remnants of Eureliiea Beneath the Crescent Moon.mp3', 'testpack\\Dungeontroll - A Gentle Whisper from the Evergarden\\Dungeontroll - A Gentle Whisper from the Evergarden - 05 A Shining Presence Amongst the Stars.mp3']
+2024-05-26 12:47:08,330, 440, DEBUG, Loading file: testpack\Dungeontroll - A Gentle Whisper from the Evergarden\Dungeontroll - A Gentle Whisper from the Evergarden - 01 A Somber Song for the Forest.mp3
+2024-05-26 12:47:08,331, 449, DEBUG, File mime-type: audio/mpeg
+2024-05-26 12:47:08,331, 69, DEBUG, Located ID3 v2 tag
+2024-05-26 12:47:08,331, 78, DEBUG, TagHeader [major]: 2 
+2024-05-26 12:47:08,331, 79, DEBUG, TagHeader [minor]: 3 
+2024-05-26 12:47:08,331, 80, DEBUG, TagHeader [rev]: 0 
+2024-05-26 12:47:08,331, 93, DEBUG, TagHeader [flags]: unsync(0) extended(0) experimental(0) footer(0)
+2024-05-26 12:47:08,331, 104, DEBUG, TagHeader [size string]: 0x000c2549
+2024-05-26 12:47:08,331, 108, DEBUG, TagHeader [size]: 201417 (0x312c9)
+2024-05-26 12:47:08,331, 1784, DEBUG, size_left: 201417
+2024-05-26 12:47:08,331, 1790, DEBUG, +++++++++++++++++++++++++++++++++++++++++++++++++
+2024-05-26 12:47:08,331, 1791, DEBUG, FrameSet: Reading Frame #1
+2024-05-26 12:47:08,331, 646, DEBUG, FrameHeader [start byte]: 10 (0xA)
+2024-05-26 12:47:08,331, 654, DEBUG, FrameHeader [id]: b'TIT2' (0x54495432)
+2024-05-26 12:47:08,331, 666, DEBUG, FrameHeader [data size]: 61 (0x3D)
+2024-05-26 12:47:08,331, 673, DEBUG, FrameHeader [flags]: ta(0) fa(0) ro(0) co(0) en(0) gr(0) un(0) dl(0)
+2024-05-26 12:47:08,331, 1801, DEBUG, FrameSet: Reading 61 (0x3D) bytes of data from byte pos 20 (0x14)
+2024-05-26 12:47:08,331, 1808, DEBUG, FrameSet: 61 bytes of data read
+2024-05-26 12:47:08,331, 1905, DEBUG, createFrame (desc:Title/songname/content description) - (2, None, None) - <class 'eyed3.id3.frames.TextFrame'>
+2024-05-26 12:47:08,331, 1913, DEBUG, createFrame 'b'TIT2'' with class '<class 'eyed3.id3.frames.TextFrame'>'
+2024-05-26 12:47:08,331, 1928, DEBUG, Unicode encoding: utf_16
+2024-05-26 12:47:08,331, 309, DEBUG, TextFrame text: A Somber Song for the Forest
+2024-05-26 12:47:08,331, 1784, DEBUG, size_left: 201346
+2024-05-26 12:47:08,331, 1790, DEBUG, +++++++++++++++++++++++++++++++++++++++++++++++++
+2024-05-26 12:47:08,331, 1791, DEBUG, FrameSet: Reading Frame #2
+2024-05-26 12:47:08,331, 646, DEBUG, FrameHeader [start byte]: 81 (0x51)
+2024-05-26 12:47:08,332, 654, DEBUG, FrameHeader [id]: b'TPE1' (0x54504531)
+2024-05-26 12:47:08,332, 666, DEBUG, FrameHeader [data size]: 29 (0x1D)
+2024-05-26 12:47:08,332, 673, DEBUG, FrameHeader [flags]: ta(0) fa(0) ro(0) co(0) en(0) gr(0) un(0) dl(0)
+2024-05-26 12:47:08,332, 1801, DEBUG, FrameSet: Reading 29 (0x1D) bytes of data from byte pos 91 (0x5B)
+2024-05-26 12:47:08,332, 1808, DEBUG, FrameSet: 29 bytes of data read
+2024-05-26 12:47:08,332, 1905, DEBUG, createFrame (desc:Lead performer(s)/Soloist(s)) - (2, None, None) - <class 'eyed3.id3.frames.TextFrame'>
+2024-05-26 12:47:08,332, 1913, DEBUG, createFrame 'b'TPE1'' with class '<class 'eyed3.id3.frames.TextFrame'>'
+2024-05-26 12:47:08,332, 1928, DEBUG, Unicode encoding: utf_16
+2024-05-26 12:47:08,332, 309, DEBUG, TextFrame text: Dungeontroll
+2024-05-26 12:47:08,332, 1784, DEBUG, size_left: 201307
+2024-05-26 12:47:08,332, 1790, DEBUG, +++++++++++++++++++++++++++++++++++++++++++++++++
+2024-05-26 12:47:08,332, 1791, DEBUG, FrameSet: Reading Frame #3
+2024-05-26 12:47:08,332, 646, DEBUG, FrameHeader [start byte]: 120 (0x78)
+2024-05-26 12:47:08,332, 654, DEBUG, FrameHeader [id]: b'TRCK' (0x5452434b)
+2024-05-26 12:47:08,332, 666, DEBUG, FrameHeader [data size]: 7 (0x7)
+2024-05-26 12:47:08,332, 673, DEBUG, FrameHeader [flags]: ta(0) fa(0) ro(0) co(0) en(0) gr(0) un(0) dl(0)
+2024-05-26 12:47:08,332, 1801, DEBUG, FrameSet: Reading 7 (0x7) bytes of data from byte pos 130 (0x82)
+2024-05-26 12:47:08,332, 1808, DEBUG, FrameSet: 7 bytes of data read
+2024-05-26 12:47:08,332, 1905, DEBUG, createFrame (desc:Track number/Position in set) - (2, None, None) - <class 'eyed3.id3.frames.TextFrame'>
+2024-05-26 12:47:08,332, 1913, DEBUG, createFrame 'b'TRCK'' with class '<class 'eyed3.id3.frames.TextFrame'>'
+2024-05-26 12:47:08,332, 1928, DEBUG, Unicode encoding: utf_16
+2024-05-26 12:47:08,332, 309, DEBUG, TextFrame text: 1
+2024-05-26 12:47:08,332, 1784, DEBUG, size_left: 201290
+2024-05-26 12:47:08,332, 1790, DEBUG, +++++++++++++++++++++++++++++++++++++++++++++++++
+2024-05-26 12:47:08,332, 1791, DEBUG, FrameSet: Reading Frame #4
+2024-05-26 12:47:08,332, 646, DEBUG, FrameHeader [start byte]: 137 (0x89)
+2024-05-26 12:47:08,332, 654, DEBUG, FrameHeader [id]: b'TALB' (0x54414c42)
+2024-05-26 12:47:08,332, 666, DEBUG, FrameHeader [data size]: 77 (0x4D)
+2024-05-26 12:47:08,332, 673, DEBUG, FrameHeader [flags]: ta(0) fa(0) ro(0) co(0) en(0) gr(0) un(0) dl(0)
+2024-05-26 12:47:08,332, 1801, DEBUG, FrameSet: Reading 77 (0x4D) bytes of data from byte pos 147 (0x93)
+2024-05-26 12:47:08,332, 1808, DEBUG, FrameSet: 77 bytes of data read
+2024-05-26 12:47:08,332, 1905, DEBUG, createFrame (desc:Album/Movie/Show title) - (2, None, None) - <class 'eyed3.id3.frames.TextFrame'>
+2024-05-26 12:47:08,332, 1913, DEBUG, createFrame 'b'TALB'' with class '<class 'eyed3.id3.frames.TextFrame'>'
+2024-05-26 12:47:08,332, 1928, DEBUG, Unicode encoding: utf_16
+2024-05-26 12:47:08,332, 309, DEBUG, TextFrame text: A Gentle Whisper from the Evergarden
+2024-05-26 12:47:08,332, 1784, DEBUG, size_left: 201203
+2024-05-26 12:47:08,332, 1790, DEBUG, +++++++++++++++++++++++++++++++++++++++++++++++++
+2024-05-26 12:47:08,332, 1791, DEBUG, FrameSet: Reading Frame #5
+2024-05-26 12:47:08,332, 646, DEBUG, FrameHeader [start byte]: 224 (0xE0)
+2024-05-26 12:47:08,332, 654, DEBUG, FrameHeader [id]: b'TYER' (0x54594552)
+2024-05-26 12:47:08,332, 666, DEBUG, FrameHeader [data size]: 13 (0xD)
+2024-05-26 12:47:08,332, 673, DEBUG, FrameHeader [flags]: ta(0) fa(0) ro(0) co(0) en(0) gr(0) un(0) dl(0)
+2024-05-26 12:47:08,332, 1801, DEBUG, FrameSet: Reading 13 (0xD) bytes of data from byte pos 234 (0xEA)
+2024-05-26 12:47:08,332, 1808, DEBUG, FrameSet: 13 bytes of data read
+2024-05-26 12:47:08,332, 1905, DEBUG, createFrame (desc:Year) - (2, 3, 0) - <class 'eyed3.id3.frames.DateFrame'>
+2024-05-26 12:47:08,332, 1913, DEBUG, createFrame 'b'TYER'' with class '<class 'eyed3.id3.frames.DateFrame'>'
+2024-05-26 12:47:08,333, 1928, DEBUG, Unicode encoding: utf_16
+2024-05-26 12:47:08,333, 309, DEBUG, TextFrame text: 2024
+2024-05-26 12:47:08,334, 1784, DEBUG, size_left: 201180
+2024-05-26 12:47:08,334, 1790, DEBUG, +++++++++++++++++++++++++++++++++++++++++++++++++
+2024-05-26 12:47:08,334, 1791, DEBUG, FrameSet: Reading Frame #6
+2024-05-26 12:47:08,334, 646, DEBUG, FrameHeader [start byte]: 247 (0xF7)
+2024-05-26 12:47:08,334, 654, DEBUG, FrameHeader [id]: b'TPE2' (0x54504532)
+2024-05-26 12:47:08,334, 666, DEBUG, FrameHeader [data size]: 29 (0x1D)
+2024-05-26 12:47:08,335, 673, DEBUG, FrameHeader [flags]: ta(0) fa(0) ro(0) co(0) en(0) gr(0) un(0) dl(0)
+2024-05-26 12:47:08,335, 1801, DEBUG, FrameSet: Reading 29 (0x1D) bytes of data from byte pos 257 (0x101)
+2024-05-26 12:47:08,335, 1808, DEBUG, FrameSet: 29 bytes of data read
+2024-05-26 12:47:08,335, 1905, DEBUG, createFrame (desc:Band/orchestra/accompaniment) - (2, None, None) - <class 'eyed3.id3.frames.TextFrame'>
+2024-05-26 12:47:08,335, 1913, DEBUG, createFrame 'b'TPE2'' with class '<class 'eyed3.id3.frames.TextFrame'>'
+2024-05-26 12:47:08,335, 1928, DEBUG, Unicode encoding: utf_16
+2024-05-26 12:47:08,335, 309, DEBUG, TextFrame text: Dungeontroll
+2024-05-26 12:47:08,335, 1784, DEBUG, size_left: 201141
+2024-05-26 12:47:08,335, 1790, DEBUG, +++++++++++++++++++++++++++++++++++++++++++++++++
+2024-05-26 12:47:08,335, 1791, DEBUG, FrameSet: Reading Frame #7
+2024-05-26 12:47:08,335, 646, DEBUG, FrameHeader [start byte]: 286 (0x11E)
+2024-05-26 12:47:08,335, 654, DEBUG, FrameHeader [id]: b'COMM' (0x434f4d4d)
+2024-05-26 12:47:08,335, 666, DEBUG, FrameHeader [data size]: 106 (0x6A)
+2024-05-26 12:47:08,335, 673, DEBUG, FrameHeader [flags]: ta(0) fa(0) ro(0) co(0) en(0) gr(0) un(0) dl(0)
+2024-05-26 12:47:08,335, 1801, DEBUG, FrameSet: Reading 106 (0x6A) bytes of data from byte pos 296 (0x128)
+2024-05-26 12:47:08,335, 1808, DEBUG, FrameSet: 106 bytes of data read
+2024-05-26 12:47:08,335, 1905, DEBUG, createFrame (desc:Comments) - (2, None, None) - <class 'eyed3.id3.frames.CommentFrame'>
+2024-05-26 12:47:08,335, 1913, DEBUG, createFrame 'b'COMM'' with class '<class 'eyed3.id3.frames.CommentFrame'>'
+2024-05-26 12:47:08,335, 1147, DEBUG, b'COMM' lang: b'eng'
+2024-05-26 12:47:08,335, 1928, DEBUG, Unicode encoding: utf_16
+2024-05-26 12:47:08,335, 1152, DEBUG, b'COMM' description: 
+2024-05-26 12:47:08,335, 1928, DEBUG, Unicode encoding: utf_16
+2024-05-26 12:47:08,335, 1154, DEBUG, b'COMM' text: Visit https://serpentsswordrecords.bandcamp.com
+2024-05-26 12:47:08,335, 1784, DEBUG, size_left: 201025
+2024-05-26 12:47:08,335, 1790, DEBUG, +++++++++++++++++++++++++++++++++++++++++++++++++
+2024-05-26 12:47:08,335, 1791, DEBUG, FrameSet: Reading Frame #8
+2024-05-26 12:47:08,335, 646, DEBUG, FrameHeader [start byte]: 402 (0x192)
+2024-05-26 12:47:08,335, 654, DEBUG, FrameHeader [id]: b'APIC' (0x41504943)
+2024-05-26 12:47:08,335, 666, DEBUG, FrameHeader [data size]: 189467 (0x2E41B)
+2024-05-26 12:47:08,335, 673, DEBUG, FrameHeader [flags]: ta(0) fa(0) ro(0) co(0) en(0) gr(0) un(0) dl(0)
+2024-05-26 12:47:08,335, 1801, DEBUG, FrameSet: Reading 189467 (0x2E41B) bytes of data from byte pos 412 (0x19C)
+2024-05-26 12:47:08,335, 1808, DEBUG, FrameSet: 189467 bytes of data read
+2024-05-26 12:47:08,335, 1905, DEBUG, createFrame (desc:Attached picture) - (2, None, None) - <class 'eyed3.id3.frames.ImageFrame'>
+2024-05-26 12:47:08,335, 1913, DEBUG, createFrame 'b'APIC'' with class '<class 'eyed3.id3.frames.ImageFrame'>'
+2024-05-26 12:47:08,335, 591, DEBUG, APIC frame data size: 189467
+2024-05-26 12:47:08,335, 604, DEBUG, APIC mime type: b'image/jpeg'
+2024-05-26 12:47:08,335, 613, DEBUG, Initial APIC picture type: 3
+2024-05-26 12:47:08,335, 620, DEBUG, APIC picture type: 3
+2024-05-26 12:47:08,335, 629, DEBUG, description len: 12
+2024-05-26 12:47:08,336, 630, DEBUG, image len: 189440
+2024-05-26 12:47:08,336, 1928, DEBUG, Unicode encoding: utf_16
+2024-05-26 12:47:08,336, 632, DEBUG, APIC description: cover
+2024-05-26 12:47:08,336, 642, DEBUG, APIC image data: 189440 bytes
+2024-05-26 12:47:08,336, 1784, DEBUG, size_left: 11548
+2024-05-26 12:47:08,336, 1790, DEBUG, +++++++++++++++++++++++++++++++++++++++++++++++++
+2024-05-26 12:47:08,336, 1791, DEBUG, FrameSet: Reading Frame #9
+2024-05-26 12:47:08,336, 646, DEBUG, FrameHeader [start byte]: 189879 (0x2E5B7)
+2024-05-26 12:47:08,336, 687, DEBUG, FrameHeader: Null frame id found at byte 189883
+2024-05-26 12:47:08,336, 1794, DEBUG, No frame found, implied padding of 11548 bytes
+2024-05-26 12:47:08,336, 133, DEBUG, Tag contains 11548 bytes of padding.
+2024-05-26 12:47:08,337, 40, DEBUG, mp3 header search starting @ 312d3
+2024-05-26 12:47:08,337, 250, DEBUG, MPEG audio version: 1.0
+2024-05-26 12:47:08,337, 251, DEBUG, MPEG audio layer: III
+2024-05-26 12:47:08,337, 252, DEBUG, MPEG sampling frequency: 44100
+2024-05-26 12:47:08,337, 253, DEBUG, MPEG bit rate: 320
+2024-05-26 12:47:08,337, 254, DEBUG, MPEG channel mode: Joint stereo
+2024-05-26 12:47:08,337, 255, DEBUG, MPEG channel mode extension: 2
+2024-05-26 12:47:08,337, 256, DEBUG, MPEG CRC error protection: False
+2024-05-26 12:47:08,337, 257, DEBUG, MPEG original: 1
+2024-05-26 12:47:08,337, 258, DEBUG, MPEG copyright: 0
+2024-05-26 12:47:08,337, 259, DEBUG, MPEG private bit: 0
+2024-05-26 12:47:08,337, 260, DEBUG, MPEG padding: 0
+2024-05-26 12:47:08,337, 261, DEBUG, MPEG emphasis: None
+2024-05-26 12:47:08,337, 262, DEBUG, MPEG frame length: 1044
+2024-05-26 12:47:08,337, 67, DEBUG, mp3 header fffbe064 found at position: 0x312d3
+2024-05-26 12:47:08,337, 337, DEBUG, b'Info' header detected @ 24
+2024-05-26 12:47:08,337, 343, DEBUG, b'Info' header flags: 0xf
+2024-05-26 12:47:08,337, 349, DEBUG, b'Info' numFrames: 10071
+2024-05-26 12:47:08,337, 355, DEBUG, b'Info' numBytes: 10524211
+2024-05-26 12:47:08,337, 361, DEBUG, b'Info' TOC (100 bytes): PRESENT
+2024-05-26 12:47:08,337, 573, DEBUG, Lame info tag found at position 156
+2024-05-26 12:47:08,337, 580, DEBUG, Lame tag CRC OK
+2024-05-26 12:47:08,337, 585, DEBUG, Lame Encoder Version: LAME3.99r
+2024-05-26 12:47:08,337, 592, DEBUG, Lame info tag version: 0
+2024-05-26 12:47:08,337, 593, DEBUG, Lame VBR method: Constant Bitrate
+2024-05-26 12:47:08,337, 599, DEBUG, Lame Lowpass filter value: 20500 Hz
+2024-05-26 12:47:08,337, 636, DEBUG, Lame Radio Replay Gain: -10.4 dB (Set automatically)
+2024-05-26 12:47:08,337, 647, DEBUG, Lame Encoding flags: --nspsytune --nssafejoint
+2024-05-26 12:47:08,337, 651, DEBUG, Lame ATH type: 4
+2024-05-26 12:47:08,337, 662, DEBUG, Lame Bitrate (Constant): 255
+2024-05-26 12:47:08,338, 669, DEBUG, Lame Encoder delay: 576 samples
+2024-05-26 12:47:08,338, 670, DEBUG, Lame Encoder padding: 1476 samples
+2024-05-26 12:47:08,338, 683, DEBUG, Lame Source Sample Frequency: 44.1 kHz
+2024-05-26 12:47:08,338, 684, DEBUG, Lame Unwise settings used: False
+2024-05-26 12:47:08,338, 685, DEBUG, Lame Stereo mode: Joint
+2024-05-26 12:47:08,338, 686, DEBUG, Lame Noise Shaping: 1
+2024-05-26 12:47:08,338, 696, DEBUG, Lame MP3 Gain: 0 (+0.0 dB)
+2024-05-26 12:47:08,338, 706, DEBUG, Lame Bitrate (Constant): 320
+2024-05-26 12:47:08,338, 716, DEBUG, Lame Surround Info: None
+2024-05-26 12:47:08,338, 717, DEBUG, Lame Preset: CBR 320
+2024-05-26 12:47:08,338, 722, DEBUG, Lame Music Length: 10524211 bytes
+2024-05-26 12:47:08,338, 727, DEBUG, Lame Music CRC: 4D9B
+2024-05-26 12:47:08,338, 732, DEBUG, Lame Info Tag CRC: 15ED
+2024-05-26 12:47:08,338, 46, INFO, testpack\Dungeontroll - A Gentle Whisper from the Evergarden\Dungeontroll - A Gentle Whisper from the Evergarden - 01 A Somber Song for the Forest.mp3
+2024-05-26 12:47:08,351, 440, DEBUG, Loading file: testpack\Dungeontroll - A Gentle Whisper from the Evergarden\Dungeontroll - A Gentle Whisper from the Evergarden - 02 In Eternal Reverence to the Wanderer.mp3
+2024-05-26 12:47:08,351, 449, DEBUG, File mime-type: audio/mpeg
+2024-05-26 12:47:08,351, 69, DEBUG, Located ID3 v2 tag
+2024-05-26 12:47:08,351, 78, DEBUG, TagHeader [major]: 2 
+2024-05-26 12:47:08,351, 79, DEBUG, TagHeader [minor]: 3 
+2024-05-26 12:47:08,351, 80, DEBUG, TagHeader [rev]: 0 
+2024-05-26 12:47:08,351, 93, DEBUG, TagHeader [flags]: unsync(0) extended(0) experimental(0) footer(0)
+2024-05-26 12:47:08,351, 104, DEBUG, TagHeader [size string]: 0x000c2a66
+2024-05-26 12:47:08,351, 108, DEBUG, TagHeader [size]: 202086 (0x31566)
+2024-05-26 12:47:08,352, 1784, DEBUG, size_left: 202086
+2024-05-26 12:47:08,352, 1790, DEBUG, +++++++++++++++++++++++++++++++++++++++++++++++++
+2024-05-26 12:47:08,352, 1791, DEBUG, FrameSet: Reading Frame #1
+2024-05-26 12:47:08,352, 646, DEBUG, FrameHeader [start byte]: 10 (0xA)
+2024-05-26 12:47:08,352, 654, DEBUG, FrameHeader [id]: b'TIT2' (0x54495432)
+2024-05-26 12:47:08,352, 666, DEBUG, FrameHeader [data size]: 77 (0x4D)
+2024-05-26 12:47:08,352, 673, DEBUG, FrameHeader [flags]: ta(0) fa(0) ro(0) co(0) en(0) gr(0) un(0) dl(0)
+2024-05-26 12:47:08,352, 1801, DEBUG, FrameSet: Reading 77 (0x4D) bytes of data from byte pos 20 (0x14)
+2024-05-26 12:47:08,352, 1808, DEBUG, FrameSet: 77 bytes of data read
+2024-05-26 12:47:08,352, 1905, DEBUG, createFrame (desc:Title/songname/content description) - (2, None, None) - <class 'eyed3.id3.frames.TextFrame'>
+2024-05-26 12:47:08,352, 1913, DEBUG, createFrame 'b'TIT2'' with class '<class 'eyed3.id3.frames.TextFrame'>'
+2024-05-26 12:47:08,352, 1928, DEBUG, Unicode encoding: utf_16
+2024-05-26 12:47:08,352, 309, DEBUG, TextFrame text: In Eternal Reverence to the Wanderer
+2024-05-26 12:47:08,352, 1784, DEBUG, size_left: 201999
+2024-05-26 12:47:08,352, 1790, DEBUG, +++++++++++++++++++++++++++++++++++++++++++++++++
+2024-05-26 12:47:08,352, 1791, DEBUG, FrameSet: Reading Frame #2
+2024-05-26 12:47:08,352, 646, DEBUG, FrameHeader [start byte]: 97 (0x61)
+2024-05-26 12:47:08,352, 654, DEBUG, FrameHeader [id]: b'TPE1' (0x54504531)
+2024-05-26 12:47:08,352, 666, DEBUG, FrameHeader [data size]: 29 (0x1D)
+2024-05-26 12:47:08,352, 673, DEBUG, FrameHeader [flags]: ta(0) fa(0) ro(0) co(0) en(0) gr(0) un(0) dl(0)
+2024-05-26 12:47:08,352, 1801, DEBUG, FrameSet: Reading 29 (0x1D) bytes of data from byte pos 107 (0x6B)
+2024-05-26 12:47:08,352, 1808, DEBUG, FrameSet: 29 bytes of data read
+2024-05-26 12:47:08,352, 1905, DEBUG, createFrame (desc:Lead performer(s)/Soloist(s)) - (2, None, None) - <class 'eyed3.id3.frames.TextFrame'>
+2024-05-26 12:47:08,352, 1913, DEBUG, createFrame 'b'TPE1'' with class '<class 'eyed3.id3.frames.TextFrame'>'
+2024-05-26 12:47:08,352, 1928, DEBUG, Unicode encoding: utf_16
+2024-05-26 12:47:08,353, 309, DEBUG, TextFrame text: Dungeontroll
+2024-05-26 12:47:08,353, 1784, DEBUG, size_left: 201960
+2024-05-26 12:47:08,353, 1790, DEBUG, +++++++++++++++++++++++++++++++++++++++++++++++++
+2024-05-26 12:47:08,353, 1791, DEBUG, FrameSet: Reading Frame #3
+2024-05-26 12:47:08,353, 646, DEBUG, FrameHeader [start byte]: 136 (0x88)
+2024-05-26 12:47:08,353, 654, DEBUG, FrameHeader [id]: b'TRCK' (0x5452434b)
+2024-05-26 12:47:08,353, 666, DEBUG, FrameHeader [data size]: 7 (0x7)
+2024-05-26 12:47:08,353, 673, DEBUG, FrameHeader [flags]: ta(0) fa(0) ro(0) co(0) en(0) gr(0) un(0) dl(0)
+2024-05-26 12:47:08,353, 1801, DEBUG, FrameSet: Reading 7 (0x7) bytes of data from byte pos 146 (0x92)
+2024-05-26 12:47:08,353, 1808, DEBUG, FrameSet: 7 bytes of data read
+2024-05-26 12:47:08,353, 1905, DEBUG, createFrame (desc:Track number/Position in set) - (2, None, None) - <class 'eyed3.id3.frames.TextFrame'>
+2024-05-26 12:47:08,353, 1913, DEBUG, createFrame 'b'TRCK'' with class '<class 'eyed3.id3.frames.TextFrame'>'
+2024-05-26 12:47:08,353, 1928, DEBUG, Unicode encoding: utf_16
+2024-05-26 12:47:08,353, 309, DEBUG, TextFrame text: 2
+2024-05-26 12:47:08,353, 1784, DEBUG, size_left: 201943
+2024-05-26 12:47:08,353, 1790, DEBUG, +++++++++++++++++++++++++++++++++++++++++++++++++
+2024-05-26 12:47:08,353, 1791, DEBUG, FrameSet: Reading Frame #4
+2024-05-26 12:47:08,353, 646, DEBUG, FrameHeader [start byte]: 153 (0x99)
+2024-05-26 12:47:08,353, 654, DEBUG, FrameHeader [id]: b'TALB' (0x54414c42)
+2024-05-26 12:47:08,353, 666, DEBUG, FrameHeader [data size]: 77 (0x4D)
+2024-05-26 12:47:08,353, 673, DEBUG, FrameHeader [flags]: ta(0) fa(0) ro(0) co(0) en(0) gr(0) un(0) dl(0)
+2024-05-26 12:47:08,353, 1801, DEBUG, FrameSet: Reading 77 (0x4D) bytes of data from byte pos 163 (0xA3)
+2024-05-26 12:47:08,353, 1808, DEBUG, FrameSet: 77 bytes of data read
+2024-05-26 12:47:08,353, 1905, DEBUG, createFrame (desc:Album/Movie/Show title) - (2, None, None) - <class 'eyed3.id3.frames.TextFrame'>
+2024-05-26 12:47:08,353, 1913, DEBUG, createFrame 'b'TALB'' with class '<class 'eyed3.id3.frames.TextFrame'>'
+2024-05-26 12:47:08,353, 1928, DEBUG, Unicode encoding: utf_16
+2024-05-26 12:47:08,353, 309, DEBUG, TextFrame text: A Gentle Whisper from the Evergarden
+2024-05-26 12:47:08,353, 1784, DEBUG, size_left: 201856
+2024-05-26 12:47:08,353, 1790, DEBUG, +++++++++++++++++++++++++++++++++++++++++++++++++
+2024-05-26 12:47:08,353, 1791, DEBUG, FrameSet: Reading Frame #5
+2024-05-26 12:47:08,353, 646, DEBUG, FrameHeader [start byte]: 240 (0xF0)
+2024-05-26 12:47:08,353, 654, DEBUG, FrameHeader [id]: b'TYER' (0x54594552)
+2024-05-26 12:47:08,353, 666, DEBUG, FrameHeader [data size]: 13 (0xD)
+2024-05-26 12:47:08,353, 673, DEBUG, FrameHeader [flags]: ta(0) fa(0) ro(0) co(0) en(0) gr(0) un(0) dl(0)
+2024-05-26 12:47:08,353, 1801, DEBUG, FrameSet: Reading 13 (0xD) bytes of data from byte pos 250 (0xFA)
+2024-05-26 12:47:08,353, 1808, DEBUG, FrameSet: 13 bytes of data read
+2024-05-26 12:47:08,353, 1905, DEBUG, createFrame (desc:Year) - (2, 3, 0) - <class 'eyed3.id3.frames.DateFrame'>
+2024-05-26 12:47:08,353, 1913, DEBUG, createFrame 'b'TYER'' with class '<class 'eyed3.id3.frames.DateFrame'>'
+2024-05-26 12:47:08,353, 1928, DEBUG, Unicode encoding: utf_16
+2024-05-26 12:47:08,353, 309, DEBUG, TextFrame text: 2024
+2024-05-26 12:47:08,353, 1784, DEBUG, size_left: 201833
+2024-05-26 12:47:08,354, 1790, DEBUG, +++++++++++++++++++++++++++++++++++++++++++++++++
+2024-05-26 12:47:08,354, 1791, DEBUG, FrameSet: Reading Frame #6
+2024-05-26 12:47:08,354, 646, DEBUG, FrameHeader [start byte]: 263 (0x107)
+2024-05-26 12:47:08,354, 654, DEBUG, FrameHeader [id]: b'TPE2' (0x54504532)
+2024-05-26 12:47:08,354, 666, DEBUG, FrameHeader [data size]: 29 (0x1D)
+2024-05-26 12:47:08,354, 673, DEBUG, FrameHeader [flags]: ta(0) fa(0) ro(0) co(0) en(0) gr(0) un(0) dl(0)
+2024-05-26 12:47:08,354, 1801, DEBUG, FrameSet: Reading 29 (0x1D) bytes of data from byte pos 273 (0x111)
+2024-05-26 12:47:08,354, 1808, DEBUG, FrameSet: 29 bytes of data read
+2024-05-26 12:47:08,354, 1905, DEBUG, createFrame (desc:Band/orchestra/accompaniment) - (2, None, None) - <class 'eyed3.id3.frames.TextFrame'>
+2024-05-26 12:47:08,354, 1913, DEBUG, createFrame 'b'TPE2'' with class '<class 'eyed3.id3.frames.TextFrame'>'
+2024-05-26 12:47:08,354, 1928, DEBUG, Unicode encoding: utf_16
+2024-05-26 12:47:08,354, 309, DEBUG, TextFrame text: Dungeontroll
+2024-05-26 12:47:08,354, 1784, DEBUG, size_left: 201794
+2024-05-26 12:47:08,354, 1790, DEBUG, +++++++++++++++++++++++++++++++++++++++++++++++++
+2024-05-26 12:47:08,354, 1791, DEBUG, FrameSet: Reading Frame #7
+2024-05-26 12:47:08,354, 646, DEBUG, FrameHeader [start byte]: 302 (0x12E)
+2024-05-26 12:47:08,354, 654, DEBUG, FrameHeader [id]: b'COMM' (0x434f4d4d)
+2024-05-26 12:47:08,354, 666, DEBUG, FrameHeader [data size]: 106 (0x6A)
+2024-05-26 12:47:08,354, 673, DEBUG, FrameHeader [flags]: ta(0) fa(0) ro(0) co(0) en(0) gr(0) un(0) dl(0)
+2024-05-26 12:47:08,354, 1801, DEBUG, FrameSet: Reading 106 (0x6A) bytes of data from byte pos 312 (0x138)
+2024-05-26 12:47:08,354, 1808, DEBUG, FrameSet: 106 bytes of data read
+2024-05-26 12:47:08,354, 1905, DEBUG, createFrame (desc:Comments) - (2, None, None) - <class 'eyed3.id3.frames.CommentFrame'>
+2024-05-26 12:47:08,354, 1913, DEBUG, createFrame 'b'COMM'' with class '<class 'eyed3.id3.frames.CommentFrame'>'
+2024-05-26 12:47:08,354, 1147, DEBUG, b'COMM' lang: b'eng'
+2024-05-26 12:47:08,354, 1928, DEBUG, Unicode encoding: utf_16
+2024-05-26 12:47:08,354, 1152, DEBUG, b'COMM' description: 
+2024-05-26 12:47:08,354, 1928, DEBUG, Unicode encoding: utf_16
+2024-05-26 12:47:08,354, 1154, DEBUG, b'COMM' text: Visit https://serpentsswordrecords.bandcamp.com
+2024-05-26 12:47:08,354, 1784, DEBUG, size_left: 201678
+2024-05-26 12:47:08,354, 1790, DEBUG, +++++++++++++++++++++++++++++++++++++++++++++++++
+2024-05-26 12:47:08,354, 1791, DEBUG, FrameSet: Reading Frame #8
+2024-05-26 12:47:08,354, 646, DEBUG, FrameHeader [start byte]: 418 (0x1A2)
+2024-05-26 12:47:08,354, 654, DEBUG, FrameHeader [id]: b'APIC' (0x41504943)
+2024-05-26 12:47:08,354, 666, DEBUG, FrameHeader [data size]: 189467 (0x2E41B)
+2024-05-26 12:47:08,354, 673, DEBUG, FrameHeader [flags]: ta(0) fa(0) ro(0) co(0) en(0) gr(0) un(0) dl(0)
+2024-05-26 12:47:08,354, 1801, DEBUG, FrameSet: Reading 189467 (0x2E41B) bytes of data from byte pos 428 (0x1AC)
+2024-05-26 12:47:08,354, 1808, DEBUG, FrameSet: 189467 bytes of data read
+2024-05-26 12:47:08,354, 1905, DEBUG, createFrame (desc:Attached picture) - (2, None, None) - <class 'eyed3.id3.frames.ImageFrame'>
+2024-05-26 12:47:08,354, 1913, DEBUG, createFrame 'b'APIC'' with class '<class 'eyed3.id3.frames.ImageFrame'>'
+2024-05-26 12:47:08,354, 591, DEBUG, APIC frame data size: 189467
+2024-05-26 12:47:08,354, 604, DEBUG, APIC mime type: b'image/jpeg'
+2024-05-26 12:47:08,354, 613, DEBUG, Initial APIC picture type: 3
+2024-05-26 12:47:08,354, 620, DEBUG, APIC picture type: 3
+2024-05-26 12:47:08,355, 629, DEBUG, description len: 12
+2024-05-26 12:47:08,355, 630, DEBUG, image len: 189440
+2024-05-26 12:47:08,355, 1928, DEBUG, Unicode encoding: utf_16
+2024-05-26 12:47:08,355, 632, DEBUG, APIC description: cover
+2024-05-26 12:47:08,355, 642, DEBUG, APIC image data: 189440 bytes
+2024-05-26 12:47:08,355, 1784, DEBUG, size_left: 12201
+2024-05-26 12:47:08,355, 1790, DEBUG, +++++++++++++++++++++++++++++++++++++++++++++++++
+2024-05-26 12:47:08,355, 1791, DEBUG, FrameSet: Reading Frame #9
+2024-05-26 12:47:08,355, 646, DEBUG, FrameHeader [start byte]: 189895 (0x2E5C7)
+2024-05-26 12:47:08,355, 687, DEBUG, FrameHeader: Null frame id found at byte 189899
+2024-05-26 12:47:08,355, 1794, DEBUG, No frame found, implied padding of 12201 bytes
+2024-05-26 12:47:08,355, 133, DEBUG, Tag contains 12201 bytes of padding.
+2024-05-26 12:47:08,355, 40, DEBUG, mp3 header search starting @ 31570
+2024-05-26 12:47:08,355, 250, DEBUG, MPEG audio version: 1.0
+2024-05-26 12:47:08,355, 251, DEBUG, MPEG audio layer: III
+2024-05-26 12:47:08,355, 252, DEBUG, MPEG sampling frequency: 44100
+2024-05-26 12:47:08,355, 253, DEBUG, MPEG bit rate: 320
+2024-05-26 12:47:08,355, 254, DEBUG, MPEG channel mode: Joint stereo
+2024-05-26 12:47:08,355, 255, DEBUG, MPEG channel mode extension: 0
+2024-05-26 12:47:08,355, 256, DEBUG, MPEG CRC error protection: False
+2024-05-26 12:47:08,355, 257, DEBUG, MPEG original: 1
+2024-05-26 12:47:08,355, 258, DEBUG, MPEG copyright: 0
+2024-05-26 12:47:08,355, 259, DEBUG, MPEG private bit: 0
+2024-05-26 12:47:08,355, 260, DEBUG, MPEG padding: 0
+2024-05-26 12:47:08,355, 261, DEBUG, MPEG emphasis: None
+2024-05-26 12:47:08,355, 262, DEBUG, MPEG frame length: 1044
+2024-05-26 12:47:08,355, 67, DEBUG, mp3 header fffbe044 found at position: 0x31570
+2024-05-26 12:47:08,355, 337, DEBUG, b'Info' header detected @ 24
+2024-05-26 12:47:08,355, 343, DEBUG, b'Info' header flags: 0xf
+2024-05-26 12:47:08,355, 349, DEBUG, b'Info' numFrames: 10696
+2024-05-26 12:47:08,355, 355, DEBUG, b'Info' numBytes: 11177272
+2024-05-26 12:47:08,355, 361, DEBUG, b'Info' TOC (100 bytes): PRESENT
+2024-05-26 12:47:08,355, 573, DEBUG, Lame info tag found at position 156
+2024-05-26 12:47:08,355, 580, DEBUG, Lame tag CRC OK
+2024-05-26 12:47:08,355, 585, DEBUG, Lame Encoder Version: LAME3.99r
+2024-05-26 12:47:08,355, 592, DEBUG, Lame info tag version: 0
+2024-05-26 12:47:08,355, 593, DEBUG, Lame VBR method: Constant Bitrate
+2024-05-26 12:47:08,356, 599, DEBUG, Lame Lowpass filter value: 20500 Hz
+2024-05-26 12:47:08,356, 636, DEBUG, Lame Radio Replay Gain: -9.0 dB (Set automatically)
+2024-05-26 12:47:08,356, 647, DEBUG, Lame Encoding flags: --nspsytune --nssafejoint
+2024-05-26 12:47:08,356, 651, DEBUG, Lame ATH type: 4
+2024-05-26 12:47:08,356, 662, DEBUG, Lame Bitrate (Constant): 255
+2024-05-26 12:47:08,356, 669, DEBUG, Lame Encoder delay: 576 samples
+2024-05-26 12:47:08,356, 670, DEBUG, Lame Encoder padding: 580 samples
+2024-05-26 12:47:08,356, 683, DEBUG, Lame Source Sample Frequency: 44.1 kHz
+2024-05-26 12:47:08,356, 684, DEBUG, Lame Unwise settings used: False
+2024-05-26 12:47:08,356, 685, DEBUG, Lame Stereo mode: Joint
+2024-05-26 12:47:08,356, 686, DEBUG, Lame Noise Shaping: 1
+2024-05-26 12:47:08,356, 696, DEBUG, Lame MP3 Gain: 0 (+0.0 dB)
+2024-05-26 12:47:08,356, 706, DEBUG, Lame Bitrate (Constant): 320
+2024-05-26 12:47:08,356, 716, DEBUG, Lame Surround Info: None
+2024-05-26 12:47:08,356, 717, DEBUG, Lame Preset: CBR 320
+2024-05-26 12:47:08,356, 722, DEBUG, Lame Music Length: 11177272 bytes
+2024-05-26 12:47:08,356, 727, DEBUG, Lame Music CRC: 3E3A
+2024-05-26 12:47:08,356, 732, DEBUG, Lame Info Tag CRC: 6753
+2024-05-26 12:47:08,356, 46, INFO, testpack\Dungeontroll - A Gentle Whisper from the Evergarden\Dungeontroll - A Gentle Whisper from the Evergarden - 02 In Eternal Reverence to the Wanderer.mp3
+2024-05-26 12:47:08,360, 440, DEBUG, Loading file: testpack\Dungeontroll - A Gentle Whisper from the Evergarden\Dungeontroll - A Gentle Whisper from the Evergarden - 03 The Palace of the Great Elf.mp3
+2024-05-26 12:47:08,361, 449, DEBUG, File mime-type: audio/mpeg
+2024-05-26 12:47:08,361, 69, DEBUG, Located ID3 v2 tag
+2024-05-26 12:47:08,361, 78, DEBUG, TagHeader [major]: 2 
+2024-05-26 12:47:08,361, 79, DEBUG, TagHeader [minor]: 3 
+2024-05-26 12:47:08,361, 80, DEBUG, TagHeader [rev]: 0 
+2024-05-26 12:47:08,361, 93, DEBUG, TagHeader [flags]: unsync(0) extended(0) experimental(0) footer(0)
+2024-05-26 12:47:08,361, 104, DEBUG, TagHeader [size string]: 0x000c043a
+2024-05-26 12:47:08,361, 108, DEBUG, TagHeader [size]: 197178 (0x3023a)
+2024-05-26 12:47:08,361, 1784, DEBUG, size_left: 197178
+2024-05-26 12:47:08,361, 1790, DEBUG, +++++++++++++++++++++++++++++++++++++++++++++++++
+2024-05-26 12:47:08,361, 1791, DEBUG, FrameSet: Reading Frame #1
+2024-05-26 12:47:08,361, 646, DEBUG, FrameHeader [start byte]: 10 (0xA)
+2024-05-26 12:47:08,361, 654, DEBUG, FrameHeader [id]: b'TIT2' (0x54495432)
+2024-05-26 12:47:08,361, 666, DEBUG, FrameHeader [data size]: 59 (0x3B)
+2024-05-26 12:47:08,361, 673, DEBUG, FrameHeader [flags]: ta(0) fa(0) ro(0) co(0) en(0) gr(0) un(0) dl(0)
+2024-05-26 12:47:08,361, 1801, DEBUG, FrameSet: Reading 59 (0x3B) bytes of data from byte pos 20 (0x14)
+2024-05-26 12:47:08,361, 1808, DEBUG, FrameSet: 59 bytes of data read
+2024-05-26 12:47:08,361, 1905, DEBUG, createFrame (desc:Title/songname/content description) - (2, None, None) - <class 'eyed3.id3.frames.TextFrame'>
+2024-05-26 12:47:08,361, 1913, DEBUG, createFrame 'b'TIT2'' with class '<class 'eyed3.id3.frames.TextFrame'>'
+2024-05-26 12:47:08,361, 1928, DEBUG, Unicode encoding: utf_16
+2024-05-26 12:47:08,361, 309, DEBUG, TextFrame text: The Palace of the Great Elf
+2024-05-26 12:47:08,361, 1784, DEBUG, size_left: 197109
+2024-05-26 12:47:08,361, 1790, DEBUG, +++++++++++++++++++++++++++++++++++++++++++++++++
+2024-05-26 12:47:08,361, 1791, DEBUG, FrameSet: Reading Frame #2
+2024-05-26 12:47:08,361, 646, DEBUG, FrameHeader [start byte]: 79 (0x4F)
+2024-05-26 12:47:08,361, 654, DEBUG, FrameHeader [id]: b'TPE1' (0x54504531)
+2024-05-26 12:47:08,361, 666, DEBUG, FrameHeader [data size]: 29 (0x1D)
+2024-05-26 12:47:08,361, 673, DEBUG, FrameHeader [flags]: ta(0) fa(0) ro(0) co(0) en(0) gr(0) un(0) dl(0)
+2024-05-26 12:47:08,361, 1801, DEBUG, FrameSet: Reading 29 (0x1D) bytes of data from byte pos 89 (0x59)
+2024-05-26 12:47:08,361, 1808, DEBUG, FrameSet: 29 bytes of data read
+2024-05-26 12:47:08,361, 1905, DEBUG, createFrame (desc:Lead performer(s)/Soloist(s)) - (2, None, None) - <class 'eyed3.id3.frames.TextFrame'>
+2024-05-26 12:47:08,361, 1913, DEBUG, createFrame 'b'TPE1'' with class '<class 'eyed3.id3.frames.TextFrame'>'
+2024-05-26 12:47:08,361, 1928, DEBUG, Unicode encoding: utf_16
+2024-05-26 12:47:08,361, 309, DEBUG, TextFrame text: Dungeontroll
+2024-05-26 12:47:08,362, 1784, DEBUG, size_left: 197070
+2024-05-26 12:47:08,362, 1790, DEBUG, +++++++++++++++++++++++++++++++++++++++++++++++++
+2024-05-26 12:47:08,362, 1791, DEBUG, FrameSet: Reading Frame #3
+2024-05-26 12:47:08,362, 646, DEBUG, FrameHeader [start byte]: 118 (0x76)
+2024-05-26 12:47:08,362, 654, DEBUG, FrameHeader [id]: b'TRCK' (0x5452434b)
+2024-05-26 12:47:08,362, 666, DEBUG, FrameHeader [data size]: 7 (0x7)
+2024-05-26 12:47:08,362, 673, DEBUG, FrameHeader [flags]: ta(0) fa(0) ro(0) co(0) en(0) gr(0) un(0) dl(0)
+2024-05-26 12:47:08,362, 1801, DEBUG, FrameSet: Reading 7 (0x7) bytes of data from byte pos 128 (0x80)
+2024-05-26 12:47:08,362, 1808, DEBUG, FrameSet: 7 bytes of data read
+2024-05-26 12:47:08,362, 1905, DEBUG, createFrame (desc:Track number/Position in set) - (2, None, None) - <class 'eyed3.id3.frames.TextFrame'>
+2024-05-26 12:47:08,362, 1913, DEBUG, createFrame 'b'TRCK'' with class '<class 'eyed3.id3.frames.TextFrame'>'
+2024-05-26 12:47:08,362, 1928, DEBUG, Unicode encoding: utf_16
+2024-05-26 12:47:08,362, 309, DEBUG, TextFrame text: 3
+2024-05-26 12:47:08,362, 1784, DEBUG, size_left: 197053
+2024-05-26 12:47:08,362, 1790, DEBUG, +++++++++++++++++++++++++++++++++++++++++++++++++
+2024-05-26 12:47:08,362, 1791, DEBUG, FrameSet: Reading Frame #4
+2024-05-26 12:47:08,362, 646, DEBUG, FrameHeader [start byte]: 135 (0x87)
+2024-05-26 12:47:08,362, 654, DEBUG, FrameHeader [id]: b'TALB' (0x54414c42)
+2024-05-26 12:47:08,362, 666, DEBUG, FrameHeader [data size]: 77 (0x4D)
+2024-05-26 12:47:08,362, 673, DEBUG, FrameHeader [flags]: ta(0) fa(0) ro(0) co(0) en(0) gr(0) un(0) dl(0)
+2024-05-26 12:47:08,362, 1801, DEBUG, FrameSet: Reading 77 (0x4D) bytes of data from byte pos 145 (0x91)
+2024-05-26 12:47:08,362, 1808, DEBUG, FrameSet: 77 bytes of data read
+2024-05-26 12:47:08,362, 1905, DEBUG, createFrame (desc:Album/Movie/Show title) - (2, None, None) - <class 'eyed3.id3.frames.TextFrame'>
+2024-05-26 12:47:08,362, 1913, DEBUG, createFrame 'b'TALB'' with class '<class 'eyed3.id3.frames.TextFrame'>'
+2024-05-26 12:47:08,362, 1928, DEBUG, Unicode encoding: utf_16
+2024-05-26 12:47:08,362, 309, DEBUG, TextFrame text: A Gentle Whisper from the Evergarden
+2024-05-26 12:47:08,362, 1784, DEBUG, size_left: 196966
+2024-05-26 12:47:08,362, 1790, DEBUG, +++++++++++++++++++++++++++++++++++++++++++++++++
+2024-05-26 12:47:08,362, 1791, DEBUG, FrameSet: Reading Frame #5
+2024-05-26 12:47:08,362, 646, DEBUG, FrameHeader [start byte]: 222 (0xDE)
+2024-05-26 12:47:08,362, 654, DEBUG, FrameHeader [id]: b'TYER' (0x54594552)
+2024-05-26 12:47:08,362, 666, DEBUG, FrameHeader [data size]: 13 (0xD)
+2024-05-26 12:47:08,362, 673, DEBUG, FrameHeader [flags]: ta(0) fa(0) ro(0) co(0) en(0) gr(0) un(0) dl(0)
+2024-05-26 12:47:08,362, 1801, DEBUG, FrameSet: Reading 13 (0xD) bytes of data from byte pos 232 (0xE8)
+2024-05-26 12:47:08,362, 1808, DEBUG, FrameSet: 13 bytes of data read
+2024-05-26 12:47:08,362, 1905, DEBUG, createFrame (desc:Year) - (2, 3, 0) - <class 'eyed3.id3.frames.DateFrame'>
+2024-05-26 12:47:08,362, 1913, DEBUG, createFrame 'b'TYER'' with class '<class 'eyed3.id3.frames.DateFrame'>'
+2024-05-26 12:47:08,362, 1928, DEBUG, Unicode encoding: utf_16
+2024-05-26 12:47:08,362, 309, DEBUG, TextFrame text: 2024
+2024-05-26 12:47:08,362, 1784, DEBUG, size_left: 196943
+2024-05-26 12:47:08,362, 1790, DEBUG, +++++++++++++++++++++++++++++++++++++++++++++++++
+2024-05-26 12:47:08,362, 1791, DEBUG, FrameSet: Reading Frame #6
+2024-05-26 12:47:08,362, 646, DEBUG, FrameHeader [start byte]: 245 (0xF5)
+2024-05-26 12:47:08,362, 654, DEBUG, FrameHeader [id]: b'TPE2' (0x54504532)
+2024-05-26 12:47:08,362, 666, DEBUG, FrameHeader [data size]: 29 (0x1D)
+2024-05-26 12:47:08,362, 673, DEBUG, FrameHeader [flags]: ta(0) fa(0) ro(0) co(0) en(0) gr(0) un(0) dl(0)
+2024-05-26 12:47:08,362, 1801, DEBUG, FrameSet: Reading 29 (0x1D) bytes of data from byte pos 255 (0xFF)
+2024-05-26 12:47:08,362, 1808, DEBUG, FrameSet: 29 bytes of data read
+2024-05-26 12:47:08,362, 1905, DEBUG, createFrame (desc:Band/orchestra/accompaniment) - (2, None, None) - <class 'eyed3.id3.frames.TextFrame'>
+2024-05-26 12:47:08,362, 1913, DEBUG, createFrame 'b'TPE2'' with class '<class 'eyed3.id3.frames.TextFrame'>'
+2024-05-26 12:47:08,363, 1928, DEBUG, Unicode encoding: utf_16
+2024-05-26 12:47:08,363, 309, DEBUG, TextFrame text: Dungeontroll
+2024-05-26 12:47:08,363, 1784, DEBUG, size_left: 196904
+2024-05-26 12:47:08,363, 1790, DEBUG, +++++++++++++++++++++++++++++++++++++++++++++++++
+2024-05-26 12:47:08,363, 1791, DEBUG, FrameSet: Reading Frame #7
+2024-05-26 12:47:08,363, 646, DEBUG, FrameHeader [start byte]: 284 (0x11C)
+2024-05-26 12:47:08,363, 654, DEBUG, FrameHeader [id]: b'COMM' (0x434f4d4d)
+2024-05-26 12:47:08,363, 666, DEBUG, FrameHeader [data size]: 106 (0x6A)
+2024-05-26 12:47:08,363, 673, DEBUG, FrameHeader [flags]: ta(0) fa(0) ro(0) co(0) en(0) gr(0) un(0) dl(0)
+2024-05-26 12:47:08,363, 1801, DEBUG, FrameSet: Reading 106 (0x6A) bytes of data from byte pos 294 (0x126)
+2024-05-26 12:47:08,363, 1808, DEBUG, FrameSet: 106 bytes of data read
+2024-05-26 12:47:08,363, 1905, DEBUG, createFrame (desc:Comments) - (2, None, None) - <class 'eyed3.id3.frames.CommentFrame'>
+2024-05-26 12:47:08,363, 1913, DEBUG, createFrame 'b'COMM'' with class '<class 'eyed3.id3.frames.CommentFrame'>'
+2024-05-26 12:47:08,363, 1147, DEBUG, b'COMM' lang: b'eng'
+2024-05-26 12:47:08,363, 1928, DEBUG, Unicode encoding: utf_16
+2024-05-26 12:47:08,363, 1152, DEBUG, b'COMM' description: 
+2024-05-26 12:47:08,363, 1928, DEBUG, Unicode encoding: utf_16
+2024-05-26 12:47:08,363, 1154, DEBUG, b'COMM' text: Visit https://serpentsswordrecords.bandcamp.com
+2024-05-26 12:47:08,363, 1784, DEBUG, size_left: 196788
+2024-05-26 12:47:08,363, 1790, DEBUG, +++++++++++++++++++++++++++++++++++++++++++++++++
+2024-05-26 12:47:08,363, 1791, DEBUG, FrameSet: Reading Frame #8
+2024-05-26 12:47:08,363, 646, DEBUG, FrameHeader [start byte]: 400 (0x190)
+2024-05-26 12:47:08,363, 654, DEBUG, FrameHeader [id]: b'APIC' (0x41504943)
+2024-05-26 12:47:08,363, 666, DEBUG, FrameHeader [data size]: 189467 (0x2E41B)
+2024-05-26 12:47:08,363, 673, DEBUG, FrameHeader [flags]: ta(0) fa(0) ro(0) co(0) en(0) gr(0) un(0) dl(0)
+2024-05-26 12:47:08,363, 1801, DEBUG, FrameSet: Reading 189467 (0x2E41B) bytes of data from byte pos 410 (0x19A)
+2024-05-26 12:47:08,363, 1808, DEBUG, FrameSet: 189467 bytes of data read
+2024-05-26 12:47:08,363, 1905, DEBUG, createFrame (desc:Attached picture) - (2, None, None) - <class 'eyed3.id3.frames.ImageFrame'>
+2024-05-26 12:47:08,363, 1913, DEBUG, createFrame 'b'APIC'' with class '<class 'eyed3.id3.frames.ImageFrame'>'
+2024-05-26 12:47:08,363, 591, DEBUG, APIC frame data size: 189467
+2024-05-26 12:47:08,363, 604, DEBUG, APIC mime type: b'image/jpeg'
+2024-05-26 12:47:08,363, 613, DEBUG, Initial APIC picture type: 3
+2024-05-26 12:47:08,363, 620, DEBUG, APIC picture type: 3
+2024-05-26 12:47:08,364, 629, DEBUG, description len: 12
+2024-05-26 12:47:08,364, 630, DEBUG, image len: 189440
+2024-05-26 12:47:08,364, 1928, DEBUG, Unicode encoding: utf_16
+2024-05-26 12:47:08,364, 632, DEBUG, APIC description: cover
+2024-05-26 12:47:08,364, 642, DEBUG, APIC image data: 189440 bytes
+2024-05-26 12:47:08,364, 1784, DEBUG, size_left: 7311
+2024-05-26 12:47:08,364, 1790, DEBUG, +++++++++++++++++++++++++++++++++++++++++++++++++
+2024-05-26 12:47:08,364, 1791, DEBUG, FrameSet: Reading Frame #9
+2024-05-26 12:47:08,364, 646, DEBUG, FrameHeader [start byte]: 189877 (0x2E5B5)
+2024-05-26 12:47:08,364, 687, DEBUG, FrameHeader: Null frame id found at byte 189881
+2024-05-26 12:47:08,364, 1794, DEBUG, No frame found, implied padding of 7311 bytes
+2024-05-26 12:47:08,364, 133, DEBUG, Tag contains 7311 bytes of padding.
+2024-05-26 12:47:08,364, 40, DEBUG, mp3 header search starting @ 30244
+2024-05-26 12:47:08,364, 250, DEBUG, MPEG audio version: 1.0
+2024-05-26 12:47:08,364, 251, DEBUG, MPEG audio layer: III
+2024-05-26 12:47:08,364, 252, DEBUG, MPEG sampling frequency: 44100
+2024-05-26 12:47:08,364, 253, DEBUG, MPEG bit rate: 320
+2024-05-26 12:47:08,364, 254, DEBUG, MPEG channel mode: Joint stereo
+2024-05-26 12:47:08,364, 255, DEBUG, MPEG channel mode extension: 0
+2024-05-26 12:47:08,364, 256, DEBUG, MPEG CRC error protection: False
+2024-05-26 12:47:08,364, 257, DEBUG, MPEG original: 1
+2024-05-26 12:47:08,364, 258, DEBUG, MPEG copyright: 0
+2024-05-26 12:47:08,364, 259, DEBUG, MPEG private bit: 0
+2024-05-26 12:47:08,364, 260, DEBUG, MPEG padding: 0
+2024-05-26 12:47:08,364, 261, DEBUG, MPEG emphasis: None
+2024-05-26 12:47:08,364, 262, DEBUG, MPEG frame length: 1044
+2024-05-26 12:47:08,364, 67, DEBUG, mp3 header fffbe044 found at position: 0x30244
+2024-05-26 12:47:08,364, 337, DEBUG, b'Info' header detected @ 24
+2024-05-26 12:47:08,364, 343, DEBUG, b'Info' header flags: 0xf
+2024-05-26 12:47:08,364, 349, DEBUG, b'Info' numFrames: 6016
+2024-05-26 12:47:08,364, 355, DEBUG, b'Info' numBytes: 6287150
+2024-05-26 12:47:08,364, 361, DEBUG, b'Info' TOC (100 bytes): PRESENT
+2024-05-26 12:47:08,364, 573, DEBUG, Lame info tag found at position 156
+2024-05-26 12:47:08,364, 580, DEBUG, Lame tag CRC OK
+2024-05-26 12:47:08,364, 585, DEBUG, Lame Encoder Version: LAME3.99r
+2024-05-26 12:47:08,364, 592, DEBUG, Lame info tag version: 0
+2024-05-26 12:47:08,364, 593, DEBUG, Lame VBR method: Constant Bitrate
+2024-05-26 12:47:08,364, 599, DEBUG, Lame Lowpass filter value: 20500 Hz
+2024-05-26 12:47:08,364, 636, DEBUG, Lame Radio Replay Gain: -9.1 dB (Set automatically)
+2024-05-26 12:47:08,364, 647, DEBUG, Lame Encoding flags: --nspsytune --nssafejoint
+2024-05-26 12:47:08,364, 651, DEBUG, Lame ATH type: 4
+2024-05-26 12:47:08,364, 662, DEBUG, Lame Bitrate (Constant): 255
+2024-05-26 12:47:08,364, 669, DEBUG, Lame Encoder delay: 576 samples
+2024-05-26 12:47:08,364, 670, DEBUG, Lame Encoder padding: 1266 samples
+2024-05-26 12:47:08,364, 683, DEBUG, Lame Source Sample Frequency: 44.1 kHz
+2024-05-26 12:47:08,364, 684, DEBUG, Lame Unwise settings used: False
+2024-05-26 12:47:08,364, 685, DEBUG, Lame Stereo mode: Joint
+2024-05-26 12:47:08,364, 686, DEBUG, Lame Noise Shaping: 1
+2024-05-26 12:47:08,364, 696, DEBUG, Lame MP3 Gain: 0 (+0.0 dB)
+2024-05-26 12:47:08,364, 706, DEBUG, Lame Bitrate (Constant): 320
+2024-05-26 12:47:08,365, 716, DEBUG, Lame Surround Info: None
+2024-05-26 12:47:08,365, 717, DEBUG, Lame Preset: CBR 320
+2024-05-26 12:47:08,365, 722, DEBUG, Lame Music Length: 6287150 bytes
+2024-05-26 12:47:08,365, 727, DEBUG, Lame Music CRC: 2257
+2024-05-26 12:47:08,365, 732, DEBUG, Lame Info Tag CRC: 22F0
+2024-05-26 12:47:08,365, 46, INFO, testpack\Dungeontroll - A Gentle Whisper from the Evergarden\Dungeontroll - A Gentle Whisper from the Evergarden - 03 The Palace of the Great Elf.mp3
+2024-05-26 12:47:08,368, 440, DEBUG, Loading file: testpack\Dungeontroll - A Gentle Whisper from the Evergarden\Dungeontroll - A Gentle Whisper from the Evergarden - 04 Remnants of Eureliiea Beneath the Crescent Moon.mp3
+2024-05-26 12:47:08,368, 449, DEBUG, File mime-type: audio/mpeg
+2024-05-26 12:47:08,368, 69, DEBUG, Located ID3 v2 tag
+2024-05-26 12:47:08,368, 78, DEBUG, TagHeader [major]: 2 
+2024-05-26 12:47:08,368, 79, DEBUG, TagHeader [minor]: 3 
+2024-05-26 12:47:08,368, 80, DEBUG, TagHeader [rev]: 0 
+2024-05-26 12:47:08,369, 93, DEBUG, TagHeader [flags]: unsync(0) extended(0) experimental(0) footer(0)
+2024-05-26 12:47:08,369, 104, DEBUG, TagHeader [size string]: 0x000c2025
+2024-05-26 12:47:08,369, 108, DEBUG, TagHeader [size]: 200741 (0x31025)
+2024-05-26 12:47:08,369, 1784, DEBUG, size_left: 200741
+2024-05-26 12:47:08,369, 1790, DEBUG, +++++++++++++++++++++++++++++++++++++++++++++++++
+2024-05-26 12:47:08,369, 1791, DEBUG, FrameSet: Reading Frame #1
+2024-05-26 12:47:08,369, 646, DEBUG, FrameHeader [start byte]: 10 (0xA)
+2024-05-26 12:47:08,369, 654, DEBUG, FrameHeader [id]: b'TIT2' (0x54495432)
+2024-05-26 12:47:08,369, 666, DEBUG, FrameHeader [data size]: 99 (0x63)
+2024-05-26 12:47:08,369, 673, DEBUG, FrameHeader [flags]: ta(0) fa(0) ro(0) co(0) en(0) gr(0) un(0) dl(0)
+2024-05-26 12:47:08,369, 1801, DEBUG, FrameSet: Reading 99 (0x63) bytes of data from byte pos 20 (0x14)
+2024-05-26 12:47:08,369, 1808, DEBUG, FrameSet: 99 bytes of data read
+2024-05-26 12:47:08,369, 1905, DEBUG, createFrame (desc:Title/songname/content description) - (2, None, None) - <class 'eyed3.id3.frames.TextFrame'>
+2024-05-26 12:47:08,369, 1913, DEBUG, createFrame 'b'TIT2'' with class '<class 'eyed3.id3.frames.TextFrame'>'
+2024-05-26 12:47:08,369, 1928, DEBUG, Unicode encoding: utf_16
+2024-05-26 12:47:08,369, 309, DEBUG, TextFrame text: Remnants of Eureliiea Beneath the Crescent Moon
+2024-05-26 12:47:08,369, 1784, DEBUG, size_left: 200632
+2024-05-26 12:47:08,369, 1790, DEBUG, +++++++++++++++++++++++++++++++++++++++++++++++++
+2024-05-26 12:47:08,369, 1791, DEBUG, FrameSet: Reading Frame #2
+2024-05-26 12:47:08,369, 646, DEBUG, FrameHeader [start byte]: 119 (0x77)
+2024-05-26 12:47:08,369, 654, DEBUG, FrameHeader [id]: b'TPE1' (0x54504531)
+2024-05-26 12:47:08,369, 666, DEBUG, FrameHeader [data size]: 29 (0x1D)
+2024-05-26 12:47:08,369, 673, DEBUG, FrameHeader [flags]: ta(0) fa(0) ro(0) co(0) en(0) gr(0) un(0) dl(0)
+2024-05-26 12:47:08,369, 1801, DEBUG, FrameSet: Reading 29 (0x1D) bytes of data from byte pos 129 (0x81)
+2024-05-26 12:47:08,369, 1808, DEBUG, FrameSet: 29 bytes of data read
+2024-05-26 12:47:08,369, 1905, DEBUG, createFrame (desc:Lead performer(s)/Soloist(s)) - (2, None, None) - <class 'eyed3.id3.frames.TextFrame'>
+2024-05-26 12:47:08,370, 1913, DEBUG, createFrame 'b'TPE1'' with class '<class 'eyed3.id3.frames.TextFrame'>'
+2024-05-26 12:47:08,370, 1928, DEBUG, Unicode encoding: utf_16
+2024-05-26 12:47:08,370, 309, DEBUG, TextFrame text: Dungeontroll
+2024-05-26 12:47:08,370, 1784, DEBUG, size_left: 200593
+2024-05-26 12:47:08,370, 1790, DEBUG, +++++++++++++++++++++++++++++++++++++++++++++++++
+2024-05-26 12:47:08,370, 1791, DEBUG, FrameSet: Reading Frame #3
+2024-05-26 12:47:08,370, 646, DEBUG, FrameHeader [start byte]: 158 (0x9E)
+2024-05-26 12:47:08,370, 654, DEBUG, FrameHeader [id]: b'TRCK' (0x5452434b)
+2024-05-26 12:47:08,370, 666, DEBUG, FrameHeader [data size]: 7 (0x7)
+2024-05-26 12:47:08,370, 673, DEBUG, FrameHeader [flags]: ta(0) fa(0) ro(0) co(0) en(0) gr(0) un(0) dl(0)
+2024-05-26 12:47:08,370, 1801, DEBUG, FrameSet: Reading 7 (0x7) bytes of data from byte pos 168 (0xA8)
+2024-05-26 12:47:08,370, 1808, DEBUG, FrameSet: 7 bytes of data read
+2024-05-26 12:47:08,370, 1905, DEBUG, createFrame (desc:Track number/Position in set) - (2, None, None) - <class 'eyed3.id3.frames.TextFrame'>
+2024-05-26 12:47:08,370, 1913, DEBUG, createFrame 'b'TRCK'' with class '<class 'eyed3.id3.frames.TextFrame'>'
+2024-05-26 12:47:08,370, 1928, DEBUG, Unicode encoding: utf_16
+2024-05-26 12:47:08,370, 309, DEBUG, TextFrame text: 4
+2024-05-26 12:47:08,370, 1784, DEBUG, size_left: 200576
+2024-05-26 12:47:08,370, 1790, DEBUG, +++++++++++++++++++++++++++++++++++++++++++++++++
+2024-05-26 12:47:08,370, 1791, DEBUG, FrameSet: Reading Frame #4
+2024-05-26 12:47:08,370, 646, DEBUG, FrameHeader [start byte]: 175 (0xAF)
+2024-05-26 12:47:08,370, 654, DEBUG, FrameHeader [id]: b'TALB' (0x54414c42)
+2024-05-26 12:47:08,370, 666, DEBUG, FrameHeader [data size]: 77 (0x4D)
+2024-05-26 12:47:08,370, 673, DEBUG, FrameHeader [flags]: ta(0) fa(0) ro(0) co(0) en(0) gr(0) un(0) dl(0)
+2024-05-26 12:47:08,370, 1801, DEBUG, FrameSet: Reading 77 (0x4D) bytes of data from byte pos 185 (0xB9)
+2024-05-26 12:47:08,370, 1808, DEBUG, FrameSet: 77 bytes of data read
+2024-05-26 12:47:08,370, 1905, DEBUG, createFrame (desc:Album/Movie/Show title) - (2, None, None) - <class 'eyed3.id3.frames.TextFrame'>
+2024-05-26 12:47:08,370, 1913, DEBUG, createFrame 'b'TALB'' with class '<class 'eyed3.id3.frames.TextFrame'>'
+2024-05-26 12:47:08,370, 1928, DEBUG, Unicode encoding: utf_16
+2024-05-26 12:47:08,370, 309, DEBUG, TextFrame text: A Gentle Whisper from the Evergarden
+2024-05-26 12:47:08,370, 1784, DEBUG, size_left: 200489
+2024-05-26 12:47:08,370, 1790, DEBUG, +++++++++++++++++++++++++++++++++++++++++++++++++
+2024-05-26 12:47:08,370, 1791, DEBUG, FrameSet: Reading Frame #5
+2024-05-26 12:47:08,370, 646, DEBUG, FrameHeader [start byte]: 262 (0x106)
+2024-05-26 12:47:08,370, 654, DEBUG, FrameHeader [id]: b'TYER' (0x54594552)
+2024-05-26 12:47:08,370, 666, DEBUG, FrameHeader [data size]: 13 (0xD)
+2024-05-26 12:47:08,370, 673, DEBUG, FrameHeader [flags]: ta(0) fa(0) ro(0) co(0) en(0) gr(0) un(0) dl(0)
+2024-05-26 12:47:08,370, 1801, DEBUG, FrameSet: Reading 13 (0xD) bytes of data from byte pos 272 (0x110)
+2024-05-26 12:47:08,370, 1808, DEBUG, FrameSet: 13 bytes of data read
+2024-05-26 12:47:08,370, 1905, DEBUG, createFrame (desc:Year) - (2, 3, 0) - <class 'eyed3.id3.frames.DateFrame'>
+2024-05-26 12:47:08,370, 1913, DEBUG, createFrame 'b'TYER'' with class '<class 'eyed3.id3.frames.DateFrame'>'
+2024-05-26 12:47:08,370, 1928, DEBUG, Unicode encoding: utf_16
+2024-05-26 12:47:08,370, 309, DEBUG, TextFrame text: 2024
+2024-05-26 12:47:08,371, 1784, DEBUG, size_left: 200466
+2024-05-26 12:47:08,371, 1790, DEBUG, +++++++++++++++++++++++++++++++++++++++++++++++++
+2024-05-26 12:47:08,371, 1791, DEBUG, FrameSet: Reading Frame #6
+2024-05-26 12:47:08,371, 646, DEBUG, FrameHeader [start byte]: 285 (0x11D)
+2024-05-26 12:47:08,371, 654, DEBUG, FrameHeader [id]: b'TPE2' (0x54504532)
+2024-05-26 12:47:08,371, 666, DEBUG, FrameHeader [data size]: 29 (0x1D)
+2024-05-26 12:47:08,371, 673, DEBUG, FrameHeader [flags]: ta(0) fa(0) ro(0) co(0) en(0) gr(0) un(0) dl(0)
+2024-05-26 12:47:08,371, 1801, DEBUG, FrameSet: Reading 29 (0x1D) bytes of data from byte pos 295 (0x127)
+2024-05-26 12:47:08,371, 1808, DEBUG, FrameSet: 29 bytes of data read
+2024-05-26 12:47:08,371, 1905, DEBUG, createFrame (desc:Band/orchestra/accompaniment) - (2, None, None) - <class 'eyed3.id3.frames.TextFrame'>
+2024-05-26 12:47:08,371, 1913, DEBUG, createFrame 'b'TPE2'' with class '<class 'eyed3.id3.frames.TextFrame'>'
+2024-05-26 12:47:08,371, 1928, DEBUG, Unicode encoding: utf_16
+2024-05-26 12:47:08,371, 309, DEBUG, TextFrame text: Dungeontroll
+2024-05-26 12:47:08,371, 1784, DEBUG, size_left: 200427
+2024-05-26 12:47:08,371, 1790, DEBUG, +++++++++++++++++++++++++++++++++++++++++++++++++
+2024-05-26 12:47:08,371, 1791, DEBUG, FrameSet: Reading Frame #7
+2024-05-26 12:47:08,371, 646, DEBUG, FrameHeader [start byte]: 324 (0x144)
+2024-05-26 12:47:08,371, 654, DEBUG, FrameHeader [id]: b'COMM' (0x434f4d4d)
+2024-05-26 12:47:08,371, 666, DEBUG, FrameHeader [data size]: 106 (0x6A)
+2024-05-26 12:47:08,371, 673, DEBUG, FrameHeader [flags]: ta(0) fa(0) ro(0) co(0) en(0) gr(0) un(0) dl(0)
+2024-05-26 12:47:08,371, 1801, DEBUG, FrameSet: Reading 106 (0x6A) bytes of data from byte pos 334 (0x14E)
+2024-05-26 12:47:08,371, 1808, DEBUG, FrameSet: 106 bytes of data read
+2024-05-26 12:47:08,371, 1905, DEBUG, createFrame (desc:Comments) - (2, None, None) - <class 'eyed3.id3.frames.CommentFrame'>
+2024-05-26 12:47:08,371, 1913, DEBUG, createFrame 'b'COMM'' with class '<class 'eyed3.id3.frames.CommentFrame'>'
+2024-05-26 12:47:08,371, 1147, DEBUG, b'COMM' lang: b'eng'
+2024-05-26 12:47:08,371, 1928, DEBUG, Unicode encoding: utf_16
+2024-05-26 12:47:08,371, 1152, DEBUG, b'COMM' description: 
+2024-05-26 12:47:08,371, 1928, DEBUG, Unicode encoding: utf_16
+2024-05-26 12:47:08,371, 1154, DEBUG, b'COMM' text: Visit https://serpentsswordrecords.bandcamp.com
+2024-05-26 12:47:08,371, 1784, DEBUG, size_left: 200311
+2024-05-26 12:47:08,371, 1790, DEBUG, +++++++++++++++++++++++++++++++++++++++++++++++++
+2024-05-26 12:47:08,371, 1791, DEBUG, FrameSet: Reading Frame #8
+2024-05-26 12:47:08,371, 646, DEBUG, FrameHeader [start byte]: 440 (0x1B8)
+2024-05-26 12:47:08,371, 654, DEBUG, FrameHeader [id]: b'APIC' (0x41504943)
+2024-05-26 12:47:08,371, 666, DEBUG, FrameHeader [data size]: 189467 (0x2E41B)
+2024-05-26 12:47:08,371, 673, DEBUG, FrameHeader [flags]: ta(0) fa(0) ro(0) co(0) en(0) gr(0) un(0) dl(0)
+2024-05-26 12:47:08,371, 1801, DEBUG, FrameSet: Reading 189467 (0x2E41B) bytes of data from byte pos 450 (0x1C2)
+2024-05-26 12:47:08,371, 1808, DEBUG, FrameSet: 189467 bytes of data read
+2024-05-26 12:47:08,371, 1905, DEBUG, createFrame (desc:Attached picture) - (2, None, None) - <class 'eyed3.id3.frames.ImageFrame'>
+2024-05-26 12:47:08,371, 1913, DEBUG, createFrame 'b'APIC'' with class '<class 'eyed3.id3.frames.ImageFrame'>'
+2024-05-26 12:47:08,371, 591, DEBUG, APIC frame data size: 189467
+2024-05-26 12:47:08,371, 604, DEBUG, APIC mime type: b'image/jpeg'
+2024-05-26 12:47:08,371, 613, DEBUG, Initial APIC picture type: 3
+2024-05-26 12:47:08,371, 620, DEBUG, APIC picture type: 3
+2024-05-26 12:47:08,371, 629, DEBUG, description len: 12
+2024-05-26 12:47:08,371, 630, DEBUG, image len: 189440
+2024-05-26 12:47:08,371, 1928, DEBUG, Unicode encoding: utf_16
+2024-05-26 12:47:08,372, 632, DEBUG, APIC description: cover
+2024-05-26 12:47:08,372, 642, DEBUG, APIC image data: 189440 bytes
+2024-05-26 12:47:08,372, 1784, DEBUG, size_left: 10834
+2024-05-26 12:47:08,372, 1790, DEBUG, +++++++++++++++++++++++++++++++++++++++++++++++++
+2024-05-26 12:47:08,372, 1791, DEBUG, FrameSet: Reading Frame #9
+2024-05-26 12:47:08,372, 646, DEBUG, FrameHeader [start byte]: 189917 (0x2E5DD)
+2024-05-26 12:47:08,372, 687, DEBUG, FrameHeader: Null frame id found at byte 189921
+2024-05-26 12:47:08,372, 1794, DEBUG, No frame found, implied padding of 10834 bytes
+2024-05-26 12:47:08,372, 133, DEBUG, Tag contains 10834 bytes of padding.
+2024-05-26 12:47:08,372, 40, DEBUG, mp3 header search starting @ 3102f
+2024-05-26 12:47:08,372, 250, DEBUG, MPEG audio version: 1.0
+2024-05-26 12:47:08,372, 251, DEBUG, MPEG audio layer: III
+2024-05-26 12:47:08,372, 252, DEBUG, MPEG sampling frequency: 44100
+2024-05-26 12:47:08,372, 253, DEBUG, MPEG bit rate: 320
+2024-05-26 12:47:08,372, 254, DEBUG, MPEG channel mode: Joint stereo
+2024-05-26 12:47:08,372, 255, DEBUG, MPEG channel mode extension: 2
+2024-05-26 12:47:08,372, 256, DEBUG, MPEG CRC error protection: False
+2024-05-26 12:47:08,372, 257, DEBUG, MPEG original: 1
+2024-05-26 12:47:08,372, 258, DEBUG, MPEG copyright: 0
+2024-05-26 12:47:08,372, 259, DEBUG, MPEG private bit: 0
+2024-05-26 12:47:08,372, 260, DEBUG, MPEG padding: 0
+2024-05-26 12:47:08,372, 261, DEBUG, MPEG emphasis: None
+2024-05-26 12:47:08,372, 262, DEBUG, MPEG frame length: 1044
+2024-05-26 12:47:08,372, 67, DEBUG, mp3 header fffbe064 found at position: 0x3102f
+2024-05-26 12:47:08,372, 337, DEBUG, b'Info' header detected @ 24
+2024-05-26 12:47:08,372, 343, DEBUG, b'Info' header flags: 0xf
+2024-05-26 12:47:08,372, 349, DEBUG, b'Info' numFrames: 9388
+2024-05-26 12:47:08,372, 355, DEBUG, b'Info' numBytes: 9810546
+2024-05-26 12:47:08,372, 361, DEBUG, b'Info' TOC (100 bytes): PRESENT
+2024-05-26 12:47:08,372, 573, DEBUG, Lame info tag found at position 156
+2024-05-26 12:47:08,372, 580, DEBUG, Lame tag CRC OK
+2024-05-26 12:47:08,372, 585, DEBUG, Lame Encoder Version: LAME3.99r
+2024-05-26 12:47:08,372, 592, DEBUG, Lame info tag version: 0
+2024-05-26 12:47:08,372, 593, DEBUG, Lame VBR method: Constant Bitrate
+2024-05-26 12:47:08,372, 599, DEBUG, Lame Lowpass filter value: 20500 Hz
+2024-05-26 12:47:08,372, 636, DEBUG, Lame Radio Replay Gain: -10.3 dB (Set automatically)
+2024-05-26 12:47:08,372, 647, DEBUG, Lame Encoding flags: --nspsytune --nssafejoint
+2024-05-26 12:47:08,372, 651, DEBUG, Lame ATH type: 4
+2024-05-26 12:47:08,372, 662, DEBUG, Lame Bitrate (Constant): 255
+2024-05-26 12:47:08,372, 669, DEBUG, Lame Encoder delay: 576 samples
+2024-05-26 12:47:08,372, 670, DEBUG, Lame Encoder padding: 1092 samples
+2024-05-26 12:47:08,372, 683, DEBUG, Lame Source Sample Frequency: 44.1 kHz
+2024-05-26 12:47:08,372, 684, DEBUG, Lame Unwise settings used: False
+2024-05-26 12:47:08,372, 685, DEBUG, Lame Stereo mode: Joint
+2024-05-26 12:47:08,372, 686, DEBUG, Lame Noise Shaping: 1
+2024-05-26 12:47:08,372, 696, DEBUG, Lame MP3 Gain: 0 (+0.0 dB)
+2024-05-26 12:47:08,372, 706, DEBUG, Lame Bitrate (Constant): 320
+2024-05-26 12:47:08,372, 716, DEBUG, Lame Surround Info: None
+2024-05-26 12:47:08,372, 717, DEBUG, Lame Preset: CBR 320
+2024-05-26 12:47:08,373, 722, DEBUG, Lame Music Length: 9810546 bytes
+2024-05-26 12:47:08,373, 727, DEBUG, Lame Music CRC: 65B0
+2024-05-26 12:47:08,373, 732, DEBUG, Lame Info Tag CRC: F590
+2024-05-26 12:47:08,373, 46, INFO, testpack\Dungeontroll - A Gentle Whisper from the Evergarden\Dungeontroll - A Gentle Whisper from the Evergarden - 04 Remnants of Eureliiea Beneath the Crescent Moon.mp3
+2024-05-26 12:47:08,377, 440, DEBUG, Loading file: testpack\Dungeontroll - A Gentle Whisper from the Evergarden\Dungeontroll - A Gentle Whisper from the Evergarden - 05 A Shining Presence Amongst the Stars.mp3
+2024-05-26 12:47:08,377, 449, DEBUG, File mime-type: audio/mpeg
+2024-05-26 12:47:08,377, 69, DEBUG, Located ID3 v2 tag
+2024-05-26 12:47:08,377, 78, DEBUG, TagHeader [major]: 2 
+2024-05-26 12:47:08,377, 79, DEBUG, TagHeader [minor]: 3 
+2024-05-26 12:47:08,377, 80, DEBUG, TagHeader [rev]: 0 
+2024-05-26 12:47:08,377, 93, DEBUG, TagHeader [flags]: unsync(0) extended(0) experimental(0) footer(0)
+2024-05-26 12:47:08,378, 104, DEBUG, TagHeader [size string]: 0x000c2a63
+2024-05-26 12:47:08,378, 108, DEBUG, TagHeader [size]: 202083 (0x31563)
+2024-05-26 12:47:08,378, 1784, DEBUG, size_left: 202083
+2024-05-26 12:47:08,378, 1790, DEBUG, +++++++++++++++++++++++++++++++++++++++++++++++++
+2024-05-26 12:47:08,378, 1791, DEBUG, FrameSet: Reading Frame #1
+2024-05-26 12:47:08,378, 646, DEBUG, FrameHeader [start byte]: 10 (0xA)
+2024-05-26 12:47:08,378, 654, DEBUG, FrameHeader [id]: b'TIT2' (0x54495432)
+2024-05-26 12:47:08,378, 666, DEBUG, FrameHeader [data size]: 77 (0x4D)
+2024-05-26 12:47:08,378, 673, DEBUG, FrameHeader [flags]: ta(0) fa(0) ro(0) co(0) en(0) gr(0) un(0) dl(0)
+2024-05-26 12:47:08,378, 1801, DEBUG, FrameSet: Reading 77 (0x4D) bytes of data from byte pos 20 (0x14)
+2024-05-26 12:47:08,378, 1808, DEBUG, FrameSet: 77 bytes of data read
+2024-05-26 12:47:08,378, 1905, DEBUG, createFrame (desc:Title/songname/content description) - (2, None, None) - <class 'eyed3.id3.frames.TextFrame'>
+2024-05-26 12:47:08,378, 1913, DEBUG, createFrame 'b'TIT2'' with class '<class 'eyed3.id3.frames.TextFrame'>'
+2024-05-26 12:47:08,378, 1928, DEBUG, Unicode encoding: utf_16
+2024-05-26 12:47:08,378, 309, DEBUG, TextFrame text: A Shining Presence Amongst the Stars
+2024-05-26 12:47:08,378, 1784, DEBUG, size_left: 201996
+2024-05-26 12:47:08,378, 1790, DEBUG, +++++++++++++++++++++++++++++++++++++++++++++++++
+2024-05-26 12:47:08,378, 1791, DEBUG, FrameSet: Reading Frame #2
+2024-05-26 12:47:08,378, 646, DEBUG, FrameHeader [start byte]: 97 (0x61)
+2024-05-26 12:47:08,378, 654, DEBUG, FrameHeader [id]: b'TPE1' (0x54504531)
+2024-05-26 12:47:08,378, 666, DEBUG, FrameHeader [data size]: 29 (0x1D)
+2024-05-26 12:47:08,378, 673, DEBUG, FrameHeader [flags]: ta(0) fa(0) ro(0) co(0) en(0) gr(0) un(0) dl(0)
+2024-05-26 12:47:08,378, 1801, DEBUG, FrameSet: Reading 29 (0x1D) bytes of data from byte pos 107 (0x6B)
+2024-05-26 12:47:08,378, 1808, DEBUG, FrameSet: 29 bytes of data read
+2024-05-26 12:47:08,378, 1905, DEBUG, createFrame (desc:Lead performer(s)/Soloist(s)) - (2, None, None) - <class 'eyed3.id3.frames.TextFrame'>
+2024-05-26 12:47:08,378, 1913, DEBUG, createFrame 'b'TPE1'' with class '<class 'eyed3.id3.frames.TextFrame'>'
+2024-05-26 12:47:08,378, 1928, DEBUG, Unicode encoding: utf_16
+2024-05-26 12:47:08,378, 309, DEBUG, TextFrame text: Dungeontroll
+2024-05-26 12:47:08,378, 1784, DEBUG, size_left: 201957
+2024-05-26 12:47:08,378, 1790, DEBUG, +++++++++++++++++++++++++++++++++++++++++++++++++
+2024-05-26 12:47:08,378, 1791, DEBUG, FrameSet: Reading Frame #3
+2024-05-26 12:47:08,378, 646, DEBUG, FrameHeader [start byte]: 136 (0x88)
+2024-05-26 12:47:08,378, 654, DEBUG, FrameHeader [id]: b'TRCK' (0x5452434b)
+2024-05-26 12:47:08,378, 666, DEBUG, FrameHeader [data size]: 7 (0x7)
+2024-05-26 12:47:08,378, 673, DEBUG, FrameHeader [flags]: ta(0) fa(0) ro(0) co(0) en(0) gr(0) un(0) dl(0)
+2024-05-26 12:47:08,378, 1801, DEBUG, FrameSet: Reading 7 (0x7) bytes of data from byte pos 146 (0x92)
+2024-05-26 12:47:08,378, 1808, DEBUG, FrameSet: 7 bytes of data read
+2024-05-26 12:47:08,378, 1905, DEBUG, createFrame (desc:Track number/Position in set) - (2, None, None) - <class 'eyed3.id3.frames.TextFrame'>
+2024-05-26 12:47:08,378, 1913, DEBUG, createFrame 'b'TRCK'' with class '<class 'eyed3.id3.frames.TextFrame'>'
+2024-05-26 12:47:08,378, 1928, DEBUG, Unicode encoding: utf_16
+2024-05-26 12:47:08,378, 309, DEBUG, TextFrame text: 5
+2024-05-26 12:47:08,378, 1784, DEBUG, size_left: 201940
+2024-05-26 12:47:08,378, 1790, DEBUG, +++++++++++++++++++++++++++++++++++++++++++++++++
+2024-05-26 12:47:08,378, 1791, DEBUG, FrameSet: Reading Frame #4
+2024-05-26 12:47:08,378, 646, DEBUG, FrameHeader [start byte]: 153 (0x99)
+2024-05-26 12:47:08,378, 654, DEBUG, FrameHeader [id]: b'TALB' (0x54414c42)
+2024-05-26 12:47:08,379, 666, DEBUG, FrameHeader [data size]: 77 (0x4D)
+2024-05-26 12:47:08,379, 673, DEBUG, FrameHeader [flags]: ta(0) fa(0) ro(0) co(0) en(0) gr(0) un(0) dl(0)
+2024-05-26 12:47:08,379, 1801, DEBUG, FrameSet: Reading 77 (0x4D) bytes of data from byte pos 163 (0xA3)
+2024-05-26 12:47:08,379, 1808, DEBUG, FrameSet: 77 bytes of data read
+2024-05-26 12:47:08,379, 1905, DEBUG, createFrame (desc:Album/Movie/Show title) - (2, None, None) - <class 'eyed3.id3.frames.TextFrame'>
+2024-05-26 12:47:08,379, 1913, DEBUG, createFrame 'b'TALB'' with class '<class 'eyed3.id3.frames.TextFrame'>'
+2024-05-26 12:47:08,379, 1928, DEBUG, Unicode encoding: utf_16
+2024-05-26 12:47:08,379, 309, DEBUG, TextFrame text: A Gentle Whisper from the Evergarden
+2024-05-26 12:47:08,379, 1784, DEBUG, size_left: 201853
+2024-05-26 12:47:08,379, 1790, DEBUG, +++++++++++++++++++++++++++++++++++++++++++++++++
+2024-05-26 12:47:08,379, 1791, DEBUG, FrameSet: Reading Frame #5
+2024-05-26 12:47:08,379, 646, DEBUG, FrameHeader [start byte]: 240 (0xF0)
+2024-05-26 12:47:08,379, 654, DEBUG, FrameHeader [id]: b'TYER' (0x54594552)
+2024-05-26 12:47:08,379, 666, DEBUG, FrameHeader [data size]: 13 (0xD)
+2024-05-26 12:47:08,379, 673, DEBUG, FrameHeader [flags]: ta(0) fa(0) ro(0) co(0) en(0) gr(0) un(0) dl(0)
+2024-05-26 12:47:08,379, 1801, DEBUG, FrameSet: Reading 13 (0xD) bytes of data from byte pos 250 (0xFA)
+2024-05-26 12:47:08,379, 1808, DEBUG, FrameSet: 13 bytes of data read
+2024-05-26 12:47:08,379, 1905, DEBUG, createFrame (desc:Year) - (2, 3, 0) - <class 'eyed3.id3.frames.DateFrame'>
+2024-05-26 12:47:08,379, 1913, DEBUG, createFrame 'b'TYER'' with class '<class 'eyed3.id3.frames.DateFrame'>'
+2024-05-26 12:47:08,379, 1928, DEBUG, Unicode encoding: utf_16
+2024-05-26 12:47:08,379, 309, DEBUG, TextFrame text: 2024
+2024-05-26 12:47:08,379, 1784, DEBUG, size_left: 201830
+2024-05-26 12:47:08,379, 1790, DEBUG, +++++++++++++++++++++++++++++++++++++++++++++++++
+2024-05-26 12:47:08,379, 1791, DEBUG, FrameSet: Reading Frame #6
+2024-05-26 12:47:08,379, 646, DEBUG, FrameHeader [start byte]: 263 (0x107)
+2024-05-26 12:47:08,379, 654, DEBUG, FrameHeader [id]: b'TPE2' (0x54504532)
+2024-05-26 12:47:08,379, 666, DEBUG, FrameHeader [data size]: 29 (0x1D)
+2024-05-26 12:47:08,379, 673, DEBUG, FrameHeader [flags]: ta(0) fa(0) ro(0) co(0) en(0) gr(0) un(0) dl(0)
+2024-05-26 12:47:08,379, 1801, DEBUG, FrameSet: Reading 29 (0x1D) bytes of data from byte pos 273 (0x111)
+2024-05-26 12:47:08,379, 1808, DEBUG, FrameSet: 29 bytes of data read
+2024-05-26 12:47:08,379, 1905, DEBUG, createFrame (desc:Band/orchestra/accompaniment) - (2, None, None) - <class 'eyed3.id3.frames.TextFrame'>
+2024-05-26 12:47:08,379, 1913, DEBUG, createFrame 'b'TPE2'' with class '<class 'eyed3.id3.frames.TextFrame'>'
+2024-05-26 12:47:08,379, 1928, DEBUG, Unicode encoding: utf_16
+2024-05-26 12:47:08,379, 309, DEBUG, TextFrame text: Dungeontroll
+2024-05-26 12:47:08,379, 1784, DEBUG, size_left: 201791
+2024-05-26 12:47:08,379, 1790, DEBUG, +++++++++++++++++++++++++++++++++++++++++++++++++
+2024-05-26 12:47:08,379, 1791, DEBUG, FrameSet: Reading Frame #7
+2024-05-26 12:47:08,379, 646, DEBUG, FrameHeader [start byte]: 302 (0x12E)
+2024-05-26 12:47:08,379, 654, DEBUG, FrameHeader [id]: b'COMM' (0x434f4d4d)
+2024-05-26 12:47:08,379, 666, DEBUG, FrameHeader [data size]: 106 (0x6A)
+2024-05-26 12:47:08,379, 673, DEBUG, FrameHeader [flags]: ta(0) fa(0) ro(0) co(0) en(0) gr(0) un(0) dl(0)
+2024-05-26 12:47:08,379, 1801, DEBUG, FrameSet: Reading 106 (0x6A) bytes of data from byte pos 312 (0x138)
+2024-05-26 12:47:08,379, 1808, DEBUG, FrameSet: 106 bytes of data read
+2024-05-26 12:47:08,379, 1905, DEBUG, createFrame (desc:Comments) - (2, None, None) - <class 'eyed3.id3.frames.CommentFrame'>
+2024-05-26 12:47:08,379, 1913, DEBUG, createFrame 'b'COMM'' with class '<class 'eyed3.id3.frames.CommentFrame'>'
+2024-05-26 12:47:08,379, 1147, DEBUG, b'COMM' lang: b'eng'
+2024-05-26 12:47:08,379, 1928, DEBUG, Unicode encoding: utf_16
+2024-05-26 12:47:08,379, 1152, DEBUG, b'COMM' description: 
+2024-05-26 12:47:08,379, 1928, DEBUG, Unicode encoding: utf_16
+2024-05-26 12:47:08,379, 1154, DEBUG, b'COMM' text: Visit https://serpentsswordrecords.bandcamp.com
+2024-05-26 12:47:08,379, 1784, DEBUG, size_left: 201675
+2024-05-26 12:47:08,379, 1790, DEBUG, +++++++++++++++++++++++++++++++++++++++++++++++++
+2024-05-26 12:47:08,379, 1791, DEBUG, FrameSet: Reading Frame #8
+2024-05-26 12:47:08,379, 646, DEBUG, FrameHeader [start byte]: 418 (0x1A2)
+2024-05-26 12:47:08,379, 654, DEBUG, FrameHeader [id]: b'APIC' (0x41504943)
+2024-05-26 12:47:08,379, 666, DEBUG, FrameHeader [data size]: 189467 (0x2E41B)
+2024-05-26 12:47:08,379, 673, DEBUG, FrameHeader [flags]: ta(0) fa(0) ro(0) co(0) en(0) gr(0) un(0) dl(0)
+2024-05-26 12:47:08,379, 1801, DEBUG, FrameSet: Reading 189467 (0x2E41B) bytes of data from byte pos 428 (0x1AC)
+2024-05-26 12:47:08,379, 1808, DEBUG, FrameSet: 189467 bytes of data read
+2024-05-26 12:47:08,379, 1905, DEBUG, createFrame (desc:Attached picture) - (2, None, None) - <class 'eyed3.id3.frames.ImageFrame'>
+2024-05-26 12:47:08,379, 1913, DEBUG, createFrame 'b'APIC'' with class '<class 'eyed3.id3.frames.ImageFrame'>'
+2024-05-26 12:47:08,380, 591, DEBUG, APIC frame data size: 189467
+2024-05-26 12:47:08,380, 604, DEBUG, APIC mime type: b'image/jpeg'
+2024-05-26 12:47:08,380, 613, DEBUG, Initial APIC picture type: 3
+2024-05-26 12:47:08,380, 620, DEBUG, APIC picture type: 3
+2024-05-26 12:47:08,380, 629, DEBUG, description len: 12
+2024-05-26 12:47:08,380, 630, DEBUG, image len: 189440
+2024-05-26 12:47:08,380, 1928, DEBUG, Unicode encoding: utf_16
+2024-05-26 12:47:08,380, 632, DEBUG, APIC description: cover
+2024-05-26 12:47:08,380, 642, DEBUG, APIC image data: 189440 bytes
+2024-05-26 12:47:08,380, 1784, DEBUG, size_left: 12198
+2024-05-26 12:47:08,380, 1790, DEBUG, +++++++++++++++++++++++++++++++++++++++++++++++++
+2024-05-26 12:47:08,380, 1791, DEBUG, FrameSet: Reading Frame #9
+2024-05-26 12:47:08,380, 646, DEBUG, FrameHeader [start byte]: 189895 (0x2E5C7)
+2024-05-26 12:47:08,380, 687, DEBUG, FrameHeader: Null frame id found at byte 189899
+2024-05-26 12:47:08,380, 1794, DEBUG, No frame found, implied padding of 12198 bytes
+2024-05-26 12:47:08,380, 133, DEBUG, Tag contains 12198 bytes of padding.
+2024-05-26 12:47:08,380, 40, DEBUG, mp3 header search starting @ 3156d
+2024-05-26 12:47:08,380, 250, DEBUG, MPEG audio version: 1.0
+2024-05-26 12:47:08,380, 251, DEBUG, MPEG audio layer: III
+2024-05-26 12:47:08,380, 252, DEBUG, MPEG sampling frequency: 44100
+2024-05-26 12:47:08,380, 253, DEBUG, MPEG bit rate: 320
+2024-05-26 12:47:08,380, 254, DEBUG, MPEG channel mode: Joint stereo
+2024-05-26 12:47:08,380, 255, DEBUG, MPEG channel mode extension: 0
+2024-05-26 12:47:08,380, 256, DEBUG, MPEG CRC error protection: False
+2024-05-26 12:47:08,380, 257, DEBUG, MPEG original: 1
+2024-05-26 12:47:08,380, 258, DEBUG, MPEG copyright: 0
+2024-05-26 12:47:08,380, 259, DEBUG, MPEG private bit: 0
+2024-05-26 12:47:08,380, 260, DEBUG, MPEG padding: 0
+2024-05-26 12:47:08,380, 261, DEBUG, MPEG emphasis: None
+2024-05-26 12:47:08,380, 262, DEBUG, MPEG frame length: 1044
+2024-05-26 12:47:08,380, 67, DEBUG, mp3 header fffbe044 found at position: 0x3156d
+2024-05-26 12:47:08,380, 337, DEBUG, b'Info' header detected @ 24
+2024-05-26 12:47:08,380, 343, DEBUG, b'Info' header flags: 0xf
+2024-05-26 12:47:08,380, 349, DEBUG, b'Info' numFrames: 10693
+2024-05-26 12:47:08,380, 355, DEBUG, b'Info' numBytes: 11174137
+2024-05-26 12:47:08,380, 361, DEBUG, b'Info' TOC (100 bytes): PRESENT
+2024-05-26 12:47:08,380, 573, DEBUG, Lame info tag found at position 156
+2024-05-26 12:47:08,380, 580, DEBUG, Lame tag CRC OK
+2024-05-26 12:47:08,380, 585, DEBUG, Lame Encoder Version: LAME3.99r
+2024-05-26 12:47:08,380, 592, DEBUG, Lame info tag version: 0
+2024-05-26 12:47:08,380, 593, DEBUG, Lame VBR method: Constant Bitrate
+2024-05-26 12:47:08,381, 599, DEBUG, Lame Lowpass filter value: 20500 Hz
+2024-05-26 12:47:08,381, 636, DEBUG, Lame Radio Replay Gain: -9.1 dB (Set automatically)
+2024-05-26 12:47:08,381, 647, DEBUG, Lame Encoding flags: --nspsytune --nssafejoint
+2024-05-26 12:47:08,381, 651, DEBUG, Lame ATH type: 4
+2024-05-26 12:47:08,381, 662, DEBUG, Lame Bitrate (Constant): 255
+2024-05-26 12:47:08,381, 669, DEBUG, Lame Encoder delay: 576 samples
+2024-05-26 12:47:08,381, 670, DEBUG, Lame Encoder padding: 950 samples
+2024-05-26 12:47:08,381, 683, DEBUG, Lame Source Sample Frequency: 44.1 kHz
+2024-05-26 12:47:08,381, 684, DEBUG, Lame Unwise settings used: False
+2024-05-26 12:47:08,381, 685, DEBUG, Lame Stereo mode: Joint
+2024-05-26 12:47:08,381, 686, DEBUG, Lame Noise Shaping: 1
+2024-05-26 12:47:08,381, 696, DEBUG, Lame MP3 Gain: 0 (+0.0 dB)
+2024-05-26 12:47:08,381, 706, DEBUG, Lame Bitrate (Constant): 320
+2024-05-26 12:47:08,381, 716, DEBUG, Lame Surround Info: None
+2024-05-26 12:47:08,381, 717, DEBUG, Lame Preset: CBR 320
+2024-05-26 12:47:08,381, 722, DEBUG, Lame Music Length: 11174137 bytes
+2024-05-26 12:47:08,381, 727, DEBUG, Lame Music CRC: 3AF2
+2024-05-26 12:47:08,381, 732, DEBUG, Lame Info Tag CRC: F9CC
+2024-05-26 12:47:08,381, 46, INFO, testpack\Dungeontroll - A Gentle Whisper from the Evergarden\Dungeontroll - A Gentle Whisper from the Evergarden - 05 A Shining Presence Amongst the Stars.mp3
+2024-05-26 12:47:08,384, 41, DEBUG, ['testpack\\RUNA & Fen Lume - Ringwraiths (split)\\RUNA & Fen Lume - Ringwraiths (split) - 01 RUNA - From the Dark Abyss.mp3', 'testpack\\RUNA & Fen Lume - Ringwraiths (split)\\RUNA & Fen Lume - Ringwraiths (split) - 02 RUNA - Riders.mp3', 'testpack\\RUNA & Fen Lume - Ringwraiths (split)\\RUNA & Fen Lume - Ringwraiths (split) - 03 RUNA - Ringwraiths.mp3', 'testpack\\RUNA & Fen Lume - Ringwraiths (split)\\RUNA & Fen Lume - Ringwraiths (split) - 04 RUNA - Where the Shadows Lie.mp3', 'testpack\\RUNA & Fen Lume - Ringwraiths (split)\\RUNA & Fen Lume - Ringwraiths (split) - 05 RUNA - Into the Dark Abyss.mp3', 'testpack\\RUNA & Fen Lume - Ringwraiths (split)\\RUNA & Fen Lume - Ringwraiths (split) - 06 Fen Lume - the Falls of Rauros.mp3', 'testpack\\RUNA & Fen Lume - Ringwraiths (split)\\RUNA & Fen Lume - Ringwraiths (split) - 07 Fen Lume - Dor Daedeloth.mp3', 'testpack\\RUNA & Fen Lume - Ringwraiths (split)\\RUNA & Fen Lume - Ringwraiths (split) - 08 Fen Lume - Ekkaia.mp3', 'testpack\\RUNA & Fen Lume - Ringwraiths (split)\\RUNA & Fen Lume - Ringwraiths (split) - 09 Fen Lume - Untrodden Halls at the Roots of the Earth.mp3']
+2024-05-26 12:47:08,385, 440, DEBUG, Loading file: testpack\RUNA & Fen Lume - Ringwraiths (split)\RUNA & Fen Lume - Ringwraiths (split) - 01 RUNA - From the Dark Abyss.mp3
+2024-05-26 12:47:08,385, 449, DEBUG, File mime-type: audio/mpeg
+2024-05-26 12:47:08,385, 69, DEBUG, Located ID3 v2 tag
+2024-05-26 12:47:08,385, 78, DEBUG, TagHeader [major]: 2 
+2024-05-26 12:47:08,386, 79, DEBUG, TagHeader [minor]: 3 
+2024-05-26 12:47:08,386, 80, DEBUG, TagHeader [rev]: 0 
+2024-05-26 12:47:08,386, 93, DEBUG, TagHeader [flags]: unsync(0) extended(0) experimental(0) footer(0)
+2024-05-26 12:47:08,386, 104, DEBUG, TagHeader [size string]: 0x00086762
+2024-05-26 12:47:08,386, 108, DEBUG, TagHeader [size]: 144354 (0x233e2)
+2024-05-26 12:47:08,386, 1784, DEBUG, size_left: 144354
+2024-05-26 12:47:08,386, 1790, DEBUG, +++++++++++++++++++++++++++++++++++++++++++++++++
+2024-05-26 12:47:08,386, 1791, DEBUG, FrameSet: Reading Frame #1
+2024-05-26 12:47:08,386, 646, DEBUG, FrameHeader [start byte]: 10 (0xA)
+2024-05-26 12:47:08,386, 654, DEBUG, FrameHeader [id]: b'TIT2' (0x54495432)
+2024-05-26 12:47:08,386, 666, DEBUG, FrameHeader [data size]: 57 (0x39)
+2024-05-26 12:47:08,386, 673, DEBUG, FrameHeader [flags]: ta(0) fa(0) ro(0) co(0) en(0) gr(0) un(0) dl(0)
+2024-05-26 12:47:08,386, 1801, DEBUG, FrameSet: Reading 57 (0x39) bytes of data from byte pos 20 (0x14)
+2024-05-26 12:47:08,386, 1808, DEBUG, FrameSet: 57 bytes of data read
+2024-05-26 12:47:08,386, 1905, DEBUG, createFrame (desc:Title/songname/content description) - (2, None, None) - <class 'eyed3.id3.frames.TextFrame'>
+2024-05-26 12:47:08,386, 1913, DEBUG, createFrame 'b'TIT2'' with class '<class 'eyed3.id3.frames.TextFrame'>'
+2024-05-26 12:47:08,386, 1928, DEBUG, Unicode encoding: utf_16
+2024-05-26 12:47:08,386, 309, DEBUG, TextFrame text: RUNA - From the Dark Abyss
+2024-05-26 12:47:08,386, 1784, DEBUG, size_left: 144287
+2024-05-26 12:47:08,386, 1790, DEBUG, +++++++++++++++++++++++++++++++++++++++++++++++++
+2024-05-26 12:47:08,386, 1791, DEBUG, FrameSet: Reading Frame #2
+2024-05-26 12:47:08,386, 646, DEBUG, FrameHeader [start byte]: 77 (0x4D)
+2024-05-26 12:47:08,386, 654, DEBUG, FrameHeader [id]: b'TPE1' (0x54504531)
+2024-05-26 12:47:08,386, 666, DEBUG, FrameHeader [data size]: 35 (0x23)
+2024-05-26 12:47:08,386, 673, DEBUG, FrameHeader [flags]: ta(0) fa(0) ro(0) co(0) en(0) gr(0) un(0) dl(0)
+2024-05-26 12:47:08,386, 1801, DEBUG, FrameSet: Reading 35 (0x23) bytes of data from byte pos 87 (0x57)
+2024-05-26 12:47:08,386, 1808, DEBUG, FrameSet: 35 bytes of data read
+2024-05-26 12:47:08,386, 1905, DEBUG, createFrame (desc:Lead performer(s)/Soloist(s)) - (2, None, None) - <class 'eyed3.id3.frames.TextFrame'>
+2024-05-26 12:47:08,386, 1913, DEBUG, createFrame 'b'TPE1'' with class '<class 'eyed3.id3.frames.TextFrame'>'
+2024-05-26 12:47:08,386, 1928, DEBUG, Unicode encoding: utf_16
+2024-05-26 12:47:08,386, 309, DEBUG, TextFrame text: RUNA & Fen Lume
+2024-05-26 12:47:08,386, 1784, DEBUG, size_left: 144242
+2024-05-26 12:47:08,386, 1790, DEBUG, +++++++++++++++++++++++++++++++++++++++++++++++++
+2024-05-26 12:47:08,386, 1791, DEBUG, FrameSet: Reading Frame #3
+2024-05-26 12:47:08,386, 646, DEBUG, FrameHeader [start byte]: 122 (0x7A)
+2024-05-26 12:47:08,386, 654, DEBUG, FrameHeader [id]: b'TRCK' (0x5452434b)
+2024-05-26 12:47:08,386, 666, DEBUG, FrameHeader [data size]: 7 (0x7)
+2024-05-26 12:47:08,386, 673, DEBUG, FrameHeader [flags]: ta(0) fa(0) ro(0) co(0) en(0) gr(0) un(0) dl(0)
+2024-05-26 12:47:08,386, 1801, DEBUG, FrameSet: Reading 7 (0x7) bytes of data from byte pos 132 (0x84)
+2024-05-26 12:47:08,386, 1808, DEBUG, FrameSet: 7 bytes of data read
+2024-05-26 12:47:08,386, 1905, DEBUG, createFrame (desc:Track number/Position in set) - (2, None, None) - <class 'eyed3.id3.frames.TextFrame'>
+2024-05-26 12:47:08,386, 1913, DEBUG, createFrame 'b'TRCK'' with class '<class 'eyed3.id3.frames.TextFrame'>'
+2024-05-26 12:47:08,386, 1928, DEBUG, Unicode encoding: utf_16
+2024-05-26 12:47:08,386, 309, DEBUG, TextFrame text: 1
+2024-05-26 12:47:08,386, 1784, DEBUG, size_left: 144225
+2024-05-26 12:47:08,386, 1790, DEBUG, +++++++++++++++++++++++++++++++++++++++++++++++++
+2024-05-26 12:47:08,386, 1791, DEBUG, FrameSet: Reading Frame #4
+2024-05-26 12:47:08,386, 646, DEBUG, FrameHeader [start byte]: 139 (0x8B)
+2024-05-26 12:47:08,386, 654, DEBUG, FrameHeader [id]: b'TALB' (0x54414c42)
+2024-05-26 12:47:08,386, 666, DEBUG, FrameHeader [data size]: 43 (0x2B)
+2024-05-26 12:47:08,387, 673, DEBUG, FrameHeader [flags]: ta(0) fa(0) ro(0) co(0) en(0) gr(0) un(0) dl(0)
+2024-05-26 12:47:08,387, 1801, DEBUG, FrameSet: Reading 43 (0x2B) bytes of data from byte pos 149 (0x95)
+2024-05-26 12:47:08,387, 1808, DEBUG, FrameSet: 43 bytes of data read
+2024-05-26 12:47:08,387, 1905, DEBUG, createFrame (desc:Album/Movie/Show title) - (2, None, None) - <class 'eyed3.id3.frames.TextFrame'>
+2024-05-26 12:47:08,387, 1913, DEBUG, createFrame 'b'TALB'' with class '<class 'eyed3.id3.frames.TextFrame'>'
+2024-05-26 12:47:08,387, 1928, DEBUG, Unicode encoding: utf_16
+2024-05-26 12:47:08,387, 309, DEBUG, TextFrame text: Ringwraiths (split)
+2024-05-26 12:47:08,387, 1784, DEBUG, size_left: 144172
+2024-05-26 12:47:08,387, 1790, DEBUG, +++++++++++++++++++++++++++++++++++++++++++++++++
+2024-05-26 12:47:08,387, 1791, DEBUG, FrameSet: Reading Frame #5
+2024-05-26 12:47:08,387, 646, DEBUG, FrameHeader [start byte]: 192 (0xC0)
+2024-05-26 12:47:08,387, 654, DEBUG, FrameHeader [id]: b'TYER' (0x54594552)
+2024-05-26 12:47:08,387, 666, DEBUG, FrameHeader [data size]: 13 (0xD)
+2024-05-26 12:47:08,387, 673, DEBUG, FrameHeader [flags]: ta(0) fa(0) ro(0) co(0) en(0) gr(0) un(0) dl(0)
+2024-05-26 12:47:08,387, 1801, DEBUG, FrameSet: Reading 13 (0xD) bytes of data from byte pos 202 (0xCA)
+2024-05-26 12:47:08,387, 1808, DEBUG, FrameSet: 13 bytes of data read
+2024-05-26 12:47:08,387, 1905, DEBUG, createFrame (desc:Year) - (2, 3, 0) - <class 'eyed3.id3.frames.DateFrame'>
+2024-05-26 12:47:08,387, 1913, DEBUG, createFrame 'b'TYER'' with class '<class 'eyed3.id3.frames.DateFrame'>'
+2024-05-26 12:47:08,387, 1928, DEBUG, Unicode encoding: utf_16
+2024-05-26 12:47:08,387, 309, DEBUG, TextFrame text: 2024
+2024-05-26 12:47:08,387, 1784, DEBUG, size_left: 144149
+2024-05-26 12:47:08,387, 1790, DEBUG, +++++++++++++++++++++++++++++++++++++++++++++++++
+2024-05-26 12:47:08,387, 1791, DEBUG, FrameSet: Reading Frame #6
+2024-05-26 12:47:08,387, 646, DEBUG, FrameHeader [start byte]: 215 (0xD7)
+2024-05-26 12:47:08,387, 654, DEBUG, FrameHeader [id]: b'TPE2' (0x54504532)
+2024-05-26 12:47:08,387, 666, DEBUG, FrameHeader [data size]: 35 (0x23)
+2024-05-26 12:47:08,387, 673, DEBUG, FrameHeader [flags]: ta(0) fa(0) ro(0) co(0) en(0) gr(0) un(0) dl(0)
+2024-05-26 12:47:08,387, 1801, DEBUG, FrameSet: Reading 35 (0x23) bytes of data from byte pos 225 (0xE1)
+2024-05-26 12:47:08,387, 1808, DEBUG, FrameSet: 35 bytes of data read
+2024-05-26 12:47:08,387, 1905, DEBUG, createFrame (desc:Band/orchestra/accompaniment) - (2, None, None) - <class 'eyed3.id3.frames.TextFrame'>
+2024-05-26 12:47:08,387, 1913, DEBUG, createFrame 'b'TPE2'' with class '<class 'eyed3.id3.frames.TextFrame'>'
+2024-05-26 12:47:08,387, 1928, DEBUG, Unicode encoding: utf_16
+2024-05-26 12:47:08,387, 309, DEBUG, TextFrame text: RUNA & Fen Lume
+2024-05-26 12:47:08,387, 1784, DEBUG, size_left: 144104
+2024-05-26 12:47:08,387, 1790, DEBUG, +++++++++++++++++++++++++++++++++++++++++++++++++
+2024-05-26 12:47:08,387, 1791, DEBUG, FrameSet: Reading Frame #7
+2024-05-26 12:47:08,387, 646, DEBUG, FrameHeader [start byte]: 260 (0x104)
+2024-05-26 12:47:08,387, 654, DEBUG, FrameHeader [id]: b'COMM' (0x434f4d4d)
+2024-05-26 12:47:08,387, 666, DEBUG, FrameHeader [data size]: 80 (0x50)
+2024-05-26 12:47:08,388, 673, DEBUG, FrameHeader [flags]: ta(0) fa(0) ro(0) co(0) en(0) gr(0) un(0) dl(0)
+2024-05-26 12:47:08,388, 1801, DEBUG, FrameSet: Reading 80 (0x50) bytes of data from byte pos 270 (0x10E)
+2024-05-26 12:47:08,388, 1808, DEBUG, FrameSet: 80 bytes of data read
+2024-05-26 12:47:08,388, 1905, DEBUG, createFrame (desc:Comments) - (2, None, None) - <class 'eyed3.id3.frames.CommentFrame'>
+2024-05-26 12:47:08,388, 1913, DEBUG, createFrame 'b'COMM'' with class '<class 'eyed3.id3.frames.CommentFrame'>'
+2024-05-26 12:47:08,388, 1147, DEBUG, b'COMM' lang: b'eng'
+2024-05-26 12:47:08,388, 1928, DEBUG, Unicode encoding: utf_16
+2024-05-26 12:47:08,388, 1152, DEBUG, b'COMM' description: 
+2024-05-26 12:47:08,388, 1928, DEBUG, Unicode encoding: utf_16
+2024-05-26 12:47:08,388, 1154, DEBUG, b'COMM' text: Visit https://fenlume.bandcamp.com
+2024-05-26 12:47:08,388, 1784, DEBUG, size_left: 144014
+2024-05-26 12:47:08,388, 1790, DEBUG, +++++++++++++++++++++++++++++++++++++++++++++++++
+2024-05-26 12:47:08,388, 1791, DEBUG, FrameSet: Reading Frame #8
+2024-05-26 12:47:08,388, 646, DEBUG, FrameHeader [start byte]: 350 (0x15E)
+2024-05-26 12:47:08,388, 654, DEBUG, FrameHeader [id]: b'APIC' (0x41504943)
+2024-05-26 12:47:08,388, 666, DEBUG, FrameHeader [data size]: 139276 (0x2200C)
+2024-05-26 12:47:08,388, 673, DEBUG, FrameHeader [flags]: ta(0) fa(0) ro(0) co(0) en(0) gr(0) un(0) dl(0)
+2024-05-26 12:47:08,388, 1801, DEBUG, FrameSet: Reading 139276 (0x2200C) bytes of data from byte pos 360 (0x168)
+2024-05-26 12:47:08,388, 1808, DEBUG, FrameSet: 139276 bytes of data read
+2024-05-26 12:47:08,388, 1905, DEBUG, createFrame (desc:Attached picture) - (2, None, None) - <class 'eyed3.id3.frames.ImageFrame'>
+2024-05-26 12:47:08,388, 1913, DEBUG, createFrame 'b'APIC'' with class '<class 'eyed3.id3.frames.ImageFrame'>'
+2024-05-26 12:47:08,388, 591, DEBUG, APIC frame data size: 139276
+2024-05-26 12:47:08,388, 604, DEBUG, APIC mime type: b'image/jpeg'
+2024-05-26 12:47:08,388, 613, DEBUG, Initial APIC picture type: 3
+2024-05-26 12:47:08,388, 620, DEBUG, APIC picture type: 3
+2024-05-26 12:47:08,388, 629, DEBUG, description len: 12
+2024-05-26 12:47:08,388, 630, DEBUG, image len: 139249
+2024-05-26 12:47:08,388, 1928, DEBUG, Unicode encoding: utf_16
+2024-05-26 12:47:08,388, 632, DEBUG, APIC description: cover
+2024-05-26 12:47:08,388, 642, DEBUG, APIC image data: 139249 bytes
+2024-05-26 12:47:08,388, 1784, DEBUG, size_left: 4728
+2024-05-26 12:47:08,388, 1790, DEBUG, +++++++++++++++++++++++++++++++++++++++++++++++++
+2024-05-26 12:47:08,388, 1791, DEBUG, FrameSet: Reading Frame #9
+2024-05-26 12:47:08,388, 646, DEBUG, FrameHeader [start byte]: 139636 (0x22174)
+2024-05-26 12:47:08,388, 687, DEBUG, FrameHeader: Null frame id found at byte 139640
+2024-05-26 12:47:08,388, 1794, DEBUG, No frame found, implied padding of 4728 bytes
+2024-05-26 12:47:08,388, 133, DEBUG, Tag contains 4728 bytes of padding.
+2024-05-26 12:47:08,388, 40, DEBUG, mp3 header search starting @ 233ec
+2024-05-26 12:47:08,388, 250, DEBUG, MPEG audio version: 1.0
+2024-05-26 12:47:08,388, 251, DEBUG, MPEG audio layer: III
+2024-05-26 12:47:08,388, 252, DEBUG, MPEG sampling frequency: 44100
+2024-05-26 12:47:08,389, 253, DEBUG, MPEG bit rate: 320
+2024-05-26 12:47:08,389, 254, DEBUG, MPEG channel mode: Joint stereo
+2024-05-26 12:47:08,389, 255, DEBUG, MPEG channel mode extension: 2
+2024-05-26 12:47:08,389, 256, DEBUG, MPEG CRC error protection: False
+2024-05-26 12:47:08,389, 257, DEBUG, MPEG original: 1
+2024-05-26 12:47:08,389, 258, DEBUG, MPEG copyright: 0
+2024-05-26 12:47:08,389, 259, DEBUG, MPEG private bit: 0
+2024-05-26 12:47:08,389, 260, DEBUG, MPEG padding: 0
+2024-05-26 12:47:08,389, 261, DEBUG, MPEG emphasis: None
+2024-05-26 12:47:08,389, 262, DEBUG, MPEG frame length: 1044
+2024-05-26 12:47:08,389, 67, DEBUG, mp3 header fffbe064 found at position: 0x233ec
+2024-05-26 12:47:08,389, 337, DEBUG, b'Info' header detected @ 24
+2024-05-26 12:47:08,389, 343, DEBUG, b'Info' header flags: 0xf
+2024-05-26 12:47:08,389, 349, DEBUG, b'Info' numFrames: 3544
+2024-05-26 12:47:08,389, 355, DEBUG, b'Info' numBytes: 3704162
+2024-05-26 12:47:08,389, 361, DEBUG, b'Info' TOC (100 bytes): PRESENT
+2024-05-26 12:47:08,389, 573, DEBUG, Lame info tag found at position 156
+2024-05-26 12:47:08,389, 580, DEBUG, Lame tag CRC OK
+2024-05-26 12:47:08,389, 585, DEBUG, Lame Encoder Version: LAME3.99r
+2024-05-26 12:47:08,389, 592, DEBUG, Lame info tag version: 0
+2024-05-26 12:47:08,389, 593, DEBUG, Lame VBR method: Constant Bitrate
+2024-05-26 12:47:08,389, 599, DEBUG, Lame Lowpass filter value: 20500 Hz
+2024-05-26 12:47:08,389, 636, DEBUG, Lame Radio Replay Gain: -16.0 dB (Set automatically)
+2024-05-26 12:47:08,389, 647, DEBUG, Lame Encoding flags: --nspsytune --nssafejoint
+2024-05-26 12:47:08,389, 651, DEBUG, Lame ATH type: 4
+2024-05-26 12:47:08,389, 662, DEBUG, Lame Bitrate (Constant): 255
+2024-05-26 12:47:08,389, 669, DEBUG, Lame Encoder delay: 576 samples
+2024-05-26 12:47:08,389, 670, DEBUG, Lame Encoder padding: 879 samples
+2024-05-26 12:47:08,389, 683, DEBUG, Lame Source Sample Frequency: 44.1 kHz
+2024-05-26 12:47:08,389, 684, DEBUG, Lame Unwise settings used: False
+2024-05-26 12:47:08,389, 685, DEBUG, Lame Stereo mode: Joint
+2024-05-26 12:47:08,389, 686, DEBUG, Lame Noise Shaping: 1
+2024-05-26 12:47:08,389, 696, DEBUG, Lame MP3 Gain: 0 (+0.0 dB)
+2024-05-26 12:47:08,389, 706, DEBUG, Lame Bitrate (Constant): 320
+2024-05-26 12:47:08,389, 716, DEBUG, Lame Surround Info: None
+2024-05-26 12:47:08,389, 717, DEBUG, Lame Preset: CBR 320
+2024-05-26 12:47:08,389, 722, DEBUG, Lame Music Length: 3704162 bytes
+2024-05-26 12:47:08,389, 727, DEBUG, Lame Music CRC: 73DA
+2024-05-26 12:47:08,389, 732, DEBUG, Lame Info Tag CRC: EF11
+2024-05-26 12:47:08,389, 46, INFO, testpack\RUNA & Fen Lume - Ringwraiths (split)\RUNA & Fen Lume - Ringwraiths (split) - 01 RUNA - From the Dark Abyss.mp3
+2024-05-26 12:47:08,392, 440, DEBUG, Loading file: testpack\RUNA & Fen Lume - Ringwraiths (split)\RUNA & Fen Lume - Ringwraiths (split) - 02 RUNA - Riders.mp3
+2024-05-26 12:47:08,392, 449, DEBUG, File mime-type: audio/mpeg
+2024-05-26 12:47:08,392, 69, DEBUG, Located ID3 v2 tag
+2024-05-26 12:47:08,392, 78, DEBUG, TagHeader [major]: 2 
+2024-05-26 12:47:08,392, 79, DEBUG, TagHeader [minor]: 3 
+2024-05-26 12:47:08,392, 80, DEBUG, TagHeader [rev]: 0 
+2024-05-26 12:47:08,392, 93, DEBUG, TagHeader [flags]: unsync(0) extended(0) experimental(0) footer(0)
+2024-05-26 12:47:08,392, 104, DEBUG, TagHeader [size string]: 0x00086d01
+2024-05-26 12:47:08,392, 108, DEBUG, TagHeader [size]: 145025 (0x23681)
+2024-05-26 12:47:08,392, 1784, DEBUG, size_left: 145025
+2024-05-26 12:47:08,392, 1790, DEBUG, +++++++++++++++++++++++++++++++++++++++++++++++++
+2024-05-26 12:47:08,393, 1791, DEBUG, FrameSet: Reading Frame #1
+2024-05-26 12:47:08,393, 646, DEBUG, FrameHeader [start byte]: 10 (0xA)
+2024-05-26 12:47:08,393, 654, DEBUG, FrameHeader [id]: b'TIT2' (0x54495432)
+2024-05-26 12:47:08,393, 666, DEBUG, FrameHeader [data size]: 31 (0x1F)
+2024-05-26 12:47:08,393, 673, DEBUG, FrameHeader [flags]: ta(0) fa(0) ro(0) co(0) en(0) gr(0) un(0) dl(0)
+2024-05-26 12:47:08,393, 1801, DEBUG, FrameSet: Reading 31 (0x1F) bytes of data from byte pos 20 (0x14)
+2024-05-26 12:47:08,393, 1808, DEBUG, FrameSet: 31 bytes of data read
+2024-05-26 12:47:08,393, 1905, DEBUG, createFrame (desc:Title/songname/content description) - (2, None, None) - <class 'eyed3.id3.frames.TextFrame'>
+2024-05-26 12:47:08,393, 1913, DEBUG, createFrame 'b'TIT2'' with class '<class 'eyed3.id3.frames.TextFrame'>'
+2024-05-26 12:47:08,393, 1928, DEBUG, Unicode encoding: utf_16
+2024-05-26 12:47:08,393, 309, DEBUG, TextFrame text: RUNA - Riders
+2024-05-26 12:47:08,393, 1784, DEBUG, size_left: 144984
+2024-05-26 12:47:08,393, 1790, DEBUG, +++++++++++++++++++++++++++++++++++++++++++++++++
+2024-05-26 12:47:08,393, 1791, DEBUG, FrameSet: Reading Frame #2
+2024-05-26 12:47:08,393, 646, DEBUG, FrameHeader [start byte]: 51 (0x33)
+2024-05-26 12:47:08,393, 654, DEBUG, FrameHeader [id]: b'TPE1' (0x54504531)
+2024-05-26 12:47:08,393, 666, DEBUG, FrameHeader [data size]: 35 (0x23)
+2024-05-26 12:47:08,393, 673, DEBUG, FrameHeader [flags]: ta(0) fa(0) ro(0) co(0) en(0) gr(0) un(0) dl(0)
+2024-05-26 12:47:08,393, 1801, DEBUG, FrameSet: Reading 35 (0x23) bytes of data from byte pos 61 (0x3D)
+2024-05-26 12:47:08,393, 1808, DEBUG, FrameSet: 35 bytes of data read
+2024-05-26 12:47:08,393, 1905, DEBUG, createFrame (desc:Lead performer(s)/Soloist(s)) - (2, None, None) - <class 'eyed3.id3.frames.TextFrame'>
+2024-05-26 12:47:08,393, 1913, DEBUG, createFrame 'b'TPE1'' with class '<class 'eyed3.id3.frames.TextFrame'>'
+2024-05-26 12:47:08,393, 1928, DEBUG, Unicode encoding: utf_16
+2024-05-26 12:47:08,393, 309, DEBUG, TextFrame text: RUNA & Fen Lume
+2024-05-26 12:47:08,393, 1784, DEBUG, size_left: 144939
+2024-05-26 12:47:08,393, 1790, DEBUG, +++++++++++++++++++++++++++++++++++++++++++++++++
+2024-05-26 12:47:08,393, 1791, DEBUG, FrameSet: Reading Frame #3
+2024-05-26 12:47:08,393, 646, DEBUG, FrameHeader [start byte]: 96 (0x60)
+2024-05-26 12:47:08,393, 654, DEBUG, FrameHeader [id]: b'TRCK' (0x5452434b)
+2024-05-26 12:47:08,393, 666, DEBUG, FrameHeader [data size]: 7 (0x7)
+2024-05-26 12:47:08,393, 673, DEBUG, FrameHeader [flags]: ta(0) fa(0) ro(0) co(0) en(0) gr(0) un(0) dl(0)
+2024-05-26 12:47:08,393, 1801, DEBUG, FrameSet: Reading 7 (0x7) bytes of data from byte pos 106 (0x6A)
+2024-05-26 12:47:08,393, 1808, DEBUG, FrameSet: 7 bytes of data read
+2024-05-26 12:47:08,393, 1905, DEBUG, createFrame (desc:Track number/Position in set) - (2, None, None) - <class 'eyed3.id3.frames.TextFrame'>
+2024-05-26 12:47:08,393, 1913, DEBUG, createFrame 'b'TRCK'' with class '<class 'eyed3.id3.frames.TextFrame'>'
+2024-05-26 12:47:08,393, 1928, DEBUG, Unicode encoding: utf_16
+2024-05-26 12:47:08,393, 309, DEBUG, TextFrame text: 2
+2024-05-26 12:47:08,393, 1784, DEBUG, size_left: 144922
+2024-05-26 12:47:08,393, 1790, DEBUG, +++++++++++++++++++++++++++++++++++++++++++++++++
+2024-05-26 12:47:08,393, 1791, DEBUG, FrameSet: Reading Frame #4
+2024-05-26 12:47:08,393, 646, DEBUG, FrameHeader [start byte]: 113 (0x71)
+2024-05-26 12:47:08,393, 654, DEBUG, FrameHeader [id]: b'TALB' (0x54414c42)
+2024-05-26 12:47:08,393, 666, DEBUG, FrameHeader [data size]: 43 (0x2B)
+2024-05-26 12:47:08,393, 673, DEBUG, FrameHeader [flags]: ta(0) fa(0) ro(0) co(0) en(0) gr(0) un(0) dl(0)
+2024-05-26 12:47:08,393, 1801, DEBUG, FrameSet: Reading 43 (0x2B) bytes of data from byte pos 123 (0x7B)
+2024-05-26 12:47:08,393, 1808, DEBUG, FrameSet: 43 bytes of data read
+2024-05-26 12:47:08,393, 1905, DEBUG, createFrame (desc:Album/Movie/Show title) - (2, None, None) - <class 'eyed3.id3.frames.TextFrame'>
+2024-05-26 12:47:08,393, 1913, DEBUG, createFrame 'b'TALB'' with class '<class 'eyed3.id3.frames.TextFrame'>'
+2024-05-26 12:47:08,393, 1928, DEBUG, Unicode encoding: utf_16
+2024-05-26 12:47:08,393, 309, DEBUG, TextFrame text: Ringwraiths (split)
+2024-05-26 12:47:08,393, 1784, DEBUG, size_left: 144869
+2024-05-26 12:47:08,393, 1790, DEBUG, +++++++++++++++++++++++++++++++++++++++++++++++++
+2024-05-26 12:47:08,393, 1791, DEBUG, FrameSet: Reading Frame #5
+2024-05-26 12:47:08,393, 646, DEBUG, FrameHeader [start byte]: 166 (0xA6)
+2024-05-26 12:47:08,393, 654, DEBUG, FrameHeader [id]: b'TYER' (0x54594552)
+2024-05-26 12:47:08,393, 666, DEBUG, FrameHeader [data size]: 13 (0xD)
+2024-05-26 12:47:08,393, 673, DEBUG, FrameHeader [flags]: ta(0) fa(0) ro(0) co(0) en(0) gr(0) un(0) dl(0)
+2024-05-26 12:47:08,393, 1801, DEBUG, FrameSet: Reading 13 (0xD) bytes of data from byte pos 176 (0xB0)
+2024-05-26 12:47:08,394, 1808, DEBUG, FrameSet: 13 bytes of data read
+2024-05-26 12:47:08,394, 1905, DEBUG, createFrame (desc:Year) - (2, 3, 0) - <class 'eyed3.id3.frames.DateFrame'>
+2024-05-26 12:47:08,394, 1913, DEBUG, createFrame 'b'TYER'' with class '<class 'eyed3.id3.frames.DateFrame'>'
+2024-05-26 12:47:08,394, 1928, DEBUG, Unicode encoding: utf_16
+2024-05-26 12:47:08,394, 309, DEBUG, TextFrame text: 2024
+2024-05-26 12:47:08,394, 1784, DEBUG, size_left: 144846
+2024-05-26 12:47:08,394, 1790, DEBUG, +++++++++++++++++++++++++++++++++++++++++++++++++
+2024-05-26 12:47:08,394, 1791, DEBUG, FrameSet: Reading Frame #6
+2024-05-26 12:47:08,394, 646, DEBUG, FrameHeader [start byte]: 189 (0xBD)
+2024-05-26 12:47:08,394, 654, DEBUG, FrameHeader [id]: b'TPE2' (0x54504532)
+2024-05-26 12:47:08,394, 666, DEBUG, FrameHeader [data size]: 35 (0x23)
+2024-05-26 12:47:08,394, 673, DEBUG, FrameHeader [flags]: ta(0) fa(0) ro(0) co(0) en(0) gr(0) un(0) dl(0)
+2024-05-26 12:47:08,394, 1801, DEBUG, FrameSet: Reading 35 (0x23) bytes of data from byte pos 199 (0xC7)
+2024-05-26 12:47:08,394, 1808, DEBUG, FrameSet: 35 bytes of data read
+2024-05-26 12:47:08,394, 1905, DEBUG, createFrame (desc:Band/orchestra/accompaniment) - (2, None, None) - <class 'eyed3.id3.frames.TextFrame'>
+2024-05-26 12:47:08,394, 1913, DEBUG, createFrame 'b'TPE2'' with class '<class 'eyed3.id3.frames.TextFrame'>'
+2024-05-26 12:47:08,394, 1928, DEBUG, Unicode encoding: utf_16
+2024-05-26 12:47:08,394, 309, DEBUG, TextFrame text: RUNA & Fen Lume
+2024-05-26 12:47:08,394, 1784, DEBUG, size_left: 144801
+2024-05-26 12:47:08,394, 1790, DEBUG, +++++++++++++++++++++++++++++++++++++++++++++++++
+2024-05-26 12:47:08,394, 1791, DEBUG, FrameSet: Reading Frame #7
+2024-05-26 12:47:08,394, 646, DEBUG, FrameHeader [start byte]: 234 (0xEA)
+2024-05-26 12:47:08,394, 654, DEBUG, FrameHeader [id]: b'COMM' (0x434f4d4d)
+2024-05-26 12:47:08,394, 666, DEBUG, FrameHeader [data size]: 80 (0x50)
+2024-05-26 12:47:08,394, 673, DEBUG, FrameHeader [flags]: ta(0) fa(0) ro(0) co(0) en(0) gr(0) un(0) dl(0)
+2024-05-26 12:47:08,394, 1801, DEBUG, FrameSet: Reading 80 (0x50) bytes of data from byte pos 244 (0xF4)
+2024-05-26 12:47:08,394, 1808, DEBUG, FrameSet: 80 bytes of data read
+2024-05-26 12:47:08,394, 1905, DEBUG, createFrame (desc:Comments) - (2, None, None) - <class 'eyed3.id3.frames.CommentFrame'>
+2024-05-26 12:47:08,394, 1913, DEBUG, createFrame 'b'COMM'' with class '<class 'eyed3.id3.frames.CommentFrame'>'
+2024-05-26 12:47:08,394, 1147, DEBUG, b'COMM' lang: b'eng'
+2024-05-26 12:47:08,394, 1928, DEBUG, Unicode encoding: utf_16
+2024-05-26 12:47:08,394, 1152, DEBUG, b'COMM' description: 
+2024-05-26 12:47:08,394, 1928, DEBUG, Unicode encoding: utf_16
+2024-05-26 12:47:08,394, 1154, DEBUG, b'COMM' text: Visit https://fenlume.bandcamp.com
+2024-05-26 12:47:08,394, 1784, DEBUG, size_left: 144711
+2024-05-26 12:47:08,394, 1790, DEBUG, +++++++++++++++++++++++++++++++++++++++++++++++++
+2024-05-26 12:47:08,394, 1791, DEBUG, FrameSet: Reading Frame #8
+2024-05-26 12:47:08,394, 646, DEBUG, FrameHeader [start byte]: 324 (0x144)
+2024-05-26 12:47:08,394, 654, DEBUG, FrameHeader [id]: b'APIC' (0x41504943)
+2024-05-26 12:47:08,394, 666, DEBUG, FrameHeader [data size]: 139276 (0x2200C)
+2024-05-26 12:47:08,394, 673, DEBUG, FrameHeader [flags]: ta(0) fa(0) ro(0) co(0) en(0) gr(0) un(0) dl(0)
+2024-05-26 12:47:08,394, 1801, DEBUG, FrameSet: Reading 139276 (0x2200C) bytes of data from byte pos 334 (0x14E)
+2024-05-26 12:47:08,394, 1808, DEBUG, FrameSet: 139276 bytes of data read
+2024-05-26 12:47:08,394, 1905, DEBUG, createFrame (desc:Attached picture) - (2, None, None) - <class 'eyed3.id3.frames.ImageFrame'>
+2024-05-26 12:47:08,394, 1913, DEBUG, createFrame 'b'APIC'' with class '<class 'eyed3.id3.frames.ImageFrame'>'
+2024-05-26 12:47:08,394, 591, DEBUG, APIC frame data size: 139276
+2024-05-26 12:47:08,394, 604, DEBUG, APIC mime type: b'image/jpeg'
+2024-05-26 12:47:08,394, 613, DEBUG, Initial APIC picture type: 3
+2024-05-26 12:47:08,394, 620, DEBUG, APIC picture type: 3
+2024-05-26 12:47:08,395, 629, DEBUG, description len: 12
+2024-05-26 12:47:08,395, 630, DEBUG, image len: 139249
+2024-05-26 12:47:08,395, 1928, DEBUG, Unicode encoding: utf_16
+2024-05-26 12:47:08,395, 632, DEBUG, APIC description: cover
+2024-05-26 12:47:08,395, 642, DEBUG, APIC image data: 139249 bytes
+2024-05-26 12:47:08,395, 1784, DEBUG, size_left: 5425
+2024-05-26 12:47:08,395, 1790, DEBUG, +++++++++++++++++++++++++++++++++++++++++++++++++
+2024-05-26 12:47:08,395, 1791, DEBUG, FrameSet: Reading Frame #9
+2024-05-26 12:47:08,395, 646, DEBUG, FrameHeader [start byte]: 139610 (0x2215A)
+2024-05-26 12:47:08,395, 687, DEBUG, FrameHeader: Null frame id found at byte 139614
+2024-05-26 12:47:08,395, 1794, DEBUG, No frame found, implied padding of 5425 bytes
+2024-05-26 12:47:08,395, 133, DEBUG, Tag contains 5425 bytes of padding.
+2024-05-26 12:47:08,395, 40, DEBUG, mp3 header search starting @ 2368b
+2024-05-26 12:47:08,395, 250, DEBUG, MPEG audio version: 1.0
+2024-05-26 12:47:08,395, 251, DEBUG, MPEG audio layer: III
+2024-05-26 12:47:08,395, 252, DEBUG, MPEG sampling frequency: 44100
+2024-05-26 12:47:08,395, 253, DEBUG, MPEG bit rate: 320
+2024-05-26 12:47:08,395, 254, DEBUG, MPEG channel mode: Joint stereo
+2024-05-26 12:47:08,395, 255, DEBUG, MPEG channel mode extension: 2
+2024-05-26 12:47:08,395, 256, DEBUG, MPEG CRC error protection: False
+2024-05-26 12:47:08,395, 257, DEBUG, MPEG original: 1
+2024-05-26 12:47:08,395, 258, DEBUG, MPEG copyright: 0
+2024-05-26 12:47:08,395, 259, DEBUG, MPEG private bit: 0
+2024-05-26 12:47:08,395, 260, DEBUG, MPEG padding: 0
+2024-05-26 12:47:08,395, 261, DEBUG, MPEG emphasis: None
+2024-05-26 12:47:08,395, 262, DEBUG, MPEG frame length: 1044
+2024-05-26 12:47:08,395, 67, DEBUG, mp3 header fffbe064 found at position: 0x2368b
+2024-05-26 12:47:08,395, 337, DEBUG, b'Info' header detected @ 24
+2024-05-26 12:47:08,395, 343, DEBUG, b'Info' header flags: 0xf
+2024-05-26 12:47:08,395, 349, DEBUG, b'Info' numFrames: 4211
+2024-05-26 12:47:08,395, 355, DEBUG, b'Info' numBytes: 4401109
+2024-05-26 12:47:08,395, 361, DEBUG, b'Info' TOC (100 bytes): PRESENT
+2024-05-26 12:47:08,395, 573, DEBUG, Lame info tag found at position 156
+2024-05-26 12:47:08,395, 580, DEBUG, Lame tag CRC OK
+2024-05-26 12:47:08,395, 585, DEBUG, Lame Encoder Version: LAME3.99r
+2024-05-26 12:47:08,395, 592, DEBUG, Lame info tag version: 0
+2024-05-26 12:47:08,395, 593, DEBUG, Lame VBR method: Constant Bitrate
+2024-05-26 12:47:08,395, 599, DEBUG, Lame Lowpass filter value: 20500 Hz
+2024-05-26 12:47:08,395, 636, DEBUG, Lame Radio Replay Gain: -10.7 dB (Set automatically)
+2024-05-26 12:47:08,395, 647, DEBUG, Lame Encoding flags: --nspsytune --nssafejoint
+2024-05-26 12:47:08,395, 651, DEBUG, Lame ATH type: 4
+2024-05-26 12:47:08,395, 662, DEBUG, Lame Bitrate (Constant): 255
+2024-05-26 12:47:08,395, 669, DEBUG, Lame Encoder delay: 576 samples
+2024-05-26 12:47:08,395, 670, DEBUG, Lame Encoder padding: 1634 samples
+2024-05-26 12:47:08,395, 683, DEBUG, Lame Source Sample Frequency: 44.1 kHz
+2024-05-26 12:47:08,395, 684, DEBUG, Lame Unwise settings used: False
+2024-05-26 12:47:08,395, 685, DEBUG, Lame Stereo mode: Joint
+2024-05-26 12:47:08,395, 686, DEBUG, Lame Noise Shaping: 1
+2024-05-26 12:47:08,395, 696, DEBUG, Lame MP3 Gain: 0 (+0.0 dB)
+2024-05-26 12:47:08,395, 706, DEBUG, Lame Bitrate (Constant): 320
+2024-05-26 12:47:08,395, 716, DEBUG, Lame Surround Info: None
+2024-05-26 12:47:08,395, 717, DEBUG, Lame Preset: CBR 320
+2024-05-26 12:47:08,395, 722, DEBUG, Lame Music Length: 4401109 bytes
+2024-05-26 12:47:08,395, 727, DEBUG, Lame Music CRC: 0F59
+2024-05-26 12:47:08,395, 732, DEBUG, Lame Info Tag CRC: 256C
+2024-05-26 12:47:08,396, 46, INFO, testpack\RUNA & Fen Lume - Ringwraiths (split)\RUNA & Fen Lume - Ringwraiths (split) - 02 RUNA - Riders.mp3
+2024-05-26 12:47:08,399, 440, DEBUG, Loading file: testpack\RUNA & Fen Lume - Ringwraiths (split)\RUNA & Fen Lume - Ringwraiths (split) - 03 RUNA - Ringwraiths.mp3
+2024-05-26 12:47:08,400, 449, DEBUG, File mime-type: audio/mpeg
+2024-05-26 12:47:08,400, 69, DEBUG, Located ID3 v2 tag
+2024-05-26 12:47:08,400, 78, DEBUG, TagHeader [major]: 2 
+2024-05-26 12:47:08,400, 79, DEBUG, TagHeader [minor]: 3 
+2024-05-26 12:47:08,400, 80, DEBUG, TagHeader [rev]: 0 
+2024-05-26 12:47:08,400, 93, DEBUG, TagHeader [flags]: unsync(0) extended(0) experimental(0) footer(0)
+2024-05-26 12:47:08,400, 104, DEBUG, TagHeader [size string]: 0x00087b1c
+2024-05-26 12:47:08,400, 108, DEBUG, TagHeader [size]: 146844 (0x23d9c)
+2024-05-26 12:47:08,400, 1784, DEBUG, size_left: 146844
+2024-05-26 12:47:08,400, 1790, DEBUG, +++++++++++++++++++++++++++++++++++++++++++++++++
+2024-05-26 12:47:08,400, 1791, DEBUG, FrameSet: Reading Frame #1
+2024-05-26 12:47:08,400, 646, DEBUG, FrameHeader [start byte]: 10 (0xA)
+2024-05-26 12:47:08,400, 654, DEBUG, FrameHeader [id]: b'TIT2' (0x54495432)
+2024-05-26 12:47:08,400, 666, DEBUG, FrameHeader [data size]: 41 (0x29)
+2024-05-26 12:47:08,400, 673, DEBUG, FrameHeader [flags]: ta(0) fa(0) ro(0) co(0) en(0) gr(0) un(0) dl(0)
+2024-05-26 12:47:08,400, 1801, DEBUG, FrameSet: Reading 41 (0x29) bytes of data from byte pos 20 (0x14)
+2024-05-26 12:47:08,400, 1808, DEBUG, FrameSet: 41 bytes of data read
+2024-05-26 12:47:08,400, 1905, DEBUG, createFrame (desc:Title/songname/content description) - (2, None, None) - <class 'eyed3.id3.frames.TextFrame'>
+2024-05-26 12:47:08,400, 1913, DEBUG, createFrame 'b'TIT2'' with class '<class 'eyed3.id3.frames.TextFrame'>'
+2024-05-26 12:47:08,400, 1928, DEBUG, Unicode encoding: utf_16
+2024-05-26 12:47:08,400, 309, DEBUG, TextFrame text: RUNA - Ringwraiths
+2024-05-26 12:47:08,400, 1784, DEBUG, size_left: 146793
+2024-05-26 12:47:08,400, 1790, DEBUG, +++++++++++++++++++++++++++++++++++++++++++++++++
+2024-05-26 12:47:08,400, 1791, DEBUG, FrameSet: Reading Frame #2
+2024-05-26 12:47:08,400, 646, DEBUG, FrameHeader [start byte]: 61 (0x3D)
+2024-05-26 12:47:08,400, 654, DEBUG, FrameHeader [id]: b'TPE1' (0x54504531)
+2024-05-26 12:47:08,401, 666, DEBUG, FrameHeader [data size]: 35 (0x23)
+2024-05-26 12:47:08,401, 673, DEBUG, FrameHeader [flags]: ta(0) fa(0) ro(0) co(0) en(0) gr(0) un(0) dl(0)
+2024-05-26 12:47:08,401, 1801, DEBUG, FrameSet: Reading 35 (0x23) bytes of data from byte pos 71 (0x47)
+2024-05-26 12:47:08,401, 1808, DEBUG, FrameSet: 35 bytes of data read
+2024-05-26 12:47:08,401, 1905, DEBUG, createFrame (desc:Lead performer(s)/Soloist(s)) - (2, None, None) - <class 'eyed3.id3.frames.TextFrame'>
+2024-05-26 12:47:08,401, 1913, DEBUG, createFrame 'b'TPE1'' with class '<class 'eyed3.id3.frames.TextFrame'>'
+2024-05-26 12:47:08,401, 1928, DEBUG, Unicode encoding: utf_16
+2024-05-26 12:47:08,401, 309, DEBUG, TextFrame text: RUNA & Fen Lume
+2024-05-26 12:47:08,401, 1784, DEBUG, size_left: 146748
+2024-05-26 12:47:08,401, 1790, DEBUG, +++++++++++++++++++++++++++++++++++++++++++++++++
+2024-05-26 12:47:08,401, 1791, DEBUG, FrameSet: Reading Frame #3
+2024-05-26 12:47:08,401, 646, DEBUG, FrameHeader [start byte]: 106 (0x6A)
+2024-05-26 12:47:08,401, 654, DEBUG, FrameHeader [id]: b'TRCK' (0x5452434b)
+2024-05-26 12:47:08,401, 666, DEBUG, FrameHeader [data size]: 7 (0x7)
+2024-05-26 12:47:08,401, 673, DEBUG, FrameHeader [flags]: ta(0) fa(0) ro(0) co(0) en(0) gr(0) un(0) dl(0)
+2024-05-26 12:47:08,401, 1801, DEBUG, FrameSet: Reading 7 (0x7) bytes of data from byte pos 116 (0x74)
+2024-05-26 12:47:08,401, 1808, DEBUG, FrameSet: 7 bytes of data read
+2024-05-26 12:47:08,401, 1905, DEBUG, createFrame (desc:Track number/Position in set) - (2, None, None) - <class 'eyed3.id3.frames.TextFrame'>
+2024-05-26 12:47:08,401, 1913, DEBUG, createFrame 'b'TRCK'' with class '<class 'eyed3.id3.frames.TextFrame'>'
+2024-05-26 12:47:08,401, 1928, DEBUG, Unicode encoding: utf_16
+2024-05-26 12:47:08,401, 309, DEBUG, TextFrame text: 3
+2024-05-26 12:47:08,401, 1784, DEBUG, size_left: 146731
+2024-05-26 12:47:08,401, 1790, DEBUG, +++++++++++++++++++++++++++++++++++++++++++++++++
+2024-05-26 12:47:08,401, 1791, DEBUG, FrameSet: Reading Frame #4
+2024-05-26 12:47:08,401, 646, DEBUG, FrameHeader [start byte]: 123 (0x7B)
+2024-05-26 12:47:08,401, 654, DEBUG, FrameHeader [id]: b'TALB' (0x54414c42)
+2024-05-26 12:47:08,401, 666, DEBUG, FrameHeader [data size]: 43 (0x2B)
+2024-05-26 12:47:08,401, 673, DEBUG, FrameHeader [flags]: ta(0) fa(0) ro(0) co(0) en(0) gr(0) un(0) dl(0)
+2024-05-26 12:47:08,401, 1801, DEBUG, FrameSet: Reading 43 (0x2B) bytes of data from byte pos 133 (0x85)
+2024-05-26 12:47:08,401, 1808, DEBUG, FrameSet: 43 bytes of data read
+2024-05-26 12:47:08,401, 1905, DEBUG, createFrame (desc:Album/Movie/Show title) - (2, None, None) - <class 'eyed3.id3.frames.TextFrame'>
+2024-05-26 12:47:08,401, 1913, DEBUG, createFrame 'b'TALB'' with class '<class 'eyed3.id3.frames.TextFrame'>'
+2024-05-26 12:47:08,401, 1928, DEBUG, Unicode encoding: utf_16
+2024-05-26 12:47:08,401, 309, DEBUG, TextFrame text: Ringwraiths (split)
+2024-05-26 12:47:08,401, 1784, DEBUG, size_left: 146678
+2024-05-26 12:47:08,401, 1790, DEBUG, +++++++++++++++++++++++++++++++++++++++++++++++++
+2024-05-26 12:47:08,401, 1791, DEBUG, FrameSet: Reading Frame #5
+2024-05-26 12:47:08,401, 646, DEBUG, FrameHeader [start byte]: 176 (0xB0)
+2024-05-26 12:47:08,401, 654, DEBUG, FrameHeader [id]: b'TYER' (0x54594552)
+2024-05-26 12:47:08,401, 666, DEBUG, FrameHeader [data size]: 13 (0xD)
+2024-05-26 12:47:08,401, 673, DEBUG, FrameHeader [flags]: ta(0) fa(0) ro(0) co(0) en(0) gr(0) un(0) dl(0)
+2024-05-26 12:47:08,401, 1801, DEBUG, FrameSet: Reading 13 (0xD) bytes of data from byte pos 186 (0xBA)
+2024-05-26 12:47:08,401, 1808, DEBUG, FrameSet: 13 bytes of data read
+2024-05-26 12:47:08,401, 1905, DEBUG, createFrame (desc:Year) - (2, 3, 0) - <class 'eyed3.id3.frames.DateFrame'>
+2024-05-26 12:47:08,401, 1913, DEBUG, createFrame 'b'TYER'' with class '<class 'eyed3.id3.frames.DateFrame'>'
+2024-05-26 12:47:08,401, 1928, DEBUG, Unicode encoding: utf_16
+2024-05-26 12:47:08,401, 309, DEBUG, TextFrame text: 2024
+2024-05-26 12:47:08,401, 1784, DEBUG, size_left: 146655
+2024-05-26 12:47:08,401, 1790, DEBUG, +++++++++++++++++++++++++++++++++++++++++++++++++
+2024-05-26 12:47:08,401, 1791, DEBUG, FrameSet: Reading Frame #6
+2024-05-26 12:47:08,401, 646, DEBUG, FrameHeader [start byte]: 199 (0xC7)
+2024-05-26 12:47:08,401, 654, DEBUG, FrameHeader [id]: b'TPE2' (0x54504532)
+2024-05-26 12:47:08,401, 666, DEBUG, FrameHeader [data size]: 35 (0x23)
+2024-05-26 12:47:08,401, 673, DEBUG, FrameHeader [flags]: ta(0) fa(0) ro(0) co(0) en(0) gr(0) un(0) dl(0)
+2024-05-26 12:47:08,401, 1801, DEBUG, FrameSet: Reading 35 (0x23) bytes of data from byte pos 209 (0xD1)
+2024-05-26 12:47:08,401, 1808, DEBUG, FrameSet: 35 bytes of data read
+2024-05-26 12:47:08,402, 1905, DEBUG, createFrame (desc:Band/orchestra/accompaniment) - (2, None, None) - <class 'eyed3.id3.frames.TextFrame'>
+2024-05-26 12:47:08,402, 1913, DEBUG, createFrame 'b'TPE2'' with class '<class 'eyed3.id3.frames.TextFrame'>'
+2024-05-26 12:47:08,402, 1928, DEBUG, Unicode encoding: utf_16
+2024-05-26 12:47:08,402, 309, DEBUG, TextFrame text: RUNA & Fen Lume
+2024-05-26 12:47:08,402, 1784, DEBUG, size_left: 146610
+2024-05-26 12:47:08,402, 1790, DEBUG, +++++++++++++++++++++++++++++++++++++++++++++++++
+2024-05-26 12:47:08,402, 1791, DEBUG, FrameSet: Reading Frame #7
+2024-05-26 12:47:08,402, 646, DEBUG, FrameHeader [start byte]: 244 (0xF4)
+2024-05-26 12:47:08,402, 654, DEBUG, FrameHeader [id]: b'COMM' (0x434f4d4d)
+2024-05-26 12:47:08,402, 666, DEBUG, FrameHeader [data size]: 80 (0x50)
+2024-05-26 12:47:08,402, 673, DEBUG, FrameHeader [flags]: ta(0) fa(0) ro(0) co(0) en(0) gr(0) un(0) dl(0)
+2024-05-26 12:47:08,402, 1801, DEBUG, FrameSet: Reading 80 (0x50) bytes of data from byte pos 254 (0xFE)
+2024-05-26 12:47:08,402, 1808, DEBUG, FrameSet: 80 bytes of data read
+2024-05-26 12:47:08,402, 1905, DEBUG, createFrame (desc:Comments) - (2, None, None) - <class 'eyed3.id3.frames.CommentFrame'>
+2024-05-26 12:47:08,402, 1913, DEBUG, createFrame 'b'COMM'' with class '<class 'eyed3.id3.frames.CommentFrame'>'
+2024-05-26 12:47:08,402, 1147, DEBUG, b'COMM' lang: b'eng'
+2024-05-26 12:47:08,402, 1928, DEBUG, Unicode encoding: utf_16
+2024-05-26 12:47:08,402, 1152, DEBUG, b'COMM' description: 
+2024-05-26 12:47:08,402, 1928, DEBUG, Unicode encoding: utf_16
+2024-05-26 12:47:08,402, 1154, DEBUG, b'COMM' text: Visit https://fenlume.bandcamp.com
+2024-05-26 12:47:08,402, 1784, DEBUG, size_left: 146520
+2024-05-26 12:47:08,402, 1790, DEBUG, +++++++++++++++++++++++++++++++++++++++++++++++++
+2024-05-26 12:47:08,402, 1791, DEBUG, FrameSet: Reading Frame #8
+2024-05-26 12:47:08,402, 646, DEBUG, FrameHeader [start byte]: 334 (0x14E)
+2024-05-26 12:47:08,402, 654, DEBUG, FrameHeader [id]: b'APIC' (0x41504943)
+2024-05-26 12:47:08,402, 666, DEBUG, FrameHeader [data size]: 139276 (0x2200C)
+2024-05-26 12:47:08,402, 673, DEBUG, FrameHeader [flags]: ta(0) fa(0) ro(0) co(0) en(0) gr(0) un(0) dl(0)
+2024-05-26 12:47:08,402, 1801, DEBUG, FrameSet: Reading 139276 (0x2200C) bytes of data from byte pos 344 (0x158)
+2024-05-26 12:47:08,402, 1808, DEBUG, FrameSet: 139276 bytes of data read
+2024-05-26 12:47:08,402, 1905, DEBUG, createFrame (desc:Attached picture) - (2, None, None) - <class 'eyed3.id3.frames.ImageFrame'>
+2024-05-26 12:47:08,402, 1913, DEBUG, createFrame 'b'APIC'' with class '<class 'eyed3.id3.frames.ImageFrame'>'
+2024-05-26 12:47:08,402, 591, DEBUG, APIC frame data size: 139276
+2024-05-26 12:47:08,402, 604, DEBUG, APIC mime type: b'image/jpeg'
+2024-05-26 12:47:08,402, 613, DEBUG, Initial APIC picture type: 3
+2024-05-26 12:47:08,402, 620, DEBUG, APIC picture type: 3
+2024-05-26 12:47:08,402, 629, DEBUG, description len: 12
+2024-05-26 12:47:08,402, 630, DEBUG, image len: 139249
+2024-05-26 12:47:08,402, 1928, DEBUG, Unicode encoding: utf_16
+2024-05-26 12:47:08,403, 632, DEBUG, APIC description: cover
+2024-05-26 12:47:08,403, 642, DEBUG, APIC image data: 139249 bytes
+2024-05-26 12:47:08,403, 1784, DEBUG, size_left: 7234
+2024-05-26 12:47:08,403, 1790, DEBUG, +++++++++++++++++++++++++++++++++++++++++++++++++
+2024-05-26 12:47:08,403, 1791, DEBUG, FrameSet: Reading Frame #9
+2024-05-26 12:47:08,403, 646, DEBUG, FrameHeader [start byte]: 139620 (0x22164)
+2024-05-26 12:47:08,403, 687, DEBUG, FrameHeader: Null frame id found at byte 139624
+2024-05-26 12:47:08,403, 1794, DEBUG, No frame found, implied padding of 7234 bytes
+2024-05-26 12:47:08,403, 133, DEBUG, Tag contains 7234 bytes of padding.
+2024-05-26 12:47:08,403, 40, DEBUG, mp3 header search starting @ 23da6
+2024-05-26 12:47:08,403, 250, DEBUG, MPEG audio version: 1.0
+2024-05-26 12:47:08,403, 251, DEBUG, MPEG audio layer: III
+2024-05-26 12:47:08,403, 252, DEBUG, MPEG sampling frequency: 44100
+2024-05-26 12:47:08,403, 253, DEBUG, MPEG bit rate: 320
+2024-05-26 12:47:08,403, 254, DEBUG, MPEG channel mode: Joint stereo
+2024-05-26 12:47:08,403, 255, DEBUG, MPEG channel mode extension: 2
+2024-05-26 12:47:08,403, 256, DEBUG, MPEG CRC error protection: False
+2024-05-26 12:47:08,403, 257, DEBUG, MPEG original: 1
+2024-05-26 12:47:08,403, 258, DEBUG, MPEG copyright: 0
+2024-05-26 12:47:08,403, 259, DEBUG, MPEG private bit: 0
+2024-05-26 12:47:08,403, 260, DEBUG, MPEG padding: 0
+2024-05-26 12:47:08,403, 261, DEBUG, MPEG emphasis: None
+2024-05-26 12:47:08,403, 262, DEBUG, MPEG frame length: 1044
+2024-05-26 12:47:08,403, 67, DEBUG, mp3 header fffbe064 found at position: 0x23da6
+2024-05-26 12:47:08,403, 337, DEBUG, b'Info' header detected @ 24
+2024-05-26 12:47:08,403, 343, DEBUG, b'Info' header flags: 0xf
+2024-05-26 12:47:08,403, 349, DEBUG, b'Info' numFrames: 5943
+2024-05-26 12:47:08,403, 355, DEBUG, b'Info' numBytes: 6210872
+2024-05-26 12:47:08,403, 361, DEBUG, b'Info' TOC (100 bytes): PRESENT
+2024-05-26 12:47:08,403, 573, DEBUG, Lame info tag found at position 156
+2024-05-26 12:47:08,403, 580, DEBUG, Lame tag CRC OK
+2024-05-26 12:47:08,403, 585, DEBUG, Lame Encoder Version: LAME3.99r
+2024-05-26 12:47:08,403, 592, DEBUG, Lame info tag version: 0
+2024-05-26 12:47:08,403, 593, DEBUG, Lame VBR method: Constant Bitrate
+2024-05-26 12:47:08,403, 599, DEBUG, Lame Lowpass filter value: 20500 Hz
+2024-05-26 12:47:08,403, 636, DEBUG, Lame Radio Replay Gain: -12.0 dB (Set automatically)
+2024-05-26 12:47:08,403, 647, DEBUG, Lame Encoding flags: --nspsytune --nssafejoint
+2024-05-26 12:47:08,403, 651, DEBUG, Lame ATH type: 4
+2024-05-26 12:47:08,403, 662, DEBUG, Lame Bitrate (Constant): 255
+2024-05-26 12:47:08,403, 669, DEBUG, Lame Encoder delay: 576 samples
+2024-05-26 12:47:08,403, 670, DEBUG, Lame Encoder padding: 1044 samples
+2024-05-26 12:47:08,403, 683, DEBUG, Lame Source Sample Frequency: 44.1 kHz
+2024-05-26 12:47:08,403, 684, DEBUG, Lame Unwise settings used: False
+2024-05-26 12:47:08,403, 685, DEBUG, Lame Stereo mode: Joint
+2024-05-26 12:47:08,403, 686, DEBUG, Lame Noise Shaping: 1
+2024-05-26 12:47:08,403, 696, DEBUG, Lame MP3 Gain: 0 (+0.0 dB)
+2024-05-26 12:47:08,403, 706, DEBUG, Lame Bitrate (Constant): 320
+2024-05-26 12:47:08,403, 716, DEBUG, Lame Surround Info: None
+2024-05-26 12:47:08,403, 717, DEBUG, Lame Preset: CBR 320
+2024-05-26 12:47:08,403, 722, DEBUG, Lame Music Length: 6210872 bytes
+2024-05-26 12:47:08,403, 727, DEBUG, Lame Music CRC: C3BC
+2024-05-26 12:47:08,403, 732, DEBUG, Lame Info Tag CRC: 9B19
+2024-05-26 12:47:08,404, 46, INFO, testpack\RUNA & Fen Lume - Ringwraiths (split)\RUNA & Fen Lume - Ringwraiths (split) - 03 RUNA - Ringwraiths.mp3
+2024-05-26 12:47:08,407, 440, DEBUG, Loading file: testpack\RUNA & Fen Lume - Ringwraiths (split)\RUNA & Fen Lume - Ringwraiths (split) - 04 RUNA - Where the Shadows Lie.mp3
+2024-05-26 12:47:08,407, 449, DEBUG, File mime-type: audio/mpeg
+2024-05-26 12:47:08,407, 69, DEBUG, Located ID3 v2 tag
+2024-05-26 12:47:08,407, 78, DEBUG, TagHeader [major]: 2 
+2024-05-26 12:47:08,407, 79, DEBUG, TagHeader [minor]: 3 
+2024-05-26 12:47:08,407, 80, DEBUG, TagHeader [rev]: 0 
+2024-05-26 12:47:08,407, 93, DEBUG, TagHeader [flags]: unsync(0) extended(0) experimental(0) footer(0)
+2024-05-26 12:47:08,407, 104, DEBUG, TagHeader [size string]: 0x00086f66
+2024-05-26 12:47:08,407, 108, DEBUG, TagHeader [size]: 145382 (0x237e6)
+2024-05-26 12:47:08,407, 1784, DEBUG, size_left: 145382
+2024-05-26 12:47:08,407, 1790, DEBUG, +++++++++++++++++++++++++++++++++++++++++++++++++
+2024-05-26 12:47:08,407, 1791, DEBUG, FrameSet: Reading Frame #1
+2024-05-26 12:47:08,407, 646, DEBUG, FrameHeader [start byte]: 10 (0xA)
+2024-05-26 12:47:08,407, 654, DEBUG, FrameHeader [id]: b'TIT2' (0x54495432)
+2024-05-26 12:47:08,407, 666, DEBUG, FrameHeader [data size]: 61 (0x3D)
+2024-05-26 12:47:08,407, 673, DEBUG, FrameHeader [flags]: ta(0) fa(0) ro(0) co(0) en(0) gr(0) un(0) dl(0)
+2024-05-26 12:47:08,407, 1801, DEBUG, FrameSet: Reading 61 (0x3D) bytes of data from byte pos 20 (0x14)
+2024-05-26 12:47:08,407, 1808, DEBUG, FrameSet: 61 bytes of data read
+2024-05-26 12:47:08,407, 1905, DEBUG, createFrame (desc:Title/songname/content description) - (2, None, None) - <class 'eyed3.id3.frames.TextFrame'>
+2024-05-26 12:47:08,407, 1913, DEBUG, createFrame 'b'TIT2'' with class '<class 'eyed3.id3.frames.TextFrame'>'
+2024-05-26 12:47:08,408, 1928, DEBUG, Unicode encoding: utf_16
+2024-05-26 12:47:08,408, 309, DEBUG, TextFrame text: RUNA - Where the Shadows Lie
+2024-05-26 12:47:08,408, 1784, DEBUG, size_left: 145311
+2024-05-26 12:47:08,408, 1790, DEBUG, +++++++++++++++++++++++++++++++++++++++++++++++++
+2024-05-26 12:47:08,408, 1791, DEBUG, FrameSet: Reading Frame #2
+2024-05-26 12:47:08,408, 646, DEBUG, FrameHeader [start byte]: 81 (0x51)
+2024-05-26 12:47:08,408, 654, DEBUG, FrameHeader [id]: b'TPE1' (0x54504531)
+2024-05-26 12:47:08,408, 666, DEBUG, FrameHeader [data size]: 35 (0x23)
+2024-05-26 12:47:08,408, 673, DEBUG, FrameHeader [flags]: ta(0) fa(0) ro(0) co(0) en(0) gr(0) un(0) dl(0)
+2024-05-26 12:47:08,408, 1801, DEBUG, FrameSet: Reading 35 (0x23) bytes of data from byte pos 91 (0x5B)
+2024-05-26 12:47:08,408, 1808, DEBUG, FrameSet: 35 bytes of data read
+2024-05-26 12:47:08,408, 1905, DEBUG, createFrame (desc:Lead performer(s)/Soloist(s)) - (2, None, None) - <class 'eyed3.id3.frames.TextFrame'>
+2024-05-26 12:47:08,408, 1913, DEBUG, createFrame 'b'TPE1'' with class '<class 'eyed3.id3.frames.TextFrame'>'
+2024-05-26 12:47:08,408, 1928, DEBUG, Unicode encoding: utf_16
+2024-05-26 12:47:08,408, 309, DEBUG, TextFrame text: RUNA & Fen Lume
+2024-05-26 12:47:08,408, 1784, DEBUG, size_left: 145266
+2024-05-26 12:47:08,408, 1790, DEBUG, +++++++++++++++++++++++++++++++++++++++++++++++++
+2024-05-26 12:47:08,408, 1791, DEBUG, FrameSet: Reading Frame #3
+2024-05-26 12:47:08,408, 646, DEBUG, FrameHeader [start byte]: 126 (0x7E)
+2024-05-26 12:47:08,408, 654, DEBUG, FrameHeader [id]: b'TRCK' (0x5452434b)
+2024-05-26 12:47:08,408, 666, DEBUG, FrameHeader [data size]: 7 (0x7)
+2024-05-26 12:47:08,408, 673, DEBUG, FrameHeader [flags]: ta(0) fa(0) ro(0) co(0) en(0) gr(0) un(0) dl(0)
+2024-05-26 12:47:08,408, 1801, DEBUG, FrameSet: Reading 7 (0x7) bytes of data from byte pos 136 (0x88)
+2024-05-26 12:47:08,408, 1808, DEBUG, FrameSet: 7 bytes of data read
+2024-05-26 12:47:08,408, 1905, DEBUG, createFrame (desc:Track number/Position in set) - (2, None, None) - <class 'eyed3.id3.frames.TextFrame'>
+2024-05-26 12:47:08,408, 1913, DEBUG, createFrame 'b'TRCK'' with class '<class 'eyed3.id3.frames.TextFrame'>'
+2024-05-26 12:47:08,408, 1928, DEBUG, Unicode encoding: utf_16
+2024-05-26 12:47:08,408, 309, DEBUG, TextFrame text: 4
+2024-05-26 12:47:08,408, 1784, DEBUG, size_left: 145249
+2024-05-26 12:47:08,409, 1790, DEBUG, +++++++++++++++++++++++++++++++++++++++++++++++++
+2024-05-26 12:47:08,409, 1791, DEBUG, FrameSet: Reading Frame #4
+2024-05-26 12:47:08,409, 646, DEBUG, FrameHeader [start byte]: 143 (0x8F)
+2024-05-26 12:47:08,409, 654, DEBUG, FrameHeader [id]: b'TALB' (0x54414c42)
+2024-05-26 12:47:08,409, 666, DEBUG, FrameHeader [data size]: 43 (0x2B)
+2024-05-26 12:47:08,409, 673, DEBUG, FrameHeader [flags]: ta(0) fa(0) ro(0) co(0) en(0) gr(0) un(0) dl(0)
+2024-05-26 12:47:08,409, 1801, DEBUG, FrameSet: Reading 43 (0x2B) bytes of data from byte pos 153 (0x99)
+2024-05-26 12:47:08,409, 1808, DEBUG, FrameSet: 43 bytes of data read
+2024-05-26 12:47:08,409, 1905, DEBUG, createFrame (desc:Album/Movie/Show title) - (2, None, None) - <class 'eyed3.id3.frames.TextFrame'>
+2024-05-26 12:47:08,409, 1913, DEBUG, createFrame 'b'TALB'' with class '<class 'eyed3.id3.frames.TextFrame'>'
+2024-05-26 12:47:08,409, 1928, DEBUG, Unicode encoding: utf_16
+2024-05-26 12:47:08,409, 309, DEBUG, TextFrame text: Ringwraiths (split)
+2024-05-26 12:47:08,409, 1784, DEBUG, size_left: 145196
+2024-05-26 12:47:08,409, 1790, DEBUG, +++++++++++++++++++++++++++++++++++++++++++++++++
+2024-05-26 12:47:08,409, 1791, DEBUG, FrameSet: Reading Frame #5
+2024-05-26 12:47:08,409, 646, DEBUG, FrameHeader [start byte]: 196 (0xC4)
+2024-05-26 12:47:08,409, 654, DEBUG, FrameHeader [id]: b'TYER' (0x54594552)
+2024-05-26 12:47:08,409, 666, DEBUG, FrameHeader [data size]: 13 (0xD)
+2024-05-26 12:47:08,409, 673, DEBUG, FrameHeader [flags]: ta(0) fa(0) ro(0) co(0) en(0) gr(0) un(0) dl(0)
+2024-05-26 12:47:08,409, 1801, DEBUG, FrameSet: Reading 13 (0xD) bytes of data from byte pos 206 (0xCE)
+2024-05-26 12:47:08,409, 1808, DEBUG, FrameSet: 13 bytes of data read
+2024-05-26 12:47:08,409, 1905, DEBUG, createFrame (desc:Year) - (2, 3, 0) - <class 'eyed3.id3.frames.DateFrame'>
+2024-05-26 12:47:08,409, 1913, DEBUG, createFrame 'b'TYER'' with class '<class 'eyed3.id3.frames.DateFrame'>'
+2024-05-26 12:47:08,409, 1928, DEBUG, Unicode encoding: utf_16
+2024-05-26 12:47:08,409, 309, DEBUG, TextFrame text: 2024
+2024-05-26 12:47:08,409, 1784, DEBUG, size_left: 145173
+2024-05-26 12:47:08,409, 1790, DEBUG, +++++++++++++++++++++++++++++++++++++++++++++++++
+2024-05-26 12:47:08,409, 1791, DEBUG, FrameSet: Reading Frame #6
+2024-05-26 12:47:08,409, 646, DEBUG, FrameHeader [start byte]: 219 (0xDB)
+2024-05-26 12:47:08,409, 654, DEBUG, FrameHeader [id]: b'TPE2' (0x54504532)
+2024-05-26 12:47:08,409, 666, DEBUG, FrameHeader [data size]: 35 (0x23)
+2024-05-26 12:47:08,409, 673, DEBUG, FrameHeader [flags]: ta(0) fa(0) ro(0) co(0) en(0) gr(0) un(0) dl(0)
+2024-05-26 12:47:08,409, 1801, DEBUG, FrameSet: Reading 35 (0x23) bytes of data from byte pos 229 (0xE5)
+2024-05-26 12:47:08,409, 1808, DEBUG, FrameSet: 35 bytes of data read
+2024-05-26 12:47:08,409, 1905, DEBUG, createFrame (desc:Band/orchestra/accompaniment) - (2, None, None) - <class 'eyed3.id3.frames.TextFrame'>
+2024-05-26 12:47:08,409, 1913, DEBUG, createFrame 'b'TPE2'' with class '<class 'eyed3.id3.frames.TextFrame'>'
+2024-05-26 12:47:08,409, 1928, DEBUG, Unicode encoding: utf_16
+2024-05-26 12:47:08,409, 309, DEBUG, TextFrame text: RUNA & Fen Lume
+2024-05-26 12:47:08,409, 1784, DEBUG, size_left: 145128
+2024-05-26 12:47:08,409, 1790, DEBUG, +++++++++++++++++++++++++++++++++++++++++++++++++
+2024-05-26 12:47:08,409, 1791, DEBUG, FrameSet: Reading Frame #7
+2024-05-26 12:47:08,409, 646, DEBUG, FrameHeader [start byte]: 264 (0x108)
+2024-05-26 12:47:08,409, 654, DEBUG, FrameHeader [id]: b'COMM' (0x434f4d4d)
+2024-05-26 12:47:08,409, 666, DEBUG, FrameHeader [data size]: 80 (0x50)
+2024-05-26 12:47:08,409, 673, DEBUG, FrameHeader [flags]: ta(0) fa(0) ro(0) co(0) en(0) gr(0) un(0) dl(0)
+2024-05-26 12:47:08,409, 1801, DEBUG, FrameSet: Reading 80 (0x50) bytes of data from byte pos 274 (0x112)
+2024-05-26 12:47:08,409, 1808, DEBUG, FrameSet: 80 bytes of data read
+2024-05-26 12:47:08,409, 1905, DEBUG, createFrame (desc:Comments) - (2, None, None) - <class 'eyed3.id3.frames.CommentFrame'>
+2024-05-26 12:47:08,409, 1913, DEBUG, createFrame 'b'COMM'' with class '<class 'eyed3.id3.frames.CommentFrame'>'
+2024-05-26 12:47:08,409, 1147, DEBUG, b'COMM' lang: b'eng'
+2024-05-26 12:47:08,409, 1928, DEBUG, Unicode encoding: utf_16
+2024-05-26 12:47:08,409, 1152, DEBUG, b'COMM' description: 
+2024-05-26 12:47:08,409, 1928, DEBUG, Unicode encoding: utf_16
+2024-05-26 12:47:08,409, 1154, DEBUG, b'COMM' text: Visit https://fenlume.bandcamp.com
+2024-05-26 12:47:08,409, 1784, DEBUG, size_left: 145038
+2024-05-26 12:47:08,409, 1790, DEBUG, +++++++++++++++++++++++++++++++++++++++++++++++++
+2024-05-26 12:47:08,409, 1791, DEBUG, FrameSet: Reading Frame #8
+2024-05-26 12:47:08,409, 646, DEBUG, FrameHeader [start byte]: 354 (0x162)
+2024-05-26 12:47:08,410, 654, DEBUG, FrameHeader [id]: b'APIC' (0x41504943)
+2024-05-26 12:47:08,410, 666, DEBUG, FrameHeader [data size]: 139276 (0x2200C)
+2024-05-26 12:47:08,410, 673, DEBUG, FrameHeader [flags]: ta(0) fa(0) ro(0) co(0) en(0) gr(0) un(0) dl(0)
+2024-05-26 12:47:08,410, 1801, DEBUG, FrameSet: Reading 139276 (0x2200C) bytes of data from byte pos 364 (0x16C)
+2024-05-26 12:47:08,410, 1808, DEBUG, FrameSet: 139276 bytes of data read
+2024-05-26 12:47:08,410, 1905, DEBUG, createFrame (desc:Attached picture) - (2, None, None) - <class 'eyed3.id3.frames.ImageFrame'>
+2024-05-26 12:47:08,410, 1913, DEBUG, createFrame 'b'APIC'' with class '<class 'eyed3.id3.frames.ImageFrame'>'
+2024-05-26 12:47:08,410, 591, DEBUG, APIC frame data size: 139276
+2024-05-26 12:47:08,410, 604, DEBUG, APIC mime type: b'image/jpeg'
+2024-05-26 12:47:08,410, 613, DEBUG, Initial APIC picture type: 3
+2024-05-26 12:47:08,410, 620, DEBUG, APIC picture type: 3
+2024-05-26 12:47:08,410, 629, DEBUG, description len: 12
+2024-05-26 12:47:08,410, 630, DEBUG, image len: 139249
+2024-05-26 12:47:08,410, 1928, DEBUG, Unicode encoding: utf_16
+2024-05-26 12:47:08,410, 632, DEBUG, APIC description: cover
+2024-05-26 12:47:08,410, 642, DEBUG, APIC image data: 139249 bytes
+2024-05-26 12:47:08,410, 1784, DEBUG, size_left: 5752
+2024-05-26 12:47:08,410, 1790, DEBUG, +++++++++++++++++++++++++++++++++++++++++++++++++
+2024-05-26 12:47:08,410, 1791, DEBUG, FrameSet: Reading Frame #9
+2024-05-26 12:47:08,410, 646, DEBUG, FrameHeader [start byte]: 139640 (0x22178)
+2024-05-26 12:47:08,410, 687, DEBUG, FrameHeader: Null frame id found at byte 139644
+2024-05-26 12:47:08,410, 1794, DEBUG, No frame found, implied padding of 5752 bytes
+2024-05-26 12:47:08,410, 133, DEBUG, Tag contains 5752 bytes of padding.
+2024-05-26 12:47:08,410, 40, DEBUG, mp3 header search starting @ 237f0
+2024-05-26 12:47:08,410, 250, DEBUG, MPEG audio version: 1.0
+2024-05-26 12:47:08,410, 251, DEBUG, MPEG audio layer: III
+2024-05-26 12:47:08,410, 252, DEBUG, MPEG sampling frequency: 44100
+2024-05-26 12:47:08,410, 253, DEBUG, MPEG bit rate: 320
+2024-05-26 12:47:08,410, 254, DEBUG, MPEG channel mode: Joint stereo
+2024-05-26 12:47:08,410, 255, DEBUG, MPEG channel mode extension: 2
+2024-05-26 12:47:08,410, 256, DEBUG, MPEG CRC error protection: False
+2024-05-26 12:47:08,410, 257, DEBUG, MPEG original: 1
+2024-05-26 12:47:08,410, 258, DEBUG, MPEG copyright: 0
+2024-05-26 12:47:08,410, 259, DEBUG, MPEG private bit: 0
+2024-05-26 12:47:08,410, 260, DEBUG, MPEG padding: 0
+2024-05-26 12:47:08,410, 261, DEBUG, MPEG emphasis: None
+2024-05-26 12:47:08,410, 262, DEBUG, MPEG frame length: 1044
+2024-05-26 12:47:08,410, 67, DEBUG, mp3 header fffbe064 found at position: 0x237f0
+2024-05-26 12:47:08,410, 337, DEBUG, b'Info' header detected @ 24
+2024-05-26 12:47:08,410, 343, DEBUG, b'Info' header flags: 0xf
+2024-05-26 12:47:08,410, 349, DEBUG, b'Info' numFrames: 4524
+2024-05-26 12:47:08,410, 355, DEBUG, b'Info' numBytes: 4728162
+2024-05-26 12:47:08,410, 361, DEBUG, b'Info' TOC (100 bytes): PRESENT
+2024-05-26 12:47:08,410, 573, DEBUG, Lame info tag found at position 156
+2024-05-26 12:47:08,410, 580, DEBUG, Lame tag CRC OK
+2024-05-26 12:47:08,410, 585, DEBUG, Lame Encoder Version: LAME3.99r
+2024-05-26 12:47:08,410, 592, DEBUG, Lame info tag version: 0
+2024-05-26 12:47:08,410, 593, DEBUG, Lame VBR method: Constant Bitrate
+2024-05-26 12:47:08,410, 599, DEBUG, Lame Lowpass filter value: 20500 Hz
+2024-05-26 12:47:08,410, 636, DEBUG, Lame Radio Replay Gain: -11.0 dB (Set automatically)
+2024-05-26 12:47:08,410, 647, DEBUG, Lame Encoding flags: --nspsytune --nssafejoint
+2024-05-26 12:47:08,410, 651, DEBUG, Lame ATH type: 4
+2024-05-26 12:47:08,410, 662, DEBUG, Lame Bitrate (Constant): 255
+2024-05-26 12:47:08,410, 669, DEBUG, Lame Encoder delay: 576 samples
+2024-05-26 12:47:08,410, 670, DEBUG, Lame Encoder padding: 1392 samples
+2024-05-26 12:47:08,410, 683, DEBUG, Lame Source Sample Frequency: 44.1 kHz
+2024-05-26 12:47:08,410, 684, DEBUG, Lame Unwise settings used: False
+2024-05-26 12:47:08,410, 685, DEBUG, Lame Stereo mode: Joint
+2024-05-26 12:47:08,410, 686, DEBUG, Lame Noise Shaping: 1
+2024-05-26 12:47:08,410, 696, DEBUG, Lame MP3 Gain: 0 (+0.0 dB)
+2024-05-26 12:47:08,410, 706, DEBUG, Lame Bitrate (Constant): 320
+2024-05-26 12:47:08,410, 716, DEBUG, Lame Surround Info: None
+2024-05-26 12:47:08,410, 717, DEBUG, Lame Preset: CBR 320
+2024-05-26 12:47:08,410, 722, DEBUG, Lame Music Length: 4728162 bytes
+2024-05-26 12:47:08,410, 727, DEBUG, Lame Music CRC: 3B99
+2024-05-26 12:47:08,410, 732, DEBUG, Lame Info Tag CRC: C67F
+2024-05-26 12:47:08,410, 46, INFO, testpack\RUNA & Fen Lume - Ringwraiths (split)\RUNA & Fen Lume - Ringwraiths (split) - 04 RUNA - Where the Shadows Lie.mp3
+2024-05-26 12:47:08,414, 440, DEBUG, Loading file: testpack\RUNA & Fen Lume - Ringwraiths (split)\RUNA & Fen Lume - Ringwraiths (split) - 05 RUNA - Into the Dark Abyss.mp3
+2024-05-26 12:47:08,414, 449, DEBUG, File mime-type: audio/mpeg
+2024-05-26 12:47:08,414, 69, DEBUG, Located ID3 v2 tag
+2024-05-26 12:47:08,414, 78, DEBUG, TagHeader [major]: 2 
+2024-05-26 12:47:08,414, 79, DEBUG, TagHeader [minor]: 3 
+2024-05-26 12:47:08,414, 80, DEBUG, TagHeader [rev]: 0 
+2024-05-26 12:47:08,414, 93, DEBUG, TagHeader [flags]: unsync(0) extended(0) experimental(0) footer(0)
+2024-05-26 12:47:08,414, 104, DEBUG, TagHeader [size string]: 0x0008687d
+2024-05-26 12:47:08,414, 108, DEBUG, TagHeader [size]: 144509 (0x2347d)
+2024-05-26 12:47:08,414, 1784, DEBUG, size_left: 144509
+2024-05-26 12:47:08,414, 1790, DEBUG, +++++++++++++++++++++++++++++++++++++++++++++++++
+2024-05-26 12:47:08,415, 1791, DEBUG, FrameSet: Reading Frame #1
+2024-05-26 12:47:08,415, 646, DEBUG, FrameHeader [start byte]: 10 (0xA)
+2024-05-26 12:47:08,415, 654, DEBUG, FrameHeader [id]: b'TIT2' (0x54495432)
+2024-05-26 12:47:08,415, 666, DEBUG, FrameHeader [data size]: 57 (0x39)
+2024-05-26 12:47:08,415, 673, DEBUG, FrameHeader [flags]: ta(0) fa(0) ro(0) co(0) en(0) gr(0) un(0) dl(0)
+2024-05-26 12:47:08,415, 1801, DEBUG, FrameSet: Reading 57 (0x39) bytes of data from byte pos 20 (0x14)
+2024-05-26 12:47:08,415, 1808, DEBUG, FrameSet: 57 bytes of data read
+2024-05-26 12:47:08,415, 1905, DEBUG, createFrame (desc:Title/songname/content description) - (2, None, None) - <class 'eyed3.id3.frames.TextFrame'>
+2024-05-26 12:47:08,415, 1913, DEBUG, createFrame 'b'TIT2'' with class '<class 'eyed3.id3.frames.TextFrame'>'
+2024-05-26 12:47:08,415, 1928, DEBUG, Unicode encoding: utf_16
+2024-05-26 12:47:08,415, 309, DEBUG, TextFrame text: RUNA - Into the Dark Abyss
+2024-05-26 12:47:08,415, 1784, DEBUG, size_left: 144442
+2024-05-26 12:47:08,415, 1790, DEBUG, +++++++++++++++++++++++++++++++++++++++++++++++++
+2024-05-26 12:47:08,415, 1791, DEBUG, FrameSet: Reading Frame #2
+2024-05-26 12:47:08,415, 646, DEBUG, FrameHeader [start byte]: 77 (0x4D)
+2024-05-26 12:47:08,415, 654, DEBUG, FrameHeader [id]: b'TPE1' (0x54504531)
+2024-05-26 12:47:08,415, 666, DEBUG, FrameHeader [data size]: 35 (0x23)
+2024-05-26 12:47:08,415, 673, DEBUG, FrameHeader [flags]: ta(0) fa(0) ro(0) co(0) en(0) gr(0) un(0) dl(0)
+2024-05-26 12:47:08,415, 1801, DEBUG, FrameSet: Reading 35 (0x23) bytes of data from byte pos 87 (0x57)
+2024-05-26 12:47:08,415, 1808, DEBUG, FrameSet: 35 bytes of data read
+2024-05-26 12:47:08,415, 1905, DEBUG, createFrame (desc:Lead performer(s)/Soloist(s)) - (2, None, None) - <class 'eyed3.id3.frames.TextFrame'>
+2024-05-26 12:47:08,415, 1913, DEBUG, createFrame 'b'TPE1'' with class '<class 'eyed3.id3.frames.TextFrame'>'
+2024-05-26 12:47:08,415, 1928, DEBUG, Unicode encoding: utf_16
+2024-05-26 12:47:08,415, 309, DEBUG, TextFrame text: RUNA & Fen Lume
+2024-05-26 12:47:08,415, 1784, DEBUG, size_left: 144397
+2024-05-26 12:47:08,415, 1790, DEBUG, +++++++++++++++++++++++++++++++++++++++++++++++++
+2024-05-26 12:47:08,415, 1791, DEBUG, FrameSet: Reading Frame #3
+2024-05-26 12:47:08,415, 646, DEBUG, FrameHeader [start byte]: 122 (0x7A)
+2024-05-26 12:47:08,415, 654, DEBUG, FrameHeader [id]: b'TRCK' (0x5452434b)
+2024-05-26 12:47:08,415, 666, DEBUG, FrameHeader [data size]: 7 (0x7)
+2024-05-26 12:47:08,415, 673, DEBUG, FrameHeader [flags]: ta(0) fa(0) ro(0) co(0) en(0) gr(0) un(0) dl(0)
+2024-05-26 12:47:08,415, 1801, DEBUG, FrameSet: Reading 7 (0x7) bytes of data from byte pos 132 (0x84)
+2024-05-26 12:47:08,415, 1808, DEBUG, FrameSet: 7 bytes of data read
+2024-05-26 12:47:08,415, 1905, DEBUG, createFrame (desc:Track number/Position in set) - (2, None, None) - <class 'eyed3.id3.frames.TextFrame'>
+2024-05-26 12:47:08,416, 1913, DEBUG, createFrame 'b'TRCK'' with class '<class 'eyed3.id3.frames.TextFrame'>'
+2024-05-26 12:47:08,416, 1928, DEBUG, Unicode encoding: utf_16
+2024-05-26 12:47:08,416, 309, DEBUG, TextFrame text: 5
+2024-05-26 12:47:08,416, 1784, DEBUG, size_left: 144380
+2024-05-26 12:47:08,416, 1790, DEBUG, +++++++++++++++++++++++++++++++++++++++++++++++++
+2024-05-26 12:47:08,416, 1791, DEBUG, FrameSet: Reading Frame #4
+2024-05-26 12:47:08,416, 646, DEBUG, FrameHeader [start byte]: 139 (0x8B)
+2024-05-26 12:47:08,416, 654, DEBUG, FrameHeader [id]: b'TALB' (0x54414c42)
+2024-05-26 12:47:08,416, 666, DEBUG, FrameHeader [data size]: 43 (0x2B)
+2024-05-26 12:47:08,416, 673, DEBUG, FrameHeader [flags]: ta(0) fa(0) ro(0) co(0) en(0) gr(0) un(0) dl(0)
+2024-05-26 12:47:08,416, 1801, DEBUG, FrameSet: Reading 43 (0x2B) bytes of data from byte pos 149 (0x95)
+2024-05-26 12:47:08,416, 1808, DEBUG, FrameSet: 43 bytes of data read
+2024-05-26 12:47:08,416, 1905, DEBUG, createFrame (desc:Album/Movie/Show title) - (2, None, None) - <class 'eyed3.id3.frames.TextFrame'>
+2024-05-26 12:47:08,416, 1913, DEBUG, createFrame 'b'TALB'' with class '<class 'eyed3.id3.frames.TextFrame'>'
+2024-05-26 12:47:08,416, 1928, DEBUG, Unicode encoding: utf_16
+2024-05-26 12:47:08,416, 309, DEBUG, TextFrame text: Ringwraiths (split)
+2024-05-26 12:47:08,416, 1784, DEBUG, size_left: 144327
+2024-05-26 12:47:08,416, 1790, DEBUG, +++++++++++++++++++++++++++++++++++++++++++++++++
+2024-05-26 12:47:08,416, 1791, DEBUG, FrameSet: Reading Frame #5
+2024-05-26 12:47:08,416, 646, DEBUG, FrameHeader [start byte]: 192 (0xC0)
+2024-05-26 12:47:08,416, 654, DEBUG, FrameHeader [id]: b'TYER' (0x54594552)
+2024-05-26 12:47:08,416, 666, DEBUG, FrameHeader [data size]: 13 (0xD)
+2024-05-26 12:47:08,416, 673, DEBUG, FrameHeader [flags]: ta(0) fa(0) ro(0) co(0) en(0) gr(0) un(0) dl(0)
+2024-05-26 12:47:08,416, 1801, DEBUG, FrameSet: Reading 13 (0xD) bytes of data from byte pos 202 (0xCA)
+2024-05-26 12:47:08,416, 1808, DEBUG, FrameSet: 13 bytes of data read
+2024-05-26 12:47:08,416, 1905, DEBUG, createFrame (desc:Year) - (2, 3, 0) - <class 'eyed3.id3.frames.DateFrame'>
+2024-05-26 12:47:08,416, 1913, DEBUG, createFrame 'b'TYER'' with class '<class 'eyed3.id3.frames.DateFrame'>'
+2024-05-26 12:47:08,416, 1928, DEBUG, Unicode encoding: utf_16
+2024-05-26 12:47:08,416, 309, DEBUG, TextFrame text: 2024
+2024-05-26 12:47:08,416, 1784, DEBUG, size_left: 144304
+2024-05-26 12:47:08,416, 1790, DEBUG, +++++++++++++++++++++++++++++++++++++++++++++++++
+2024-05-26 12:47:08,416, 1791, DEBUG, FrameSet: Reading Frame #6
+2024-05-26 12:47:08,416, 646, DEBUG, FrameHeader [start byte]: 215 (0xD7)
+2024-05-26 12:47:08,416, 654, DEBUG, FrameHeader [id]: b'TPE2' (0x54504532)
+2024-05-26 12:47:08,416, 666, DEBUG, FrameHeader [data size]: 35 (0x23)
+2024-05-26 12:47:08,416, 673, DEBUG, FrameHeader [flags]: ta(0) fa(0) ro(0) co(0) en(0) gr(0) un(0) dl(0)
+2024-05-26 12:47:08,416, 1801, DEBUG, FrameSet: Reading 35 (0x23) bytes of data from byte pos 225 (0xE1)
+2024-05-26 12:47:08,416, 1808, DEBUG, FrameSet: 35 bytes of data read
+2024-05-26 12:47:08,416, 1905, DEBUG, createFrame (desc:Band/orchestra/accompaniment) - (2, None, None) - <class 'eyed3.id3.frames.TextFrame'>
+2024-05-26 12:47:08,416, 1913, DEBUG, createFrame 'b'TPE2'' with class '<class 'eyed3.id3.frames.TextFrame'>'
+2024-05-26 12:47:08,417, 1928, DEBUG, Unicode encoding: utf_16
+2024-05-26 12:47:08,417, 309, DEBUG, TextFrame text: RUNA & Fen Lume
+2024-05-26 12:47:08,417, 1784, DEBUG, size_left: 144259
+2024-05-26 12:47:08,417, 1790, DEBUG, +++++++++++++++++++++++++++++++++++++++++++++++++
+2024-05-26 12:47:08,417, 1791, DEBUG, FrameSet: Reading Frame #7
+2024-05-26 12:47:08,417, 646, DEBUG, FrameHeader [start byte]: 260 (0x104)
+2024-05-26 12:47:08,417, 654, DEBUG, FrameHeader [id]: b'COMM' (0x434f4d4d)
+2024-05-26 12:47:08,417, 666, DEBUG, FrameHeader [data size]: 80 (0x50)
+2024-05-26 12:47:08,417, 673, DEBUG, FrameHeader [flags]: ta(0) fa(0) ro(0) co(0) en(0) gr(0) un(0) dl(0)
+2024-05-26 12:47:08,417, 1801, DEBUG, FrameSet: Reading 80 (0x50) bytes of data from byte pos 270 (0x10E)
+2024-05-26 12:47:08,417, 1808, DEBUG, FrameSet: 80 bytes of data read
+2024-05-26 12:47:08,417, 1905, DEBUG, createFrame (desc:Comments) - (2, None, None) - <class 'eyed3.id3.frames.CommentFrame'>
+2024-05-26 12:47:08,417, 1913, DEBUG, createFrame 'b'COMM'' with class '<class 'eyed3.id3.frames.CommentFrame'>'
+2024-05-26 12:47:08,417, 1147, DEBUG, b'COMM' lang: b'eng'
+2024-05-26 12:47:08,417, 1928, DEBUG, Unicode encoding: utf_16
+2024-05-26 12:47:08,417, 1152, DEBUG, b'COMM' description: 
+2024-05-26 12:47:08,417, 1928, DEBUG, Unicode encoding: utf_16
+2024-05-26 12:47:08,417, 1154, DEBUG, b'COMM' text: Visit https://fenlume.bandcamp.com
+2024-05-26 12:47:08,417, 1784, DEBUG, size_left: 144169
+2024-05-26 12:47:08,417, 1790, DEBUG, +++++++++++++++++++++++++++++++++++++++++++++++++
+2024-05-26 12:47:08,417, 1791, DEBUG, FrameSet: Reading Frame #8
+2024-05-26 12:47:08,417, 646, DEBUG, FrameHeader [start byte]: 350 (0x15E)
+2024-05-26 12:47:08,417, 654, DEBUG, FrameHeader [id]: b'APIC' (0x41504943)
+2024-05-26 12:47:08,417, 666, DEBUG, FrameHeader [data size]: 139276 (0x2200C)
+2024-05-26 12:47:08,417, 673, DEBUG, FrameHeader [flags]: ta(0) fa(0) ro(0) co(0) en(0) gr(0) un(0) dl(0)
+2024-05-26 12:47:08,417, 1801, DEBUG, FrameSet: Reading 139276 (0x2200C) bytes of data from byte pos 360 (0x168)
+2024-05-26 12:47:08,417, 1808, DEBUG, FrameSet: 139276 bytes of data read
+2024-05-26 12:47:08,417, 1905, DEBUG, createFrame (desc:Attached picture) - (2, None, None) - <class 'eyed3.id3.frames.ImageFrame'>
+2024-05-26 12:47:08,417, 1913, DEBUG, createFrame 'b'APIC'' with class '<class 'eyed3.id3.frames.ImageFrame'>'
+2024-05-26 12:47:08,417, 591, DEBUG, APIC frame data size: 139276
+2024-05-26 12:47:08,417, 604, DEBUG, APIC mime type: b'image/jpeg'
+2024-05-26 12:47:08,417, 613, DEBUG, Initial APIC picture type: 3
+2024-05-26 12:47:08,417, 620, DEBUG, APIC picture type: 3
+2024-05-26 12:47:08,417, 629, DEBUG, description len: 12
+2024-05-26 12:47:08,417, 630, DEBUG, image len: 139249
+2024-05-26 12:47:08,417, 1928, DEBUG, Unicode encoding: utf_16
+2024-05-26 12:47:08,417, 632, DEBUG, APIC description: cover
+2024-05-26 12:47:08,417, 642, DEBUG, APIC image data: 139249 bytes
+2024-05-26 12:47:08,417, 1784, DEBUG, size_left: 4883
+2024-05-26 12:47:08,417, 1790, DEBUG, +++++++++++++++++++++++++++++++++++++++++++++++++
+2024-05-26 12:47:08,417, 1791, DEBUG, FrameSet: Reading Frame #9
+2024-05-26 12:47:08,417, 646, DEBUG, FrameHeader [start byte]: 139636 (0x22174)
+2024-05-26 12:47:08,417, 687, DEBUG, FrameHeader: Null frame id found at byte 139640
+2024-05-26 12:47:08,417, 1794, DEBUG, No frame found, implied padding of 4883 bytes
+2024-05-26 12:47:08,417, 133, DEBUG, Tag contains 4883 bytes of padding.
+2024-05-26 12:47:08,418, 40, DEBUG, mp3 header search starting @ 23487
+2024-05-26 12:47:08,418, 250, DEBUG, MPEG audio version: 1.0
+2024-05-26 12:47:08,418, 251, DEBUG, MPEG audio layer: III
+2024-05-26 12:47:08,418, 252, DEBUG, MPEG sampling frequency: 44100
+2024-05-26 12:47:08,418, 253, DEBUG, MPEG bit rate: 320
+2024-05-26 12:47:08,418, 254, DEBUG, MPEG channel mode: Joint stereo
+2024-05-26 12:47:08,418, 255, DEBUG, MPEG channel mode extension: 2
+2024-05-26 12:47:08,418, 256, DEBUG, MPEG CRC error protection: False
+2024-05-26 12:47:08,418, 257, DEBUG, MPEG original: 1
+2024-05-26 12:47:08,418, 258, DEBUG, MPEG copyright: 0
+2024-05-26 12:47:08,418, 259, DEBUG, MPEG private bit: 0
+2024-05-26 12:47:08,418, 260, DEBUG, MPEG padding: 0
+2024-05-26 12:47:08,418, 261, DEBUG, MPEG emphasis: None
+2024-05-26 12:47:08,418, 262, DEBUG, MPEG frame length: 1044
+2024-05-26 12:47:08,418, 67, DEBUG, mp3 header fffbe064 found at position: 0x23487
+2024-05-26 12:47:08,418, 337, DEBUG, b'Info' header detected @ 24
+2024-05-26 12:47:08,418, 343, DEBUG, b'Info' header flags: 0xf
+2024-05-26 12:47:08,418, 349, DEBUG, b'Info' numFrames: 3693
+2024-05-26 12:47:08,418, 355, DEBUG, b'Info' numBytes: 3859852
+2024-05-26 12:47:08,418, 361, DEBUG, b'Info' TOC (100 bytes): PRESENT
+2024-05-26 12:47:08,418, 573, DEBUG, Lame info tag found at position 156
+2024-05-26 12:47:08,418, 580, DEBUG, Lame tag CRC OK
+2024-05-26 12:47:08,418, 585, DEBUG, Lame Encoder Version: LAME3.99r
+2024-05-26 12:47:08,418, 592, DEBUG, Lame info tag version: 0
+2024-05-26 12:47:08,418, 593, DEBUG, Lame VBR method: Constant Bitrate
+2024-05-26 12:47:08,418, 599, DEBUG, Lame Lowpass filter value: 20500 Hz
+2024-05-26 12:47:08,418, 636, DEBUG, Lame Radio Replay Gain: -13.8 dB (Set automatically)
+2024-05-26 12:47:08,418, 647, DEBUG, Lame Encoding flags: --nspsytune --nssafejoint
+2024-05-26 12:47:08,418, 651, DEBUG, Lame ATH type: 4
+2024-05-26 12:47:08,418, 662, DEBUG, Lame Bitrate (Constant): 255
+2024-05-26 12:47:08,418, 669, DEBUG, Lame Encoder delay: 576 samples
+2024-05-26 12:47:08,418, 670, DEBUG, Lame Encoder padding: 1594 samples
+2024-05-26 12:47:08,418, 683, DEBUG, Lame Source Sample Frequency: 44.1 kHz
+2024-05-26 12:47:08,418, 684, DEBUG, Lame Unwise settings used: False
+2024-05-26 12:47:08,418, 685, DEBUG, Lame Stereo mode: Joint
+2024-05-26 12:47:08,418, 686, DEBUG, Lame Noise Shaping: 1
+2024-05-26 12:47:08,418, 696, DEBUG, Lame MP3 Gain: 0 (+0.0 dB)
+2024-05-26 12:47:08,418, 706, DEBUG, Lame Bitrate (Constant): 320
+2024-05-26 12:47:08,418, 716, DEBUG, Lame Surround Info: None
+2024-05-26 12:47:08,418, 717, DEBUG, Lame Preset: CBR 320
+2024-05-26 12:47:08,418, 722, DEBUG, Lame Music Length: 3859852 bytes
+2024-05-26 12:47:08,418, 727, DEBUG, Lame Music CRC: E299
+2024-05-26 12:47:08,418, 732, DEBUG, Lame Info Tag CRC: 2E0C
+2024-05-26 12:47:08,418, 46, INFO, testpack\RUNA & Fen Lume - Ringwraiths (split)\RUNA & Fen Lume - Ringwraiths (split) - 05 RUNA - Into the Dark Abyss.mp3
+2024-05-26 12:47:08,422, 440, DEBUG, Loading file: testpack\RUNA & Fen Lume - Ringwraiths (split)\RUNA & Fen Lume - Ringwraiths (split) - 06 Fen Lume - the Falls of Rauros.mp3
+2024-05-26 12:47:08,422, 449, DEBUG, File mime-type: audio/mpeg
+2024-05-26 12:47:08,423, 69, DEBUG, Located ID3 v2 tag
+2024-05-26 12:47:08,423, 78, DEBUG, TagHeader [major]: 2 
+2024-05-26 12:47:08,423, 79, DEBUG, TagHeader [minor]: 3 
+2024-05-26 12:47:08,423, 80, DEBUG, TagHeader [rev]: 0 
+2024-05-26 12:47:08,423, 93, DEBUG, TagHeader [flags]: unsync(0) extended(0) experimental(0) footer(0)
+2024-05-26 12:47:08,423, 104, DEBUG, TagHeader [size string]: 0x0008756d
+2024-05-26 12:47:08,423, 108, DEBUG, TagHeader [size]: 146157 (0x23aed)
+2024-05-26 12:47:08,423, 1784, DEBUG, size_left: 146157
+2024-05-26 12:47:08,423, 1790, DEBUG, +++++++++++++++++++++++++++++++++++++++++++++++++
+2024-05-26 12:47:08,423, 1791, DEBUG, FrameSet: Reading Frame #1
+2024-05-26 12:47:08,423, 646, DEBUG, FrameHeader [start byte]: 10 (0xA)
+2024-05-26 12:47:08,423, 654, DEBUG, FrameHeader [id]: b'TIT2' (0x54495432)
+2024-05-26 12:47:08,423, 666, DEBUG, FrameHeader [data size]: 65 (0x41)
+2024-05-26 12:47:08,423, 673, DEBUG, FrameHeader [flags]: ta(0) fa(0) ro(0) co(0) en(0) gr(0) un(0) dl(0)
+2024-05-26 12:47:08,423, 1801, DEBUG, FrameSet: Reading 65 (0x41) bytes of data from byte pos 20 (0x14)
+2024-05-26 12:47:08,423, 1808, DEBUG, FrameSet: 65 bytes of data read
+2024-05-26 12:47:08,423, 1905, DEBUG, createFrame (desc:Title/songname/content description) - (2, None, None) - <class 'eyed3.id3.frames.TextFrame'>
+2024-05-26 12:47:08,423, 1913, DEBUG, createFrame 'b'TIT2'' with class '<class 'eyed3.id3.frames.TextFrame'>'
+2024-05-26 12:47:08,423, 1928, DEBUG, Unicode encoding: utf_16
+2024-05-26 12:47:08,423, 309, DEBUG, TextFrame text: Fen Lume - the Falls of Rauros
+2024-05-26 12:47:08,423, 1784, DEBUG, size_left: 146082
+2024-05-26 12:47:08,423, 1790, DEBUG, +++++++++++++++++++++++++++++++++++++++++++++++++
+2024-05-26 12:47:08,423, 1791, DEBUG, FrameSet: Reading Frame #2
+2024-05-26 12:47:08,423, 646, DEBUG, FrameHeader [start byte]: 85 (0x55)
+2024-05-26 12:47:08,423, 654, DEBUG, FrameHeader [id]: b'TPE1' (0x54504531)
+2024-05-26 12:47:08,423, 666, DEBUG, FrameHeader [data size]: 35 (0x23)
+2024-05-26 12:47:08,423, 673, DEBUG, FrameHeader [flags]: ta(0) fa(0) ro(0) co(0) en(0) gr(0) un(0) dl(0)
+2024-05-26 12:47:08,423, 1801, DEBUG, FrameSet: Reading 35 (0x23) bytes of data from byte pos 95 (0x5F)
+2024-05-26 12:47:08,423, 1808, DEBUG, FrameSet: 35 bytes of data read
+2024-05-26 12:47:08,423, 1905, DEBUG, createFrame (desc:Lead performer(s)/Soloist(s)) - (2, None, None) - <class 'eyed3.id3.frames.TextFrame'>
+2024-05-26 12:47:08,423, 1913, DEBUG, createFrame 'b'TPE1'' with class '<class 'eyed3.id3.frames.TextFrame'>'
+2024-05-26 12:47:08,423, 1928, DEBUG, Unicode encoding: utf_16
+2024-05-26 12:47:08,423, 309, DEBUG, TextFrame text: RUNA & Fen Lume
+2024-05-26 12:47:08,423, 1784, DEBUG, size_left: 146037
+2024-05-26 12:47:08,423, 1790, DEBUG, +++++++++++++++++++++++++++++++++++++++++++++++++
+2024-05-26 12:47:08,423, 1791, DEBUG, FrameSet: Reading Frame #3
+2024-05-26 12:47:08,423, 646, DEBUG, FrameHeader [start byte]: 130 (0x82)
+2024-05-26 12:47:08,423, 654, DEBUG, FrameHeader [id]: b'TRCK' (0x5452434b)
+2024-05-26 12:47:08,423, 666, DEBUG, FrameHeader [data size]: 7 (0x7)
+2024-05-26 12:47:08,423, 673, DEBUG, FrameHeader [flags]: ta(0) fa(0) ro(0) co(0) en(0) gr(0) un(0) dl(0)
+2024-05-26 12:47:08,423, 1801, DEBUG, FrameSet: Reading 7 (0x7) bytes of data from byte pos 140 (0x8C)
+2024-05-26 12:47:08,424, 1808, DEBUG, FrameSet: 7 bytes of data read
+2024-05-26 12:47:08,424, 1905, DEBUG, createFrame (desc:Track number/Position in set) - (2, None, None) - <class 'eyed3.id3.frames.TextFrame'>
+2024-05-26 12:47:08,424, 1913, DEBUG, createFrame 'b'TRCK'' with class '<class 'eyed3.id3.frames.TextFrame'>'
+2024-05-26 12:47:08,424, 1928, DEBUG, Unicode encoding: utf_16
+2024-05-26 12:47:08,424, 309, DEBUG, TextFrame text: 6
+2024-05-26 12:47:08,424, 1784, DEBUG, size_left: 146020
+2024-05-26 12:47:08,424, 1790, DEBUG, +++++++++++++++++++++++++++++++++++++++++++++++++
+2024-05-26 12:47:08,424, 1791, DEBUG, FrameSet: Reading Frame #4
+2024-05-26 12:47:08,424, 646, DEBUG, FrameHeader [start byte]: 147 (0x93)
+2024-05-26 12:47:08,424, 654, DEBUG, FrameHeader [id]: b'TALB' (0x54414c42)
+2024-05-26 12:47:08,424, 666, DEBUG, FrameHeader [data size]: 43 (0x2B)
+2024-05-26 12:47:08,424, 673, DEBUG, FrameHeader [flags]: ta(0) fa(0) ro(0) co(0) en(0) gr(0) un(0) dl(0)
+2024-05-26 12:47:08,424, 1801, DEBUG, FrameSet: Reading 43 (0x2B) bytes of data from byte pos 157 (0x9D)
+2024-05-26 12:47:08,424, 1808, DEBUG, FrameSet: 43 bytes of data read
+2024-05-26 12:47:08,424, 1905, DEBUG, createFrame (desc:Album/Movie/Show title) - (2, None, None) - <class 'eyed3.id3.frames.TextFrame'>
+2024-05-26 12:47:08,424, 1913, DEBUG, createFrame 'b'TALB'' with class '<class 'eyed3.id3.frames.TextFrame'>'
+2024-05-26 12:47:08,424, 1928, DEBUG, Unicode encoding: utf_16
+2024-05-26 12:47:08,424, 309, DEBUG, TextFrame text: Ringwraiths (split)
+2024-05-26 12:47:08,424, 1784, DEBUG, size_left: 145967
+2024-05-26 12:47:08,424, 1790, DEBUG, +++++++++++++++++++++++++++++++++++++++++++++++++
+2024-05-26 12:47:08,424, 1791, DEBUG, FrameSet: Reading Frame #5
+2024-05-26 12:47:08,424, 646, DEBUG, FrameHeader [start byte]: 200 (0xC8)
+2024-05-26 12:47:08,424, 654, DEBUG, FrameHeader [id]: b'TYER' (0x54594552)
+2024-05-26 12:47:08,424, 666, DEBUG, FrameHeader [data size]: 13 (0xD)
+2024-05-26 12:47:08,424, 673, DEBUG, FrameHeader [flags]: ta(0) fa(0) ro(0) co(0) en(0) gr(0) un(0) dl(0)
+2024-05-26 12:47:08,424, 1801, DEBUG, FrameSet: Reading 13 (0xD) bytes of data from byte pos 210 (0xD2)
+2024-05-26 12:47:08,424, 1808, DEBUG, FrameSet: 13 bytes of data read
+2024-05-26 12:47:08,424, 1905, DEBUG, createFrame (desc:Year) - (2, 3, 0) - <class 'eyed3.id3.frames.DateFrame'>
+2024-05-26 12:47:08,424, 1913, DEBUG, createFrame 'b'TYER'' with class '<class 'eyed3.id3.frames.DateFrame'>'
+2024-05-26 12:47:08,424, 1928, DEBUG, Unicode encoding: utf_16
+2024-05-26 12:47:08,424, 309, DEBUG, TextFrame text: 2024
+2024-05-26 12:47:08,424, 1784, DEBUG, size_left: 145944
+2024-05-26 12:47:08,424, 1790, DEBUG, +++++++++++++++++++++++++++++++++++++++++++++++++
+2024-05-26 12:47:08,424, 1791, DEBUG, FrameSet: Reading Frame #6
+2024-05-26 12:47:08,424, 646, DEBUG, FrameHeader [start byte]: 223 (0xDF)
+2024-05-26 12:47:08,424, 654, DEBUG, FrameHeader [id]: b'TPE2' (0x54504532)
+2024-05-26 12:47:08,424, 666, DEBUG, FrameHeader [data size]: 35 (0x23)
+2024-05-26 12:47:08,424, 673, DEBUG, FrameHeader [flags]: ta(0) fa(0) ro(0) co(0) en(0) gr(0) un(0) dl(0)
+2024-05-26 12:47:08,424, 1801, DEBUG, FrameSet: Reading 35 (0x23) bytes of data from byte pos 233 (0xE9)
+2024-05-26 12:47:08,424, 1808, DEBUG, FrameSet: 35 bytes of data read
+2024-05-26 12:47:08,424, 1905, DEBUG, createFrame (desc:Band/orchestra/accompaniment) - (2, None, None) - <class 'eyed3.id3.frames.TextFrame'>
+2024-05-26 12:47:08,424, 1913, DEBUG, createFrame 'b'TPE2'' with class '<class 'eyed3.id3.frames.TextFrame'>'
+2024-05-26 12:47:08,424, 1928, DEBUG, Unicode encoding: utf_16
+2024-05-26 12:47:08,424, 309, DEBUG, TextFrame text: RUNA & Fen Lume
+2024-05-26 12:47:08,424, 1784, DEBUG, size_left: 145899
+2024-05-26 12:47:08,424, 1790, DEBUG, +++++++++++++++++++++++++++++++++++++++++++++++++
+2024-05-26 12:47:08,424, 1791, DEBUG, FrameSet: Reading Frame #7
+2024-05-26 12:47:08,424, 646, DEBUG, FrameHeader [start byte]: 268 (0x10C)
+2024-05-26 12:47:08,424, 654, DEBUG, FrameHeader [id]: b'COMM' (0x434f4d4d)
+2024-05-26 12:47:08,424, 666, DEBUG, FrameHeader [data size]: 80 (0x50)
+2024-05-26 12:47:08,424, 673, DEBUG, FrameHeader [flags]: ta(0) fa(0) ro(0) co(0) en(0) gr(0) un(0) dl(0)
+2024-05-26 12:47:08,424, 1801, DEBUG, FrameSet: Reading 80 (0x50) bytes of data from byte pos 278 (0x116)
+2024-05-26 12:47:08,424, 1808, DEBUG, FrameSet: 80 bytes of data read
+2024-05-26 12:47:08,424, 1905, DEBUG, createFrame (desc:Comments) - (2, None, None) - <class 'eyed3.id3.frames.CommentFrame'>
+2024-05-26 12:47:08,424, 1913, DEBUG, createFrame 'b'COMM'' with class '<class 'eyed3.id3.frames.CommentFrame'>'
+2024-05-26 12:47:08,425, 1147, DEBUG, b'COMM' lang: b'eng'
+2024-05-26 12:47:08,425, 1928, DEBUG, Unicode encoding: utf_16
+2024-05-26 12:47:08,425, 1152, DEBUG, b'COMM' description: 
+2024-05-26 12:47:08,425, 1928, DEBUG, Unicode encoding: utf_16
+2024-05-26 12:47:08,425, 1154, DEBUG, b'COMM' text: Visit https://fenlume.bandcamp.com
+2024-05-26 12:47:08,425, 1784, DEBUG, size_left: 145809
+2024-05-26 12:47:08,425, 1790, DEBUG, +++++++++++++++++++++++++++++++++++++++++++++++++
+2024-05-26 12:47:08,425, 1791, DEBUG, FrameSet: Reading Frame #8
+2024-05-26 12:47:08,425, 646, DEBUG, FrameHeader [start byte]: 358 (0x166)
+2024-05-26 12:47:08,425, 654, DEBUG, FrameHeader [id]: b'APIC' (0x41504943)
+2024-05-26 12:47:08,425, 666, DEBUG, FrameHeader [data size]: 139276 (0x2200C)
+2024-05-26 12:47:08,425, 673, DEBUG, FrameHeader [flags]: ta(0) fa(0) ro(0) co(0) en(0) gr(0) un(0) dl(0)
+2024-05-26 12:47:08,425, 1801, DEBUG, FrameSet: Reading 139276 (0x2200C) bytes of data from byte pos 368 (0x170)
+2024-05-26 12:47:08,425, 1808, DEBUG, FrameSet: 139276 bytes of data read
+2024-05-26 12:47:08,425, 1905, DEBUG, createFrame (desc:Attached picture) - (2, None, None) - <class 'eyed3.id3.frames.ImageFrame'>
+2024-05-26 12:47:08,425, 1913, DEBUG, createFrame 'b'APIC'' with class '<class 'eyed3.id3.frames.ImageFrame'>'
+2024-05-26 12:47:08,425, 591, DEBUG, APIC frame data size: 139276
+2024-05-26 12:47:08,425, 604, DEBUG, APIC mime type: b'image/jpeg'
+2024-05-26 12:47:08,425, 613, DEBUG, Initial APIC picture type: 3
+2024-05-26 12:47:08,425, 620, DEBUG, APIC picture type: 3
+2024-05-26 12:47:08,425, 629, DEBUG, description len: 12
+2024-05-26 12:47:08,425, 630, DEBUG, image len: 139249
+2024-05-26 12:47:08,425, 1928, DEBUG, Unicode encoding: utf_16
+2024-05-26 12:47:08,425, 632, DEBUG, APIC description: cover
+2024-05-26 12:47:08,425, 642, DEBUG, APIC image data: 139249 bytes
+2024-05-26 12:47:08,425, 1784, DEBUG, size_left: 6523
+2024-05-26 12:47:08,425, 1790, DEBUG, +++++++++++++++++++++++++++++++++++++++++++++++++
+2024-05-26 12:47:08,425, 1791, DEBUG, FrameSet: Reading Frame #9
+2024-05-26 12:47:08,425, 646, DEBUG, FrameHeader [start byte]: 139644 (0x2217C)
+2024-05-26 12:47:08,425, 687, DEBUG, FrameHeader: Null frame id found at byte 139648
+2024-05-26 12:47:08,425, 1794, DEBUG, No frame found, implied padding of 6523 bytes
+2024-05-26 12:47:08,425, 133, DEBUG, Tag contains 6523 bytes of padding.
+2024-05-26 12:47:08,425, 40, DEBUG, mp3 header search starting @ 23af7
+2024-05-26 12:47:08,425, 250, DEBUG, MPEG audio version: 1.0
+2024-05-26 12:47:08,425, 251, DEBUG, MPEG audio layer: III
+2024-05-26 12:47:08,425, 252, DEBUG, MPEG sampling frequency: 44100
+2024-05-26 12:47:08,425, 253, DEBUG, MPEG bit rate: 320
+2024-05-26 12:47:08,425, 254, DEBUG, MPEG channel mode: Joint stereo
+2024-05-26 12:47:08,425, 255, DEBUG, MPEG channel mode extension: 2
+2024-05-26 12:47:08,425, 256, DEBUG, MPEG CRC error protection: False
+2024-05-26 12:47:08,425, 257, DEBUG, MPEG original: 1
+2024-05-26 12:47:08,425, 258, DEBUG, MPEG copyright: 0
+2024-05-26 12:47:08,425, 259, DEBUG, MPEG private bit: 0
+2024-05-26 12:47:08,425, 260, DEBUG, MPEG padding: 0
+2024-05-26 12:47:08,425, 261, DEBUG, MPEG emphasis: None
+2024-05-26 12:47:08,425, 262, DEBUG, MPEG frame length: 1044
+2024-05-26 12:47:08,425, 67, DEBUG, mp3 header fffbe064 found at position: 0x23af7
+2024-05-26 12:47:08,425, 337, DEBUG, b'Info' header detected @ 24
+2024-05-26 12:47:08,425, 343, DEBUG, b'Info' header flags: 0xf
+2024-05-26 12:47:08,426, 349, DEBUG, b'Info' numFrames: 5262
+2024-05-26 12:47:08,426, 355, DEBUG, b'Info' numBytes: 5499297
+2024-05-26 12:47:08,426, 361, DEBUG, b'Info' TOC (100 bytes): PRESENT
+2024-05-26 12:47:08,426, 573, DEBUG, Lame info tag found at position 156
+2024-05-26 12:47:08,426, 580, DEBUG, Lame tag CRC OK
+2024-05-26 12:47:08,426, 585, DEBUG, Lame Encoder Version: LAME3.99r
+2024-05-26 12:47:08,426, 592, DEBUG, Lame info tag version: 0
+2024-05-26 12:47:08,426, 593, DEBUG, Lame VBR method: Constant Bitrate
+2024-05-26 12:47:08,426, 599, DEBUG, Lame Lowpass filter value: 20500 Hz
+2024-05-26 12:47:08,426, 636, DEBUG, Lame Radio Replay Gain: -4.0 dB (Set automatically)
+2024-05-26 12:47:08,426, 647, DEBUG, Lame Encoding flags: --nspsytune --nssafejoint
+2024-05-26 12:47:08,426, 651, DEBUG, Lame ATH type: 4
+2024-05-26 12:47:08,426, 662, DEBUG, Lame Bitrate (Constant): 255
+2024-05-26 12:47:08,426, 669, DEBUG, Lame Encoder delay: 576 samples
+2024-05-26 12:47:08,426, 670, DEBUG, Lame Encoder padding: 1436 samples
+2024-05-26 12:47:08,426, 683, DEBUG, Lame Source Sample Frequency: 44.1 kHz
+2024-05-26 12:47:08,426, 684, DEBUG, Lame Unwise settings used: False
+2024-05-26 12:47:08,426, 685, DEBUG, Lame Stereo mode: Joint
+2024-05-26 12:47:08,426, 686, DEBUG, Lame Noise Shaping: 1
+2024-05-26 12:47:08,426, 696, DEBUG, Lame MP3 Gain: 0 (+0.0 dB)
+2024-05-26 12:47:08,426, 706, DEBUG, Lame Bitrate (Constant): 320
+2024-05-26 12:47:08,426, 716, DEBUG, Lame Surround Info: None
+2024-05-26 12:47:08,426, 717, DEBUG, Lame Preset: CBR 320
+2024-05-26 12:47:08,426, 722, DEBUG, Lame Music Length: 5499297 bytes
+2024-05-26 12:47:08,426, 727, DEBUG, Lame Music CRC: AC66
+2024-05-26 12:47:08,426, 732, DEBUG, Lame Info Tag CRC: A0F2
+2024-05-26 12:47:08,426, 46, INFO, testpack\RUNA & Fen Lume - Ringwraiths (split)\RUNA & Fen Lume - Ringwraiths (split) - 06 Fen Lume - the Falls of Rauros.mp3
+2024-05-26 12:47:08,429, 440, DEBUG, Loading file: testpack\RUNA & Fen Lume - Ringwraiths (split)\RUNA & Fen Lume - Ringwraiths (split) - 07 Fen Lume - Dor Daedeloth.mp3
+2024-05-26 12:47:08,429, 449, DEBUG, File mime-type: audio/mpeg
+2024-05-26 12:47:08,430, 69, DEBUG, Located ID3 v2 tag
+2024-05-26 12:47:08,430, 78, DEBUG, TagHeader [major]: 2 
+2024-05-26 12:47:08,430, 79, DEBUG, TagHeader [minor]: 3 
+2024-05-26 12:47:08,430, 80, DEBUG, TagHeader [rev]: 0 
+2024-05-26 12:47:08,430, 93, DEBUG, TagHeader [flags]: unsync(0) extended(0) experimental(0) footer(0)
+2024-05-26 12:47:08,430, 104, DEBUG, TagHeader [size string]: 0x0008640b
+2024-05-26 12:47:08,430, 108, DEBUG, TagHeader [size]: 143883 (0x2320b)
+2024-05-26 12:47:08,430, 1784, DEBUG, size_left: 143883
+2024-05-26 12:47:08,430, 1790, DEBUG, +++++++++++++++++++++++++++++++++++++++++++++++++
+2024-05-26 12:47:08,430, 1791, DEBUG, FrameSet: Reading Frame #1
+2024-05-26 12:47:08,430, 646, DEBUG, FrameHeader [start byte]: 10 (0xA)
+2024-05-26 12:47:08,430, 654, DEBUG, FrameHeader [id]: b'TIT2' (0x54495432)
+2024-05-26 12:47:08,430, 666, DEBUG, FrameHeader [data size]: 53 (0x35)
+2024-05-26 12:47:08,430, 673, DEBUG, FrameHeader [flags]: ta(0) fa(0) ro(0) co(0) en(0) gr(0) un(0) dl(0)
+2024-05-26 12:47:08,430, 1801, DEBUG, FrameSet: Reading 53 (0x35) bytes of data from byte pos 20 (0x14)
+2024-05-26 12:47:08,430, 1808, DEBUG, FrameSet: 53 bytes of data read
+2024-05-26 12:47:08,430, 1905, DEBUG, createFrame (desc:Title/songname/content description) - (2, None, None) - <class 'eyed3.id3.frames.TextFrame'>
+2024-05-26 12:47:08,430, 1913, DEBUG, createFrame 'b'TIT2'' with class '<class 'eyed3.id3.frames.TextFrame'>'
+2024-05-26 12:47:08,430, 1928, DEBUG, Unicode encoding: utf_16
+2024-05-26 12:47:08,430, 309, DEBUG, TextFrame text: Fen Lume - Dor Daedeloth
+2024-05-26 12:47:08,430, 1784, DEBUG, size_left: 143820
+2024-05-26 12:47:08,430, 1790, DEBUG, +++++++++++++++++++++++++++++++++++++++++++++++++
+2024-05-26 12:47:08,430, 1791, DEBUG, FrameSet: Reading Frame #2
+2024-05-26 12:47:08,430, 646, DEBUG, FrameHeader [start byte]: 73 (0x49)
+2024-05-26 12:47:08,430, 654, DEBUG, FrameHeader [id]: b'TPE1' (0x54504531)
+2024-05-26 12:47:08,430, 666, DEBUG, FrameHeader [data size]: 35 (0x23)
+2024-05-26 12:47:08,430, 673, DEBUG, FrameHeader [flags]: ta(0) fa(0) ro(0) co(0) en(0) gr(0) un(0) dl(0)
+2024-05-26 12:47:08,430, 1801, DEBUG, FrameSet: Reading 35 (0x23) bytes of data from byte pos 83 (0x53)
+2024-05-26 12:47:08,430, 1808, DEBUG, FrameSet: 35 bytes of data read
+2024-05-26 12:47:08,431, 1905, DEBUG, createFrame (desc:Lead performer(s)/Soloist(s)) - (2, None, None) - <class 'eyed3.id3.frames.TextFrame'>
+2024-05-26 12:47:08,431, 1913, DEBUG, createFrame 'b'TPE1'' with class '<class 'eyed3.id3.frames.TextFrame'>'
+2024-05-26 12:47:08,431, 1928, DEBUG, Unicode encoding: utf_16
+2024-05-26 12:47:08,431, 309, DEBUG, TextFrame text: RUNA & Fen Lume
+2024-05-26 12:47:08,431, 1784, DEBUG, size_left: 143775
+2024-05-26 12:47:08,431, 1790, DEBUG, +++++++++++++++++++++++++++++++++++++++++++++++++
+2024-05-26 12:47:08,431, 1791, DEBUG, FrameSet: Reading Frame #3
+2024-05-26 12:47:08,431, 646, DEBUG, FrameHeader [start byte]: 118 (0x76)
+2024-05-26 12:47:08,431, 654, DEBUG, FrameHeader [id]: b'TRCK' (0x5452434b)
+2024-05-26 12:47:08,431, 666, DEBUG, FrameHeader [data size]: 7 (0x7)
+2024-05-26 12:47:08,431, 673, DEBUG, FrameHeader [flags]: ta(0) fa(0) ro(0) co(0) en(0) gr(0) un(0) dl(0)
+2024-05-26 12:47:08,431, 1801, DEBUG, FrameSet: Reading 7 (0x7) bytes of data from byte pos 128 (0x80)
+2024-05-26 12:47:08,431, 1808, DEBUG, FrameSet: 7 bytes of data read
+2024-05-26 12:47:08,431, 1905, DEBUG, createFrame (desc:Track number/Position in set) - (2, None, None) - <class 'eyed3.id3.frames.TextFrame'>
+2024-05-26 12:47:08,431, 1913, DEBUG, createFrame 'b'TRCK'' with class '<class 'eyed3.id3.frames.TextFrame'>'
+2024-05-26 12:47:08,431, 1928, DEBUG, Unicode encoding: utf_16
+2024-05-26 12:47:08,431, 309, DEBUG, TextFrame text: 7
+2024-05-26 12:47:08,431, 1784, DEBUG, size_left: 143758
+2024-05-26 12:47:08,431, 1790, DEBUG, +++++++++++++++++++++++++++++++++++++++++++++++++
+2024-05-26 12:47:08,431, 1791, DEBUG, FrameSet: Reading Frame #4
+2024-05-26 12:47:08,431, 646, DEBUG, FrameHeader [start byte]: 135 (0x87)
+2024-05-26 12:47:08,431, 654, DEBUG, FrameHeader [id]: b'TALB' (0x54414c42)
+2024-05-26 12:47:08,431, 666, DEBUG, FrameHeader [data size]: 43 (0x2B)
+2024-05-26 12:47:08,431, 673, DEBUG, FrameHeader [flags]: ta(0) fa(0) ro(0) co(0) en(0) gr(0) un(0) dl(0)
+2024-05-26 12:47:08,431, 1801, DEBUG, FrameSet: Reading 43 (0x2B) bytes of data from byte pos 145 (0x91)
+2024-05-26 12:47:08,431, 1808, DEBUG, FrameSet: 43 bytes of data read
+2024-05-26 12:47:08,431, 1905, DEBUG, createFrame (desc:Album/Movie/Show title) - (2, None, None) - <class 'eyed3.id3.frames.TextFrame'>
+2024-05-26 12:47:08,431, 1913, DEBUG, createFrame 'b'TALB'' with class '<class 'eyed3.id3.frames.TextFrame'>'
+2024-05-26 12:47:08,431, 1928, DEBUG, Unicode encoding: utf_16
+2024-05-26 12:47:08,431, 309, DEBUG, TextFrame text: Ringwraiths (split)
+2024-05-26 12:47:08,431, 1784, DEBUG, size_left: 143705
+2024-05-26 12:47:08,431, 1790, DEBUG, +++++++++++++++++++++++++++++++++++++++++++++++++
+2024-05-26 12:47:08,431, 1791, DEBUG, FrameSet: Reading Frame #5
+2024-05-26 12:47:08,431, 646, DEBUG, FrameHeader [start byte]: 188 (0xBC)
+2024-05-26 12:47:08,431, 654, DEBUG, FrameHeader [id]: b'TYER' (0x54594552)
+2024-05-26 12:47:08,431, 666, DEBUG, FrameHeader [data size]: 13 (0xD)
+2024-05-26 12:47:08,431, 673, DEBUG, FrameHeader [flags]: ta(0) fa(0) ro(0) co(0) en(0) gr(0) un(0) dl(0)
+2024-05-26 12:47:08,431, 1801, DEBUG, FrameSet: Reading 13 (0xD) bytes of data from byte pos 198 (0xC6)
+2024-05-26 12:47:08,431, 1808, DEBUG, FrameSet: 13 bytes of data read
+2024-05-26 12:47:08,431, 1905, DEBUG, createFrame (desc:Year) - (2, 3, 0) - <class 'eyed3.id3.frames.DateFrame'>
+2024-05-26 12:47:08,431, 1913, DEBUG, createFrame 'b'TYER'' with class '<class 'eyed3.id3.frames.DateFrame'>'
+2024-05-26 12:47:08,431, 1928, DEBUG, Unicode encoding: utf_16
+2024-05-26 12:47:08,431, 309, DEBUG, TextFrame text: 2024
+2024-05-26 12:47:08,431, 1784, DEBUG, size_left: 143682
+2024-05-26 12:47:08,431, 1790, DEBUG, +++++++++++++++++++++++++++++++++++++++++++++++++
+2024-05-26 12:47:08,431, 1791, DEBUG, FrameSet: Reading Frame #6
+2024-05-26 12:47:08,431, 646, DEBUG, FrameHeader [start byte]: 211 (0xD3)
+2024-05-26 12:47:08,431, 654, DEBUG, FrameHeader [id]: b'TPE2' (0x54504532)
+2024-05-26 12:47:08,431, 666, DEBUG, FrameHeader [data size]: 35 (0x23)
+2024-05-26 12:47:08,431, 673, DEBUG, FrameHeader [flags]: ta(0) fa(0) ro(0) co(0) en(0) gr(0) un(0) dl(0)
+2024-05-26 12:47:08,431, 1801, DEBUG, FrameSet: Reading 35 (0x23) bytes of data from byte pos 221 (0xDD)
+2024-05-26 12:47:08,431, 1808, DEBUG, FrameSet: 35 bytes of data read
+2024-05-26 12:47:08,431, 1905, DEBUG, createFrame (desc:Band/orchestra/accompaniment) - (2, None, None) - <class 'eyed3.id3.frames.TextFrame'>
+2024-05-26 12:47:08,431, 1913, DEBUG, createFrame 'b'TPE2'' with class '<class 'eyed3.id3.frames.TextFrame'>'
+2024-05-26 12:47:08,432, 1928, DEBUG, Unicode encoding: utf_16
+2024-05-26 12:47:08,432, 309, DEBUG, TextFrame text: RUNA & Fen Lume
+2024-05-26 12:47:08,432, 1784, DEBUG, size_left: 143637
+2024-05-26 12:47:08,432, 1790, DEBUG, +++++++++++++++++++++++++++++++++++++++++++++++++
+2024-05-26 12:47:08,432, 1791, DEBUG, FrameSet: Reading Frame #7
+2024-05-26 12:47:08,432, 646, DEBUG, FrameHeader [start byte]: 256 (0x100)
+2024-05-26 12:47:08,432, 654, DEBUG, FrameHeader [id]: b'COMM' (0x434f4d4d)
+2024-05-26 12:47:08,432, 666, DEBUG, FrameHeader [data size]: 80 (0x50)
+2024-05-26 12:47:08,432, 673, DEBUG, FrameHeader [flags]: ta(0) fa(0) ro(0) co(0) en(0) gr(0) un(0) dl(0)
+2024-05-26 12:47:08,432, 1801, DEBUG, FrameSet: Reading 80 (0x50) bytes of data from byte pos 266 (0x10A)
+2024-05-26 12:47:08,432, 1808, DEBUG, FrameSet: 80 bytes of data read
+2024-05-26 12:47:08,432, 1905, DEBUG, createFrame (desc:Comments) - (2, None, None) - <class 'eyed3.id3.frames.CommentFrame'>
+2024-05-26 12:47:08,432, 1913, DEBUG, createFrame 'b'COMM'' with class '<class 'eyed3.id3.frames.CommentFrame'>'
+2024-05-26 12:47:08,432, 1147, DEBUG, b'COMM' lang: b'eng'
+2024-05-26 12:47:08,432, 1928, DEBUG, Unicode encoding: utf_16
+2024-05-26 12:47:08,432, 1152, DEBUG, b'COMM' description: 
+2024-05-26 12:47:08,432, 1928, DEBUG, Unicode encoding: utf_16
+2024-05-26 12:47:08,432, 1154, DEBUG, b'COMM' text: Visit https://fenlume.bandcamp.com
+2024-05-26 12:47:08,432, 1784, DEBUG, size_left: 143547
+2024-05-26 12:47:08,432, 1790, DEBUG, +++++++++++++++++++++++++++++++++++++++++++++++++
+2024-05-26 12:47:08,432, 1791, DEBUG, FrameSet: Reading Frame #8
+2024-05-26 12:47:08,432, 646, DEBUG, FrameHeader [start byte]: 346 (0x15A)
+2024-05-26 12:47:08,432, 654, DEBUG, FrameHeader [id]: b'APIC' (0x41504943)
+2024-05-26 12:47:08,432, 666, DEBUG, FrameHeader [data size]: 139276 (0x2200C)
+2024-05-26 12:47:08,432, 673, DEBUG, FrameHeader [flags]: ta(0) fa(0) ro(0) co(0) en(0) gr(0) un(0) dl(0)
+2024-05-26 12:47:08,432, 1801, DEBUG, FrameSet: Reading 139276 (0x2200C) bytes of data from byte pos 356 (0x164)
+2024-05-26 12:47:08,432, 1808, DEBUG, FrameSet: 139276 bytes of data read
+2024-05-26 12:47:08,432, 1905, DEBUG, createFrame (desc:Attached picture) - (2, None, None) - <class 'eyed3.id3.frames.ImageFrame'>
+2024-05-26 12:47:08,432, 1913, DEBUG, createFrame 'b'APIC'' with class '<class 'eyed3.id3.frames.ImageFrame'>'
+2024-05-26 12:47:08,432, 591, DEBUG, APIC frame data size: 139276
+2024-05-26 12:47:08,432, 604, DEBUG, APIC mime type: b'image/jpeg'
+2024-05-26 12:47:08,432, 613, DEBUG, Initial APIC picture type: 3
+2024-05-26 12:47:08,432, 620, DEBUG, APIC picture type: 3
+2024-05-26 12:47:08,432, 629, DEBUG, description len: 12
+2024-05-26 12:47:08,432, 630, DEBUG, image len: 139249
+2024-05-26 12:47:08,432, 1928, DEBUG, Unicode encoding: utf_16
+2024-05-26 12:47:08,432, 632, DEBUG, APIC description: cover
+2024-05-26 12:47:08,432, 642, DEBUG, APIC image data: 139249 bytes
+2024-05-26 12:47:08,432, 1784, DEBUG, size_left: 4261
+2024-05-26 12:47:08,432, 1790, DEBUG, +++++++++++++++++++++++++++++++++++++++++++++++++
+2024-05-26 12:47:08,432, 1791, DEBUG, FrameSet: Reading Frame #9
+2024-05-26 12:47:08,432, 646, DEBUG, FrameHeader [start byte]: 139632 (0x22170)
+2024-05-26 12:47:08,432, 687, DEBUG, FrameHeader: Null frame id found at byte 139636
+2024-05-26 12:47:08,433, 1794, DEBUG, No frame found, implied padding of 4261 bytes
+2024-05-26 12:47:08,433, 133, DEBUG, Tag contains 4261 bytes of padding.
+2024-05-26 12:47:08,433, 40, DEBUG, mp3 header search starting @ 23215
+2024-05-26 12:47:08,433, 250, DEBUG, MPEG audio version: 1.0
+2024-05-26 12:47:08,433, 251, DEBUG, MPEG audio layer: III
+2024-05-26 12:47:08,433, 252, DEBUG, MPEG sampling frequency: 44100
+2024-05-26 12:47:08,433, 253, DEBUG, MPEG bit rate: 320
+2024-05-26 12:47:08,433, 254, DEBUG, MPEG channel mode: Joint stereo
+2024-05-26 12:47:08,433, 255, DEBUG, MPEG channel mode extension: 2
+2024-05-26 12:47:08,433, 256, DEBUG, MPEG CRC error protection: False
+2024-05-26 12:47:08,433, 257, DEBUG, MPEG original: 1
+2024-05-26 12:47:08,433, 258, DEBUG, MPEG copyright: 0
+2024-05-26 12:47:08,433, 259, DEBUG, MPEG private bit: 0
+2024-05-26 12:47:08,433, 260, DEBUG, MPEG padding: 0
+2024-05-26 12:47:08,433, 261, DEBUG, MPEG emphasis: None
+2024-05-26 12:47:08,433, 262, DEBUG, MPEG frame length: 1044
+2024-05-26 12:47:08,433, 67, DEBUG, mp3 header fffbe064 found at position: 0x23215
+2024-05-26 12:47:08,433, 337, DEBUG, b'Info' header detected @ 24
+2024-05-26 12:47:08,433, 343, DEBUG, b'Info' header flags: 0xf
+2024-05-26 12:47:08,433, 349, DEBUG, b'Info' numFrames: 3097
+2024-05-26 12:47:08,433, 355, DEBUG, b'Info' numBytes: 3237093
+2024-05-26 12:47:08,433, 361, DEBUG, b'Info' TOC (100 bytes): PRESENT
+2024-05-26 12:47:08,433, 573, DEBUG, Lame info tag found at position 156
+2024-05-26 12:47:08,433, 580, DEBUG, Lame tag CRC OK
+2024-05-26 12:47:08,433, 585, DEBUG, Lame Encoder Version: LAME3.99r
+2024-05-26 12:47:08,433, 592, DEBUG, Lame info tag version: 0
+2024-05-26 12:47:08,433, 593, DEBUG, Lame VBR method: Constant Bitrate
+2024-05-26 12:47:08,433, 599, DEBUG, Lame Lowpass filter value: 20500 Hz
+2024-05-26 12:47:08,433, 636, DEBUG, Lame Radio Replay Gain: -3.6 dB (Set automatically)
+2024-05-26 12:47:08,433, 647, DEBUG, Lame Encoding flags: --nspsytune --nssafejoint
+2024-05-26 12:47:08,433, 651, DEBUG, Lame ATH type: 4
+2024-05-26 12:47:08,433, 662, DEBUG, Lame Bitrate (Constant): 255
+2024-05-26 12:47:08,433, 669, DEBUG, Lame Encoder delay: 576 samples
+2024-05-26 12:47:08,433, 670, DEBUG, Lame Encoder padding: 1565 samples
+2024-05-26 12:47:08,433, 683, DEBUG, Lame Source Sample Frequency: 44.1 kHz
+2024-05-26 12:47:08,433, 684, DEBUG, Lame Unwise settings used: False
+2024-05-26 12:47:08,433, 685, DEBUG, Lame Stereo mode: Joint
+2024-05-26 12:47:08,433, 686, DEBUG, Lame Noise Shaping: 1
+2024-05-26 12:47:08,433, 696, DEBUG, Lame MP3 Gain: 0 (+0.0 dB)
+2024-05-26 12:47:08,433, 706, DEBUG, Lame Bitrate (Constant): 320
+2024-05-26 12:47:08,433, 716, DEBUG, Lame Surround Info: None
+2024-05-26 12:47:08,433, 717, DEBUG, Lame Preset: CBR 320
+2024-05-26 12:47:08,433, 722, DEBUG, Lame Music Length: 3237093 bytes
+2024-05-26 12:47:08,433, 727, DEBUG, Lame Music CRC: AD61
+2024-05-26 12:47:08,433, 732, DEBUG, Lame Info Tag CRC: 4BBF
+2024-05-26 12:47:08,434, 46, INFO, testpack\RUNA & Fen Lume - Ringwraiths (split)\RUNA & Fen Lume - Ringwraiths (split) - 07 Fen Lume - Dor Daedeloth.mp3
+2024-05-26 12:47:08,437, 440, DEBUG, Loading file: testpack\RUNA & Fen Lume - Ringwraiths (split)\RUNA & Fen Lume - Ringwraiths (split) - 08 Fen Lume - Ekkaia.mp3
+2024-05-26 12:47:08,438, 449, DEBUG, File mime-type: audio/mpeg
+2024-05-26 12:47:08,438, 69, DEBUG, Located ID3 v2 tag
+2024-05-26 12:47:08,438, 78, DEBUG, TagHeader [major]: 2 
+2024-05-26 12:47:08,438, 79, DEBUG, TagHeader [minor]: 3 
+2024-05-26 12:47:08,438, 80, DEBUG, TagHeader [rev]: 0 
+2024-05-26 12:47:08,438, 93, DEBUG, TagHeader [flags]: unsync(0) extended(0) experimental(0) footer(0)
+2024-05-26 12:47:08,438, 104, DEBUG, TagHeader [size string]: 0x00087f1f
+2024-05-26 12:47:08,438, 108, DEBUG, TagHeader [size]: 147359 (0x23f9f)
+2024-05-26 12:47:08,438, 1784, DEBUG, size_left: 147359
+2024-05-26 12:47:08,438, 1790, DEBUG, +++++++++++++++++++++++++++++++++++++++++++++++++
+2024-05-26 12:47:08,438, 1791, DEBUG, FrameSet: Reading Frame #1
+2024-05-26 12:47:08,438, 646, DEBUG, FrameHeader [start byte]: 10 (0xA)
+2024-05-26 12:47:08,438, 654, DEBUG, FrameHeader [id]: b'TIT2' (0x54495432)
+2024-05-26 12:47:08,438, 666, DEBUG, FrameHeader [data size]: 39 (0x27)
+2024-05-26 12:47:08,438, 673, DEBUG, FrameHeader [flags]: ta(0) fa(0) ro(0) co(0) en(0) gr(0) un(0) dl(0)
+2024-05-26 12:47:08,438, 1801, DEBUG, FrameSet: Reading 39 (0x27) bytes of data from byte pos 20 (0x14)
+2024-05-26 12:47:08,438, 1808, DEBUG, FrameSet: 39 bytes of data read
+2024-05-26 12:47:08,438, 1905, DEBUG, createFrame (desc:Title/songname/content description) - (2, None, None) - <class 'eyed3.id3.frames.TextFrame'>
+2024-05-26 12:47:08,438, 1913, DEBUG, createFrame 'b'TIT2'' with class '<class 'eyed3.id3.frames.TextFrame'>'
+2024-05-26 12:47:08,438, 1928, DEBUG, Unicode encoding: utf_16
+2024-05-26 12:47:08,438, 309, DEBUG, TextFrame text: Fen Lume - Ekkaia
+2024-05-26 12:47:08,438, 1784, DEBUG, size_left: 147310
+2024-05-26 12:47:08,438, 1790, DEBUG, +++++++++++++++++++++++++++++++++++++++++++++++++
+2024-05-26 12:47:08,438, 1791, DEBUG, FrameSet: Reading Frame #2
+2024-05-26 12:47:08,438, 646, DEBUG, FrameHeader [start byte]: 59 (0x3B)
+2024-05-26 12:47:08,438, 654, DEBUG, FrameHeader [id]: b'TPE1' (0x54504531)
+2024-05-26 12:47:08,438, 666, DEBUG, FrameHeader [data size]: 35 (0x23)
+2024-05-26 12:47:08,438, 673, DEBUG, FrameHeader [flags]: ta(0) fa(0) ro(0) co(0) en(0) gr(0) un(0) dl(0)
+2024-05-26 12:47:08,439, 1801, DEBUG, FrameSet: Reading 35 (0x23) bytes of data from byte pos 69 (0x45)
+2024-05-26 12:47:08,439, 1808, DEBUG, FrameSet: 35 bytes of data read
+2024-05-26 12:47:08,439, 1905, DEBUG, createFrame (desc:Lead performer(s)/Soloist(s)) - (2, None, None) - <class 'eyed3.id3.frames.TextFrame'>
+2024-05-26 12:47:08,439, 1913, DEBUG, createFrame 'b'TPE1'' with class '<class 'eyed3.id3.frames.TextFrame'>'
+2024-05-26 12:47:08,439, 1928, DEBUG, Unicode encoding: utf_16
+2024-05-26 12:47:08,439, 309, DEBUG, TextFrame text: RUNA & Fen Lume
+2024-05-26 12:47:08,439, 1784, DEBUG, size_left: 147265
+2024-05-26 12:47:08,439, 1790, DEBUG, +++++++++++++++++++++++++++++++++++++++++++++++++
+2024-05-26 12:47:08,439, 1791, DEBUG, FrameSet: Reading Frame #3
+2024-05-26 12:47:08,439, 646, DEBUG, FrameHeader [start byte]: 104 (0x68)
+2024-05-26 12:47:08,439, 654, DEBUG, FrameHeader [id]: b'TRCK' (0x5452434b)
+2024-05-26 12:47:08,439, 666, DEBUG, FrameHeader [data size]: 7 (0x7)
+2024-05-26 12:47:08,439, 673, DEBUG, FrameHeader [flags]: ta(0) fa(0) ro(0) co(0) en(0) gr(0) un(0) dl(0)
+2024-05-26 12:47:08,439, 1801, DEBUG, FrameSet: Reading 7 (0x7) bytes of data from byte pos 114 (0x72)
+2024-05-26 12:47:08,439, 1808, DEBUG, FrameSet: 7 bytes of data read
+2024-05-26 12:47:08,439, 1905, DEBUG, createFrame (desc:Track number/Position in set) - (2, None, None) - <class 'eyed3.id3.frames.TextFrame'>
+2024-05-26 12:47:08,439, 1913, DEBUG, createFrame 'b'TRCK'' with class '<class 'eyed3.id3.frames.TextFrame'>'
+2024-05-26 12:47:08,439, 1928, DEBUG, Unicode encoding: utf_16
+2024-05-26 12:47:08,439, 309, DEBUG, TextFrame text: 8
+2024-05-26 12:47:08,439, 1784, DEBUG, size_left: 147248
+2024-05-26 12:47:08,439, 1790, DEBUG, +++++++++++++++++++++++++++++++++++++++++++++++++
+2024-05-26 12:47:08,439, 1791, DEBUG, FrameSet: Reading Frame #4
+2024-05-26 12:47:08,439, 646, DEBUG, FrameHeader [start byte]: 121 (0x79)
+2024-05-26 12:47:08,439, 654, DEBUG, FrameHeader [id]: b'TALB' (0x54414c42)
+2024-05-26 12:47:08,439, 666, DEBUG, FrameHeader [data size]: 43 (0x2B)
+2024-05-26 12:47:08,439, 673, DEBUG, FrameHeader [flags]: ta(0) fa(0) ro(0) co(0) en(0) gr(0) un(0) dl(0)
+2024-05-26 12:47:08,439, 1801, DEBUG, FrameSet: Reading 43 (0x2B) bytes of data from byte pos 131 (0x83)
+2024-05-26 12:47:08,439, 1808, DEBUG, FrameSet: 43 bytes of data read
+2024-05-26 12:47:08,439, 1905, DEBUG, createFrame (desc:Album/Movie/Show title) - (2, None, None) - <class 'eyed3.id3.frames.TextFrame'>
+2024-05-26 12:47:08,439, 1913, DEBUG, createFrame 'b'TALB'' with class '<class 'eyed3.id3.frames.TextFrame'>'
+2024-05-26 12:47:08,439, 1928, DEBUG, Unicode encoding: utf_16
+2024-05-26 12:47:08,439, 309, DEBUG, TextFrame text: Ringwraiths (split)
+2024-05-26 12:47:08,439, 1784, DEBUG, size_left: 147195
+2024-05-26 12:47:08,439, 1790, DEBUG, +++++++++++++++++++++++++++++++++++++++++++++++++
+2024-05-26 12:47:08,439, 1791, DEBUG, FrameSet: Reading Frame #5
+2024-05-26 12:47:08,439, 646, DEBUG, FrameHeader [start byte]: 174 (0xAE)
+2024-05-26 12:47:08,439, 654, DEBUG, FrameHeader [id]: b'TYER' (0x54594552)
+2024-05-26 12:47:08,439, 666, DEBUG, FrameHeader [data size]: 13 (0xD)
+2024-05-26 12:47:08,439, 673, DEBUG, FrameHeader [flags]: ta(0) fa(0) ro(0) co(0) en(0) gr(0) un(0) dl(0)
+2024-05-26 12:47:08,439, 1801, DEBUG, FrameSet: Reading 13 (0xD) bytes of data from byte pos 184 (0xB8)
+2024-05-26 12:47:08,439, 1808, DEBUG, FrameSet: 13 bytes of data read
+2024-05-26 12:47:08,439, 1905, DEBUG, createFrame (desc:Year) - (2, 3, 0) - <class 'eyed3.id3.frames.DateFrame'>
+2024-05-26 12:47:08,439, 1913, DEBUG, createFrame 'b'TYER'' with class '<class 'eyed3.id3.frames.DateFrame'>'
+2024-05-26 12:47:08,439, 1928, DEBUG, Unicode encoding: utf_16
+2024-05-26 12:47:08,439, 309, DEBUG, TextFrame text: 2024
+2024-05-26 12:47:08,439, 1784, DEBUG, size_left: 147172
+2024-05-26 12:47:08,439, 1790, DEBUG, +++++++++++++++++++++++++++++++++++++++++++++++++
+2024-05-26 12:47:08,439, 1791, DEBUG, FrameSet: Reading Frame #6
+2024-05-26 12:47:08,439, 646, DEBUG, FrameHeader [start byte]: 197 (0xC5)
+2024-05-26 12:47:08,439, 654, DEBUG, FrameHeader [id]: b'TPE2' (0x54504532)
+2024-05-26 12:47:08,439, 666, DEBUG, FrameHeader [data size]: 35 (0x23)
+2024-05-26 12:47:08,439, 673, DEBUG, FrameHeader [flags]: ta(0) fa(0) ro(0) co(0) en(0) gr(0) un(0) dl(0)
+2024-05-26 12:47:08,439, 1801, DEBUG, FrameSet: Reading 35 (0x23) bytes of data from byte pos 207 (0xCF)
+2024-05-26 12:47:08,439, 1808, DEBUG, FrameSet: 35 bytes of data read
+2024-05-26 12:47:08,439, 1905, DEBUG, createFrame (desc:Band/orchestra/accompaniment) - (2, None, None) - <class 'eyed3.id3.frames.TextFrame'>
+2024-05-26 12:47:08,439, 1913, DEBUG, createFrame 'b'TPE2'' with class '<class 'eyed3.id3.frames.TextFrame'>'
+2024-05-26 12:47:08,439, 1928, DEBUG, Unicode encoding: utf_16
+2024-05-26 12:47:08,439, 309, DEBUG, TextFrame text: RUNA & Fen Lume
+2024-05-26 12:47:08,440, 1784, DEBUG, size_left: 147127
+2024-05-26 12:47:08,440, 1790, DEBUG, +++++++++++++++++++++++++++++++++++++++++++++++++
+2024-05-26 12:47:08,440, 1791, DEBUG, FrameSet: Reading Frame #7
+2024-05-26 12:47:08,440, 646, DEBUG, FrameHeader [start byte]: 242 (0xF2)
+2024-05-26 12:47:08,440, 654, DEBUG, FrameHeader [id]: b'COMM' (0x434f4d4d)
+2024-05-26 12:47:08,440, 666, DEBUG, FrameHeader [data size]: 80 (0x50)
+2024-05-26 12:47:08,440, 673, DEBUG, FrameHeader [flags]: ta(0) fa(0) ro(0) co(0) en(0) gr(0) un(0) dl(0)
+2024-05-26 12:47:08,440, 1801, DEBUG, FrameSet: Reading 80 (0x50) bytes of data from byte pos 252 (0xFC)
+2024-05-26 12:47:08,440, 1808, DEBUG, FrameSet: 80 bytes of data read
+2024-05-26 12:47:08,440, 1905, DEBUG, createFrame (desc:Comments) - (2, None, None) - <class 'eyed3.id3.frames.CommentFrame'>
+2024-05-26 12:47:08,440, 1913, DEBUG, createFrame 'b'COMM'' with class '<class 'eyed3.id3.frames.CommentFrame'>'
+2024-05-26 12:47:08,440, 1147, DEBUG, b'COMM' lang: b'eng'
+2024-05-26 12:47:08,440, 1928, DEBUG, Unicode encoding: utf_16
+2024-05-26 12:47:08,440, 1152, DEBUG, b'COMM' description: 
+2024-05-26 12:47:08,440, 1928, DEBUG, Unicode encoding: utf_16
+2024-05-26 12:47:08,440, 1154, DEBUG, b'COMM' text: Visit https://fenlume.bandcamp.com
+2024-05-26 12:47:08,440, 1784, DEBUG, size_left: 147037
+2024-05-26 12:47:08,440, 1790, DEBUG, +++++++++++++++++++++++++++++++++++++++++++++++++
+2024-05-26 12:47:08,440, 1791, DEBUG, FrameSet: Reading Frame #8
+2024-05-26 12:47:08,440, 646, DEBUG, FrameHeader [start byte]: 332 (0x14C)
+2024-05-26 12:47:08,440, 654, DEBUG, FrameHeader [id]: b'APIC' (0x41504943)
+2024-05-26 12:47:08,440, 666, DEBUG, FrameHeader [data size]: 139276 (0x2200C)
+2024-05-26 12:47:08,440, 673, DEBUG, FrameHeader [flags]: ta(0) fa(0) ro(0) co(0) en(0) gr(0) un(0) dl(0)
+2024-05-26 12:47:08,440, 1801, DEBUG, FrameSet: Reading 139276 (0x2200C) bytes of data from byte pos 342 (0x156)
+2024-05-26 12:47:08,440, 1808, DEBUG, FrameSet: 139276 bytes of data read
+2024-05-26 12:47:08,440, 1905, DEBUG, createFrame (desc:Attached picture) - (2, None, None) - <class 'eyed3.id3.frames.ImageFrame'>
+2024-05-26 12:47:08,440, 1913, DEBUG, createFrame 'b'APIC'' with class '<class 'eyed3.id3.frames.ImageFrame'>'
+2024-05-26 12:47:08,440, 591, DEBUG, APIC frame data size: 139276
+2024-05-26 12:47:08,440, 604, DEBUG, APIC mime type: b'image/jpeg'
+2024-05-26 12:47:08,440, 613, DEBUG, Initial APIC picture type: 3
+2024-05-26 12:47:08,440, 620, DEBUG, APIC picture type: 3
+2024-05-26 12:47:08,440, 629, DEBUG, description len: 12
+2024-05-26 12:47:08,440, 630, DEBUG, image len: 139249
+2024-05-26 12:47:08,440, 1928, DEBUG, Unicode encoding: utf_16
+2024-05-26 12:47:08,440, 632, DEBUG, APIC description: cover
+2024-05-26 12:47:08,440, 642, DEBUG, APIC image data: 139249 bytes
+2024-05-26 12:47:08,440, 1784, DEBUG, size_left: 7751
+2024-05-26 12:47:08,440, 1790, DEBUG, +++++++++++++++++++++++++++++++++++++++++++++++++
+2024-05-26 12:47:08,440, 1791, DEBUG, FrameSet: Reading Frame #9
+2024-05-26 12:47:08,440, 646, DEBUG, FrameHeader [start byte]: 139618 (0x22162)
+2024-05-26 12:47:08,440, 687, DEBUG, FrameHeader: Null frame id found at byte 139622
+2024-05-26 12:47:08,440, 1794, DEBUG, No frame found, implied padding of 7751 bytes
+2024-05-26 12:47:08,440, 133, DEBUG, Tag contains 7751 bytes of padding.
+2024-05-26 12:47:08,440, 40, DEBUG, mp3 header search starting @ 23fa9
+2024-05-26 12:47:08,440, 250, DEBUG, MPEG audio version: 1.0
+2024-05-26 12:47:08,440, 251, DEBUG, MPEG audio layer: III
+2024-05-26 12:47:08,440, 252, DEBUG, MPEG sampling frequency: 44100
+2024-05-26 12:47:08,440, 253, DEBUG, MPEG bit rate: 320
+2024-05-26 12:47:08,440, 254, DEBUG, MPEG channel mode: Joint stereo
+2024-05-26 12:47:08,440, 255, DEBUG, MPEG channel mode extension: 0
+2024-05-26 12:47:08,441, 256, DEBUG, MPEG CRC error protection: False
+2024-05-26 12:47:08,441, 257, DEBUG, MPEG original: 1
+2024-05-26 12:47:08,441, 258, DEBUG, MPEG copyright: 0
+2024-05-26 12:47:08,441, 259, DEBUG, MPEG private bit: 0
+2024-05-26 12:47:08,441, 260, DEBUG, MPEG padding: 0
+2024-05-26 12:47:08,441, 261, DEBUG, MPEG emphasis: None
+2024-05-26 12:47:08,441, 262, DEBUG, MPEG frame length: 1044
+2024-05-26 12:47:08,441, 67, DEBUG, mp3 header fffbe044 found at position: 0x23fa9
+2024-05-26 12:47:08,441, 337, DEBUG, b'Info' header detected @ 24
+2024-05-26 12:47:08,441, 343, DEBUG, b'Info' header flags: 0xf
+2024-05-26 12:47:08,441, 349, DEBUG, b'Info' numFrames: 6437
+2024-05-26 12:47:08,441, 355, DEBUG, b'Info' numBytes: 6727052
+2024-05-26 12:47:08,441, 361, DEBUG, b'Info' TOC (100 bytes): PRESENT
+2024-05-26 12:47:08,441, 573, DEBUG, Lame info tag found at position 156
+2024-05-26 12:47:08,441, 580, DEBUG, Lame tag CRC OK
+2024-05-26 12:47:08,441, 585, DEBUG, Lame Encoder Version: LAME3.99r
+2024-05-26 12:47:08,441, 592, DEBUG, Lame info tag version: 0
+2024-05-26 12:47:08,441, 593, DEBUG, Lame VBR method: Constant Bitrate
+2024-05-26 12:47:08,441, 599, DEBUG, Lame Lowpass filter value: 20500 Hz
+2024-05-26 12:47:08,441, 636, DEBUG, Lame Radio Replay Gain: -3.3 dB (Set automatically)
+2024-05-26 12:47:08,441, 647, DEBUG, Lame Encoding flags: --nspsytune --nssafejoint
+2024-05-26 12:47:08,441, 651, DEBUG, Lame ATH type: 4
+2024-05-26 12:47:08,441, 662, DEBUG, Lame Bitrate (Constant): 255
+2024-05-26 12:47:08,441, 669, DEBUG, Lame Encoder delay: 576 samples
+2024-05-26 12:47:08,441, 670, DEBUG, Lame Encoder padding: 1126 samples
+2024-05-26 12:47:08,441, 683, DEBUG, Lame Source Sample Frequency: 44.1 kHz
+2024-05-26 12:47:08,441, 684, DEBUG, Lame Unwise settings used: False
+2024-05-26 12:47:08,441, 685, DEBUG, Lame Stereo mode: Joint
+2024-05-26 12:47:08,441, 686, DEBUG, Lame Noise Shaping: 1
+2024-05-26 12:47:08,441, 696, DEBUG, Lame MP3 Gain: 0 (+0.0 dB)
+2024-05-26 12:47:08,441, 706, DEBUG, Lame Bitrate (Constant): 320
+2024-05-26 12:47:08,441, 716, DEBUG, Lame Surround Info: None
+2024-05-26 12:47:08,441, 717, DEBUG, Lame Preset: CBR 320
+2024-05-26 12:47:08,441, 722, DEBUG, Lame Music Length: 6727052 bytes
+2024-05-26 12:47:08,441, 727, DEBUG, Lame Music CRC: 83D5
+2024-05-26 12:47:08,441, 732, DEBUG, Lame Info Tag CRC: 6363
+2024-05-26 12:47:08,441, 46, INFO, testpack\RUNA & Fen Lume - Ringwraiths (split)\RUNA & Fen Lume - Ringwraiths (split) - 08 Fen Lume - Ekkaia.mp3
+2024-05-26 12:47:08,444, 440, DEBUG, Loading file: testpack\RUNA & Fen Lume - Ringwraiths (split)\RUNA & Fen Lume - Ringwraiths (split) - 09 Fen Lume - Untrodden Halls at the Roots of the Earth.mp3
+2024-05-26 12:47:08,444, 449, DEBUG, File mime-type: audio/mpeg
+2024-05-26 12:47:08,445, 69, DEBUG, Located ID3 v2 tag
+2024-05-26 12:47:08,445, 78, DEBUG, TagHeader [major]: 2 
+2024-05-26 12:47:08,445, 79, DEBUG, TagHeader [minor]: 3 
+2024-05-26 12:47:08,445, 80, DEBUG, TagHeader [rev]: 0 
+2024-05-26 12:47:08,445, 93, DEBUG, TagHeader [flags]: unsync(0) extended(0) experimental(0) footer(0)
+2024-05-26 12:47:08,445, 104, DEBUG, TagHeader [size string]: 0x00086453
+2024-05-26 12:47:08,445, 108, DEBUG, TagHeader [size]: 143955 (0x23253)
+2024-05-26 12:47:08,445, 1784, DEBUG, size_left: 143955
+2024-05-26 12:47:08,445, 1790, DEBUG, +++++++++++++++++++++++++++++++++++++++++++++++++
+2024-05-26 12:47:08,445, 1791, DEBUG, FrameSet: Reading Frame #1
+2024-05-26 12:47:08,445, 646, DEBUG, FrameHeader [start byte]: 10 (0xA)
+2024-05-26 12:47:08,445, 654, DEBUG, FrameHeader [id]: b'TIT2' (0x54495432)
+2024-05-26 12:47:08,445, 666, DEBUG, FrameHeader [data size]: 109 (0x6D)
+2024-05-26 12:47:08,445, 673, DEBUG, FrameHeader [flags]: ta(0) fa(0) ro(0) co(0) en(0) gr(0) un(0) dl(0)
+2024-05-26 12:47:08,445, 1801, DEBUG, FrameSet: Reading 109 (0x6D) bytes of data from byte pos 20 (0x14)
+2024-05-26 12:47:08,445, 1808, DEBUG, FrameSet: 109 bytes of data read
+2024-05-26 12:47:08,445, 1905, DEBUG, createFrame (desc:Title/songname/content description) - (2, None, None) - <class 'eyed3.id3.frames.TextFrame'>
+2024-05-26 12:47:08,445, 1913, DEBUG, createFrame 'b'TIT2'' with class '<class 'eyed3.id3.frames.TextFrame'>'
+2024-05-26 12:47:08,445, 1928, DEBUG, Unicode encoding: utf_16
+2024-05-26 12:47:08,445, 309, DEBUG, TextFrame text: Fen Lume - Untrodden Halls at the Roots of the Earth
+2024-05-26 12:47:08,445, 1784, DEBUG, size_left: 143836
+2024-05-26 12:47:08,445, 1790, DEBUG, +++++++++++++++++++++++++++++++++++++++++++++++++
+2024-05-26 12:47:08,445, 1791, DEBUG, FrameSet: Reading Frame #2
+2024-05-26 12:47:08,445, 646, DEBUG, FrameHeader [start byte]: 129 (0x81)
+2024-05-26 12:47:08,445, 654, DEBUG, FrameHeader [id]: b'TPE1' (0x54504531)
+2024-05-26 12:47:08,445, 666, DEBUG, FrameHeader [data size]: 35 (0x23)
+2024-05-26 12:47:08,445, 673, DEBUG, FrameHeader [flags]: ta(0) fa(0) ro(0) co(0) en(0) gr(0) un(0) dl(0)
+2024-05-26 12:47:08,445, 1801, DEBUG, FrameSet: Reading 35 (0x23) bytes of data from byte pos 139 (0x8B)
+2024-05-26 12:47:08,445, 1808, DEBUG, FrameSet: 35 bytes of data read
+2024-05-26 12:47:08,445, 1905, DEBUG, createFrame (desc:Lead performer(s)/Soloist(s)) - (2, None, None) - <class 'eyed3.id3.frames.TextFrame'>
+2024-05-26 12:47:08,445, 1913, DEBUG, createFrame 'b'TPE1'' with class '<class 'eyed3.id3.frames.TextFrame'>'
+2024-05-26 12:47:08,446, 1928, DEBUG, Unicode encoding: utf_16
+2024-05-26 12:47:08,446, 309, DEBUG, TextFrame text: RUNA & Fen Lume
+2024-05-26 12:47:08,446, 1784, DEBUG, size_left: 143791
+2024-05-26 12:47:08,446, 1790, DEBUG, +++++++++++++++++++++++++++++++++++++++++++++++++
+2024-05-26 12:47:08,446, 1791, DEBUG, FrameSet: Reading Frame #3
+2024-05-26 12:47:08,446, 646, DEBUG, FrameHeader [start byte]: 174 (0xAE)
+2024-05-26 12:47:08,446, 654, DEBUG, FrameHeader [id]: b'TRCK' (0x5452434b)
+2024-05-26 12:47:08,446, 666, DEBUG, FrameHeader [data size]: 7 (0x7)
+2024-05-26 12:47:08,446, 673, DEBUG, FrameHeader [flags]: ta(0) fa(0) ro(0) co(0) en(0) gr(0) un(0) dl(0)
+2024-05-26 12:47:08,446, 1801, DEBUG, FrameSet: Reading 7 (0x7) bytes of data from byte pos 184 (0xB8)
+2024-05-26 12:47:08,446, 1808, DEBUG, FrameSet: 7 bytes of data read
+2024-05-26 12:47:08,446, 1905, DEBUG, createFrame (desc:Track number/Position in set) - (2, None, None) - <class 'eyed3.id3.frames.TextFrame'>
+2024-05-26 12:47:08,446, 1913, DEBUG, createFrame 'b'TRCK'' with class '<class 'eyed3.id3.frames.TextFrame'>'
+2024-05-26 12:47:08,446, 1928, DEBUG, Unicode encoding: utf_16
+2024-05-26 12:47:08,446, 309, DEBUG, TextFrame text: 9
+2024-05-26 12:47:08,446, 1784, DEBUG, size_left: 143774
+2024-05-26 12:47:08,446, 1790, DEBUG, +++++++++++++++++++++++++++++++++++++++++++++++++
+2024-05-26 12:47:08,446, 1791, DEBUG, FrameSet: Reading Frame #4
+2024-05-26 12:47:08,446, 646, DEBUG, FrameHeader [start byte]: 191 (0xBF)
+2024-05-26 12:47:08,446, 654, DEBUG, FrameHeader [id]: b'TALB' (0x54414c42)
+2024-05-26 12:47:08,446, 666, DEBUG, FrameHeader [data size]: 43 (0x2B)
+2024-05-26 12:47:08,446, 673, DEBUG, FrameHeader [flags]: ta(0) fa(0) ro(0) co(0) en(0) gr(0) un(0) dl(0)
+2024-05-26 12:47:08,446, 1801, DEBUG, FrameSet: Reading 43 (0x2B) bytes of data from byte pos 201 (0xC9)
+2024-05-26 12:47:08,446, 1808, DEBUG, FrameSet: 43 bytes of data read
+2024-05-26 12:47:08,446, 1905, DEBUG, createFrame (desc:Album/Movie/Show title) - (2, None, None) - <class 'eyed3.id3.frames.TextFrame'>
+2024-05-26 12:47:08,446, 1913, DEBUG, createFrame 'b'TALB'' with class '<class 'eyed3.id3.frames.TextFrame'>'
+2024-05-26 12:47:08,446, 1928, DEBUG, Unicode encoding: utf_16
+2024-05-26 12:47:08,446, 309, DEBUG, TextFrame text: Ringwraiths (split)
+2024-05-26 12:47:08,446, 1784, DEBUG, size_left: 143721
+2024-05-26 12:47:08,446, 1790, DEBUG, +++++++++++++++++++++++++++++++++++++++++++++++++
+2024-05-26 12:47:08,446, 1791, DEBUG, FrameSet: Reading Frame #5
+2024-05-26 12:47:08,446, 646, DEBUG, FrameHeader [start byte]: 244 (0xF4)
+2024-05-26 12:47:08,446, 654, DEBUG, FrameHeader [id]: b'TYER' (0x54594552)
+2024-05-26 12:47:08,446, 666, DEBUG, FrameHeader [data size]: 13 (0xD)
+2024-05-26 12:47:08,446, 673, DEBUG, FrameHeader [flags]: ta(0) fa(0) ro(0) co(0) en(0) gr(0) un(0) dl(0)
+2024-05-26 12:47:08,446, 1801, DEBUG, FrameSet: Reading 13 (0xD) bytes of data from byte pos 254 (0xFE)
+2024-05-26 12:47:08,446, 1808, DEBUG, FrameSet: 13 bytes of data read
+2024-05-26 12:47:08,446, 1905, DEBUG, createFrame (desc:Year) - (2, 3, 0) - <class 'eyed3.id3.frames.DateFrame'>
+2024-05-26 12:47:08,446, 1913, DEBUG, createFrame 'b'TYER'' with class '<class 'eyed3.id3.frames.DateFrame'>'
+2024-05-26 12:47:08,446, 1928, DEBUG, Unicode encoding: utf_16
+2024-05-26 12:47:08,446, 309, DEBUG, TextFrame text: 2024
+2024-05-26 12:47:08,446, 1784, DEBUG, size_left: 143698
+2024-05-26 12:47:08,446, 1790, DEBUG, +++++++++++++++++++++++++++++++++++++++++++++++++
+2024-05-26 12:47:08,446, 1791, DEBUG, FrameSet: Reading Frame #6
+2024-05-26 12:47:08,447, 646, DEBUG, FrameHeader [start byte]: 267 (0x10B)
+2024-05-26 12:47:08,447, 654, DEBUG, FrameHeader [id]: b'TPE2' (0x54504532)
+2024-05-26 12:47:08,447, 666, DEBUG, FrameHeader [data size]: 35 (0x23)
+2024-05-26 12:47:08,447, 673, DEBUG, FrameHeader [flags]: ta(0) fa(0) ro(0) co(0) en(0) gr(0) un(0) dl(0)
+2024-05-26 12:47:08,447, 1801, DEBUG, FrameSet: Reading 35 (0x23) bytes of data from byte pos 277 (0x115)
+2024-05-26 12:47:08,447, 1808, DEBUG, FrameSet: 35 bytes of data read
+2024-05-26 12:47:08,447, 1905, DEBUG, createFrame (desc:Band/orchestra/accompaniment) - (2, None, None) - <class 'eyed3.id3.frames.TextFrame'>
+2024-05-26 12:47:08,447, 1913, DEBUG, createFrame 'b'TPE2'' with class '<class 'eyed3.id3.frames.TextFrame'>'
+2024-05-26 12:47:08,447, 1928, DEBUG, Unicode encoding: utf_16
+2024-05-26 12:47:08,447, 309, DEBUG, TextFrame text: RUNA & Fen Lume
+2024-05-26 12:47:08,447, 1784, DEBUG, size_left: 143653
+2024-05-26 12:47:08,447, 1790, DEBUG, +++++++++++++++++++++++++++++++++++++++++++++++++
+2024-05-26 12:47:08,447, 1791, DEBUG, FrameSet: Reading Frame #7
+2024-05-26 12:47:08,447, 646, DEBUG, FrameHeader [start byte]: 312 (0x138)
+2024-05-26 12:47:08,447, 654, DEBUG, FrameHeader [id]: b'COMM' (0x434f4d4d)
+2024-05-26 12:47:08,447, 666, DEBUG, FrameHeader [data size]: 80 (0x50)
+2024-05-26 12:47:08,447, 673, DEBUG, FrameHeader [flags]: ta(0) fa(0) ro(0) co(0) en(0) gr(0) un(0) dl(0)
+2024-05-26 12:47:08,447, 1801, DEBUG, FrameSet: Reading 80 (0x50) bytes of data from byte pos 322 (0x142)
+2024-05-26 12:47:08,447, 1808, DEBUG, FrameSet: 80 bytes of data read
+2024-05-26 12:47:08,447, 1905, DEBUG, createFrame (desc:Comments) - (2, None, None) - <class 'eyed3.id3.frames.CommentFrame'>
+2024-05-26 12:47:08,447, 1913, DEBUG, createFrame 'b'COMM'' with class '<class 'eyed3.id3.frames.CommentFrame'>'
+2024-05-26 12:47:08,447, 1147, DEBUG, b'COMM' lang: b'eng'
+2024-05-26 12:47:08,447, 1928, DEBUG, Unicode encoding: utf_16
+2024-05-26 12:47:08,447, 1152, DEBUG, b'COMM' description: 
+2024-05-26 12:47:08,447, 1928, DEBUG, Unicode encoding: utf_16
+2024-05-26 12:47:08,447, 1154, DEBUG, b'COMM' text: Visit https://fenlume.bandcamp.com
+2024-05-26 12:47:08,447, 1784, DEBUG, size_left: 143563
+2024-05-26 12:47:08,447, 1790, DEBUG, +++++++++++++++++++++++++++++++++++++++++++++++++
+2024-05-26 12:47:08,447, 1791, DEBUG, FrameSet: Reading Frame #8
+2024-05-26 12:47:08,447, 646, DEBUG, FrameHeader [start byte]: 402 (0x192)
+2024-05-26 12:47:08,447, 654, DEBUG, FrameHeader [id]: b'APIC' (0x41504943)
+2024-05-26 12:47:08,447, 666, DEBUG, FrameHeader [data size]: 139276 (0x2200C)
+2024-05-26 12:47:08,447, 673, DEBUG, FrameHeader [flags]: ta(0) fa(0) ro(0) co(0) en(0) gr(0) un(0) dl(0)
+2024-05-26 12:47:08,447, 1801, DEBUG, FrameSet: Reading 139276 (0x2200C) bytes of data from byte pos 412 (0x19C)
+2024-05-26 12:47:08,447, 1808, DEBUG, FrameSet: 139276 bytes of data read
+2024-05-26 12:47:08,447, 1905, DEBUG, createFrame (desc:Attached picture) - (2, None, None) - <class 'eyed3.id3.frames.ImageFrame'>
+2024-05-26 12:47:08,447, 1913, DEBUG, createFrame 'b'APIC'' with class '<class 'eyed3.id3.frames.ImageFrame'>'
+2024-05-26 12:47:08,447, 591, DEBUG, APIC frame data size: 139276
+2024-05-26 12:47:08,447, 604, DEBUG, APIC mime type: b'image/jpeg'
+2024-05-26 12:47:08,447, 613, DEBUG, Initial APIC picture type: 3
+2024-05-26 12:47:08,447, 620, DEBUG, APIC picture type: 3
+2024-05-26 12:47:08,448, 629, DEBUG, description len: 12
+2024-05-26 12:47:08,448, 630, DEBUG, image len: 139249
+2024-05-26 12:47:08,448, 1928, DEBUG, Unicode encoding: utf_16
+2024-05-26 12:47:08,448, 632, DEBUG, APIC description: cover
+2024-05-26 12:47:08,448, 642, DEBUG, APIC image data: 139249 bytes
+2024-05-26 12:47:08,448, 1784, DEBUG, size_left: 4277
+2024-05-26 12:47:08,448, 1790, DEBUG, +++++++++++++++++++++++++++++++++++++++++++++++++
+2024-05-26 12:47:08,448, 1791, DEBUG, FrameSet: Reading Frame #9
+2024-05-26 12:47:08,448, 646, DEBUG, FrameHeader [start byte]: 139688 (0x221A8)
+2024-05-26 12:47:08,448, 687, DEBUG, FrameHeader: Null frame id found at byte 139692
+2024-05-26 12:47:08,448, 1794, DEBUG, No frame found, implied padding of 4277 bytes
+2024-05-26 12:47:08,448, 133, DEBUG, Tag contains 4277 bytes of padding.
+2024-05-26 12:47:08,448, 40, DEBUG, mp3 header search starting @ 2325d
+2024-05-26 12:47:08,448, 250, DEBUG, MPEG audio version: 1.0
+2024-05-26 12:47:08,448, 251, DEBUG, MPEG audio layer: III
+2024-05-26 12:47:08,448, 252, DEBUG, MPEG sampling frequency: 44100
+2024-05-26 12:47:08,448, 253, DEBUG, MPEG bit rate: 320
+2024-05-26 12:47:08,448, 254, DEBUG, MPEG channel mode: Joint stereo
+2024-05-26 12:47:08,448, 255, DEBUG, MPEG channel mode extension: 2
+2024-05-26 12:47:08,448, 256, DEBUG, MPEG CRC error protection: False
+2024-05-26 12:47:08,448, 257, DEBUG, MPEG original: 1
+2024-05-26 12:47:08,448, 258, DEBUG, MPEG copyright: 0
+2024-05-26 12:47:08,448, 259, DEBUG, MPEG private bit: 0
+2024-05-26 12:47:08,448, 260, DEBUG, MPEG padding: 0
+2024-05-26 12:47:08,448, 261, DEBUG, MPEG emphasis: None
+2024-05-26 12:47:08,448, 262, DEBUG, MPEG frame length: 1044
+2024-05-26 12:47:08,448, 67, DEBUG, mp3 header fffbe064 found at position: 0x2325d
+2024-05-26 12:47:08,448, 337, DEBUG, b'Info' header detected @ 24
+2024-05-26 12:47:08,448, 343, DEBUG, b'Info' header flags: 0xf
+2024-05-26 12:47:08,448, 349, DEBUG, b'Info' numFrames: 3113
+2024-05-26 12:47:08,448, 355, DEBUG, b'Info' numBytes: 3253811
+2024-05-26 12:47:08,448, 361, DEBUG, b'Info' TOC (100 bytes): PRESENT
+2024-05-26 12:47:08,448, 573, DEBUG, Lame info tag found at position 156
+2024-05-26 12:47:08,448, 580, DEBUG, Lame tag CRC OK
+2024-05-26 12:47:08,448, 585, DEBUG, Lame Encoder Version: LAME3.99r
+2024-05-26 12:47:08,448, 592, DEBUG, Lame info tag version: 0
+2024-05-26 12:47:08,448, 593, DEBUG, Lame VBR method: Constant Bitrate
+2024-05-26 12:47:08,448, 599, DEBUG, Lame Lowpass filter value: 20500 Hz
+2024-05-26 12:47:08,448, 636, DEBUG, Lame Radio Replay Gain: -0.7000000000000002 dB (Set automatically)
+2024-05-26 12:47:08,448, 647, DEBUG, Lame Encoding flags: --nspsytune --nssafejoint
+2024-05-26 12:47:08,448, 651, DEBUG, Lame ATH type: 4
+2024-05-26 12:47:08,448, 662, DEBUG, Lame Bitrate (Constant): 255
+2024-05-26 12:47:08,448, 669, DEBUG, Lame Encoder delay: 576 samples
+2024-05-26 12:47:08,448, 670, DEBUG, Lame Encoder padding: 1491 samples
+2024-05-26 12:47:08,449, 683, DEBUG, Lame Source Sample Frequency: 44.1 kHz
+2024-05-26 12:47:08,449, 684, DEBUG, Lame Unwise settings used: False
+2024-05-26 12:47:08,449, 685, DEBUG, Lame Stereo mode: Joint
+2024-05-26 12:47:08,449, 686, DEBUG, Lame Noise Shaping: 1
+2024-05-26 12:47:08,449, 696, DEBUG, Lame MP3 Gain: 0 (+0.0 dB)
+2024-05-26 12:47:08,449, 706, DEBUG, Lame Bitrate (Constant): 320
+2024-05-26 12:47:08,449, 716, DEBUG, Lame Surround Info: None
+2024-05-26 12:47:08,449, 717, DEBUG, Lame Preset: CBR 320
+2024-05-26 12:47:08,449, 722, DEBUG, Lame Music Length: 3253811 bytes
+2024-05-26 12:47:08,449, 727, DEBUG, Lame Music CRC: 03D5
+2024-05-26 12:47:08,449, 732, DEBUG, Lame Info Tag CRC: 49A7
+2024-05-26 12:47:08,449, 46, INFO, testpack\RUNA & Fen Lume - Ringwraiths (split)\RUNA & Fen Lume - Ringwraiths (split) - 09 Fen Lume - Untrodden Halls at the Roots of the Earth.mp3

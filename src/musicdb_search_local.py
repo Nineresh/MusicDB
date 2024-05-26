@@ -3,7 +3,7 @@ import os
 import glob
 import eyed3
 import logging
-import os_path_mp3
+import resources.os_path_mp3
 
 def main():
     print("Starting")
@@ -30,13 +30,13 @@ def main():
 
     # Subfolder is a list of subfolders in musik
     subfolder = []
-    for k in os.listdir(os_path_mp3.test_path): 
+    for k in os.listdir(resources.os_path_mp3.test_path): 
         subfolder.append(k)
     logger.debug(subfolder)
 
     for folder in range (0,len(subfolder)):
         
-        mp3_path = glob.glob(os.path.join(os_path_mp3.test_path, subfolder[folder], "*.mp3"))
+        mp3_path = glob.glob(os.path.join(resources.os_path_mp3.test_path, subfolder[folder], "*.mp3"))
 
         logger.debug(mp3_path)
         for mp3 in mp3_path:
