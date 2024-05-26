@@ -38,10 +38,7 @@ class MyMenu:
 
     def runLocalScan(self):
         musicdb_search_local.main()
-        text_to_display = f"""You added:)
-    (count_track, " tracks")
-    (count_album, " albums")
-    (count_artist, " artists")"""
+        text_to_display = "Local scan completed"
         self.textboxUpdate.insert(tk.END, text_to_display + "\n")
     def exit(self):
         self.root.quit()
