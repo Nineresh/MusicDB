@@ -31,6 +31,7 @@ class MyMenu:
 
         # Status bar
         self.status_bar = tk.Canvas(self.root, width=200, height=200)
+        #Database check icon to be filled. Green/Red
         self.database_check = self.status_bar.create_oval( 50, 50,100,100)
 
         
